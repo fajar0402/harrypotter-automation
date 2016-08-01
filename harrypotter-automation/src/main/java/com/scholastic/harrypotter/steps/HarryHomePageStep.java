@@ -5,6 +5,10 @@ import com.scholastic.harrypotter.ui.pages.HarryPotterHomePage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 /**
  * Created by C07HJAXNDJD0 on 7/29/16.
@@ -14,15 +18,16 @@ public class HarryHomePageStep {
     private HarryPotterHomePage harryPotterHomePage = new HarryPotterHomePage();
 
     @Given( "^I am at Harry Potter home page$" )
-    public void iAmAtHarryHomePage() {
-        harryPotterHomePage.navigateTo( "publish", HarryPotterBasePage.getHomePagePath() );
+    public void iAmAtHarryHomePage() throws InterruptedException {
+        harryPotterHomePage.navigateTo( "publish", "");
         harryPotterHomePage.setNewDefaultTimeOut(30);
         harryPotterHomePage.verifyMeAsCurrentPage();
-        harryPotterHomePage.setDefaultTimeOut();
+        Thread.sleep(5000);
     }
 
     @When( "^I click 'Skip' button to skip the video$" )
     public void iClickSkipBtn(){
+        harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.skipCloseBtn);
         harryPotterHomePage.skipCloseBtn.click();
     }
 
@@ -63,6 +68,14 @@ public class HarryHomePageStep {
     @When( "^I see the cover books is changed$")
     public void iCheckCoverBooksIsChanged() throws InterruptedException {
         harryPotterHomePage.checkNewCoverBooks();
+    }
+
+    @When( "^I click \"([^\"]*)\" button from Header menu$" )
+    public void iClickSignInMenuFromHeader(String text) throws InterruptedException {
+        Assert.assertTrue(harryPotterHomePage.signInMenuBtn.getText().equals(text));
+        harryPotterHomePage.waitForelementToBeClickable(harryPotterHomePage.signInMenuBtn);
+        harryPotterHomePage.signInMenuBtn.click();
+        Thread.sleep(3000);
     }
 
 }

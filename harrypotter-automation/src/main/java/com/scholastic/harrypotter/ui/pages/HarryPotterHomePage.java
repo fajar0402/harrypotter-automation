@@ -1,9 +1,13 @@
 package com.scholastic.harrypotter.ui.pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
+import java.util.NoSuchElementException;
 
 /**
  * Created by C07HJAXNDJD0 on 7/29/16.
@@ -14,6 +18,9 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
      *  Harry Potter - Home Page - Header
      */
 
+    @FindBy(css = "#unav-stacks > ul")
+    public WebElement rightMenuHeader;
+
     @FindBy(xpath = "//*[@id=\"unav-stacks-u\"]/a[1]")
     public WebElement signInMenuBtn;
 
@@ -22,6 +29,12 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
 
     @FindBy(css = ".video-close.showed")
     public WebElement skipCloseBtn;
+
+    @FindBy(css = "#unav-stacks-u > ul > li:nth-child(1)")
+    public WebElement loginAccount;
+
+    @FindBy(css = "#unav-stacks-u > ul > li:nth-child(2) > a")
+    public WebElement signOutBtn;
 
     /**
      *  Animation
@@ -98,17 +111,14 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
         Assert.assertTrue(newCoverBooks7.getAttribute("class").equals("cover new"));
     }
 
+    public void getTxtInRightMenuHeader(int index){
+        List<WebElement> rightMenuOptions = rightMenuHeader.findElements(By.cssSelector("li"));
+        WebElement rightMenuOption = rightMenuOptions.get(index);
+        rightMenuOption.getText();
+    }
+
     public HarryPotterHomePage() {
         super();
         PageFactory.initElements(driver, this);
-    }
-
-    /**
-     *  Check the current url of Harry Potter is contain 'home'
-     */
-    @Override
-    public void verifyMeAsCurrentPage() {
-        //TODO Update as soon as Carousel component starts working again
-        Assert.assertTrue( "Current page is not Home page", validateTextInCurrentUrl( "home") );
     }
 }

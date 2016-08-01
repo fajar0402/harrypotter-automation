@@ -5,7 +5,6 @@ import com.scholastic.driver.DriverManager;
 import com.scholastic.utils.Log;
 import org.junit.Assert;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -13,12 +12,6 @@ import java.util.List;
 
 
 public class HarryPotterBasePage extends BasePage {
-
-    private static final String HOME_PAGE_PATH = "/content/harrypotter/en/home.html";
-
-    public static String getHomePagePath() {
-        return HOME_PAGE_PATH;
-    }
 
     public HarryPotterBasePage(){
         super();
