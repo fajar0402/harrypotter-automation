@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/draco.mp3"
+    books="[HPSS]"
+    category="Characters"
+    definition="Harry's archenemy at Hogwarts. A thin boy with a pale, pointed face and a sneering expression. He has a bored, drawling voice and looks with contempt upon everyone else. Malfoy believes himself to be superior to Harry and hates Harry and all his friends. Malfoy is in Slytherin house, in Harry's year ."
+    term="Draco Malfoy"/>

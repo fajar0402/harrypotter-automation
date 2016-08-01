@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPOP]"
+    category="Places"
+    definition="A chamber in the Ministry of Magic's Department of Mysteries where records of important prophecies are stored."
+    term="Hall of Prophecy"/>

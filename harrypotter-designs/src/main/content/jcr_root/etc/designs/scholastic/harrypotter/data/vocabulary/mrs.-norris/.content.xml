@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Creatures"
+    definition="Filch's cat. She is a scrawny-looking, dust-colored cat with bulging eyes. Students must be wary not to break rules in front of her for she will alert Filch."
+    term="Mrs. Norris"/>

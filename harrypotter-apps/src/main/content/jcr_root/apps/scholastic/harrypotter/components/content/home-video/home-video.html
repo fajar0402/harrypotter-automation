@@ -1,0 +1,88 @@
+<div class="slide beasts">
+    <div class="slide-bg-outer">
+        <div class="slide-bg-svg">
+            <svg>
+                <defs>
+                    <pattern id="slide-bg-1" patternUnits="userSpaceOnUse" width="1080" height="100%">
+                        <image xlink:href="${properties.backgroundReference}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
+                    </pattern>
+                </defs>
+
+                <path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="url(#slide-bg-1)"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div class="video">
+        <div class="video-inner">
+            <a href="#" class="video-close"><img src="/etc/designs/scholastic/harrypotter/clientlibs/core/images/extras/icon-close-video.png" alt="close"></a>
+            <div class="video-holder">
+                <div class="module-audiovideo">
+                    <video
+                           data-account="1543299976"
+                           data-player="9aff0d13-3492-425b-a9e3-5b987004cacc"
+                           data-embed="default"
+                           data-video-id="${properties.mediaId}"
+                           id="video"
+                           class="video-js"
+                           preload="none"
+                           controls>
+                    </video>
+                </div>
+            </div>
+            <!--<div class="inner-box"></div>-->
+        </div>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="panel left">
+            <img data-sly-test="${properties.titleReference}" src="${properties.titleReference}" alt="fantastic beasts" />
+            <p>${properties.definitionText}</p>
+            <div class="play-btn">
+                <img src="/etc/designs/scholastic/harrypotter/clientlibs/core/images/extras/cta-video.png" alt="video play" class="idle">
+                <img src="/etc/designs/scholastic/harrypotter/clientlibs/core/images/extras/cta-video-pressed.png" alt="video played" class="pressed">
+            </div>
+        </div>
+        <div class="tag right">
+            <img data-sly-test="${properties.logoReference}" src="${properties.logoReference}" alt="extras ww">
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<script src="//players.brightcove.net/1543299976/9aff0d13-3492-425b-a9e3-5b987004cacc_default/index.min.js"></script>
+<style data-sly-use.ButtonColor="ButtonColorizer.js">
+    .slide.beasts .slide-bg {
+        background-image : url(${properties.backgroundReference @ context='uri'}) !important;
+    }
+
+    .slide.beasts .slide-wrapper p {
+        color : #${properties.descriptionColor @ context='styleToken'} !important;
+    }
+
+    .slide.beasts .slide-wrapper .panel> img {
+        -webkit-filter: ${ButtonColor.titleColorFilter @ context='unsafe'} !important;
+    }
+
+    .slide.beasts .slide-wrapper .panel .play-btn img.idle {
+        -webkit-filter: ${ButtonColor.buttonColorFilter @ context='unsafe'} !important;
+    }
+
+    /* for customize video */
+    .slide.beasts .video.opened .video-close {
+        cursor: pointer;
+    }
+    .slide.beasts .video .video-close {
+        z-index: 1000;
+    }
+	body.fullscreen .video.opened {
+		-webkit-clip-path: none;
+  		clip-path: none;
+	}
+    .module-audiovideo {
+        height: 100%;
+    }
+    .module-audiovideo .video-js {
+        height: calc(100% - 35px);
+    }
+</style>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPPA]"
+    category="Characters"
+    definition="Knight from a portrait in the North Tower. Temporary guardian of Gryffindor Tower while the Fat Lady was being repaired."
+    term="Sir Cadogan"/>

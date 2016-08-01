@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Magical Objects"
+    definition="Wizarding fireworks and one of Fred and George Weasley's favorite jokes. They fill a space  with red and blue stars that last for about half an hour."
+    term="Dr. Filibuster’s Fabulous No-Heat, Wet-Start Fireworks"/>

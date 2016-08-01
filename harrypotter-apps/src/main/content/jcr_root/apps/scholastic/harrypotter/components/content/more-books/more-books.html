@@ -1,0 +1,47 @@
+<!-- animation template -->
+<sly data-sly-test="${properties.layout == null || properties.layout == 'animation'}" data-sly-use.animation="scholastic/harrypotter/components/content/more-books/templates/animation.html" data-sly-call="${animation.contentLayout}" />
+
+<!-- plain template -->
+<sly data-sly-test="${properties.layout == 'plain'}" data-sly-use.plain="scholastic/harrypotter/components/content/more-books/templates/plain.html" data-sly-call="${plain.contentLayout}" />
+
+<!-- circle template -->
+<sly data-sly-test="${properties.layout == 'circle'}" data-sly-use.circle="scholastic/harrypotter/components/content/more-books/templates/circle.html" data-sly-call="${circle.contentLayout}" />
+
+<style>
+	.slide.more-books .next-books {
+    	justify-content: space-around;
+	}
+
+	.slide.read-next .next-books {
+    	justify-content: space-around;
+	}
+
+	.slide.explore-all .features {
+		justify-content: space-around;
+    }
+    
+    .slide.read-next .next-books .book-holder>a>img {
+  		box-shadow: 0 4px 5px rgba(0,0,0,0.44);
+	}
+    
+    .next-books .book-holder>a>img {
+  		position: relative;
+  		height: auto;
+  		max-width: 100%;
+  		z-index: 5;
+	}
+
+	.slide.read-next .next-books .book-holder>a>img {
+  		box-shadow: 0 4px 5px rgba(0,0,0,0.44);
+	}
+
+	.slide.more-books .next-books .book-holder>a>img {
+  		-webkit-filter: drop-shadow(0 4px 2px rgba(0,0,0,0.44));
+  		filter: drop-shadow(0 4px 2px rgba(0,0,0,0.44));
+  		vertical-align: bottom;
+  		position: relative;
+ 		height: auto;
+  		max-width: 100%;
+  		z-index: 5;
+	}
+</style>

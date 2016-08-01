@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Places"
+    definition="Concealed room in Hogwarts created by Salazar Slytherin wherein he sealed an unknown horror that could only be freed by his true heir to purge the school of those he considered unworthy to study magic."
+    term="Chamber of Secrets"/>

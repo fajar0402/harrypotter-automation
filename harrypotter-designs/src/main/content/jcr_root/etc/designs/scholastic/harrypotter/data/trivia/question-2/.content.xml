@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    answers="[Gringotts,The Wandmaker,The Deathly Hallows,Shell Cottage]"
+    correctAnswer="The Wandmaker"
+    question="What is the title of chapter number twenty four in the seventh book?"/>

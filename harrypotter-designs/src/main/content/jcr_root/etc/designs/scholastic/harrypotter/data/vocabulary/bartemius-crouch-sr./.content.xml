@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Characters"
+    definition="Head of the Department of International Magical Cooperation at the Ministry of Magic. He looks like a bank manager, with a toothbrush mustache, and is a great believer in rules."
+    term="Bartemius Crouch Sr."/>

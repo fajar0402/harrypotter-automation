@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Magical Objects"
+    definition="Legendary stone that will transform any metal into pure gold. It also produces the Elixir of Life, which will make the drinker immortal. The only known stone belongs to Nicolas Flamel, Albus Dumbledore's former alchemy partner."
+    term="Sorcerer's Stone"/>

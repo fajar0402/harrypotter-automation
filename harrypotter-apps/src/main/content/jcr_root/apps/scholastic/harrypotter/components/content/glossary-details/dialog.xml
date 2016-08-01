@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Glossary Details Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <backgrounds
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Background"
+            xtype="html5smartimage"/>
+        <icon
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./iconName"
+            fileReferenceParameter="./iconReference"
+            name="./icon"
+            title="Icon"
+            xtype="html5smartimage"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title-text
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title Text"
+                    name="./titleText"
+                    xtype="textfield"/>
+                <search-term-text
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Search Term Text"
+                    name="./searchTermText"
+                    xtype="textfield"/>
+                <dd-default-label
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Dropdown Default Label"
+                    name="./ddDefaultLabel"
+                    xtype="textfield"/>
+            </items>
+        </text>
+    </items>
+</jcr:root>

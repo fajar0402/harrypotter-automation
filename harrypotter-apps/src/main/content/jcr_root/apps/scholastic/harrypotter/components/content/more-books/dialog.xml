@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="More Books Promo Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <general
+            jcr:primaryType="cq:Widget"
+            title="General"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <layout
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="animation"
+                    fieldLabel="Layout"
+                    name="./layout"
+                    value="animation"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <animation
+                            jcr:primaryType="nt:unstructured"
+                            text="Animation"
+                            value="animation"/>
+                        <plain
+                            jcr:primaryType="nt:unstructured"
+                            text="Plain"
+                            value="plain"/>
+                    </options>
+                </layout>
+            </items>
+        </general>
+        <background
+            jcr:primaryType="cq:Widget"
+            title="Background"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <background-image
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Background Image"
+                    fileNameParameter="./backgroundImageName"
+                    fileReferenceParameter="./backgroundImageReference"
+                    height="{Long}200"
+                    name="./backgroundImage"
+                    xtype="html5smartimage"/>
+                <background-color
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Background Color"
+                    name="./backgroundColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </background>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title-text
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title Text"
+                    name="./titleText"
+                    xtype="textfield"/>
+                <title-color
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title Color"
+                    name="./titleColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </text>
+        <icon
+            jcr:primaryType="cq:Widget"
+            title="Icon"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <icon-color
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Icon Color"
+                    name="./iconColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <icon-image
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Icon Image"
+                    fileNameParameter="./iconImageName"
+                    fileReferenceParameter="./iconImageReference"
+                    height="{Long}200"
+                    name="./iconImage"
+                    xtype="html5smartimage"/>
+            </items>
+        </icon>
+        <images
+            jcr:primaryType="cq:Widget"
+            title="Images"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <images
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Images"
+                    hideLabel="{Boolean}true"
+                    name="./books"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        limit="{Long}4"
+                        xtype="moreBooksCompositeField"/>
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        beforeadd="function(list, component, index) {&#xa;    var limit = list.fieldConfig.limit;&#xa;    var length = list.items.length;&#xa;    var addButton = list.items.items[length-1];&#xa;    if(length == limit){&#xa;        addButton.hide();&#xa;    }&#xa;}"
+                        removeditem="function(list) {&#xa;    var length = list.items.length;&#xa;    if (length &lt;= list.fieldConfig.limit) {&#xa;        list.items.items[length - 1].show();&#xa;    }&#xa;}"/>
+                </images>
+            </items>
+        </images>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <button-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Test displayed as label in content promo button"
+                    fieldLabel="Text"
+                    name="./buttonText"
+                    xtype="textfield"/>
+                <button-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Text Color to change color of label in content promo button"
+                    fieldLabel="Text Color"
+                    name="./labelColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <button-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL path of content promo button"
+                    fieldLabel="URL"
+                    name="./buttonUrl"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+            </items>
+        </button>
+    </items>
+</jcr:root>

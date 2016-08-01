@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Creatures"
+    definition="Underwater dwellers that have been known to build underwater cities. They have fishtails, green hair, and gray skin, and sometimes carry spears. Above water, their voices are unintelligible unless one speaks Mermish."
+    term="Merpeople"/>

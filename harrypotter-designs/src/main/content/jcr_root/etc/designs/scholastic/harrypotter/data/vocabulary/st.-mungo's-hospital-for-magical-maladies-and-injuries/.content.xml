@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPOP]"
+    category="Places"
+    definition="A Wizarding hospital where witches and wizards are taken for serious magical illnesses and injuries."
+    term="St. Mungo's Hospital for Magical Maladies and Injuries"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Quidditch"
+    definition="The wizarding national sport. Played on broomsticks by seven players: three Chasers, one Keeper, two Beaters, and one Seeker. Played with four balls: the Quaffle (red) is used for scoring; two Bludgers (black) try to knock players off their brooms; one Golden Snitch (bright gold with silver wings) flies about of its own accord. The Chasers score by throwing the Quaffle through one of the opposing team's three hoops.  Ten points are awarded every time a Chaser scores. The Keeper guards the hoops and tries to prevent the opposing Chasers from scoring. The Beaters try to keep the Bludgers away from their team and knock them toward the opposing team. The Seeker tries to catch the Golden Snitch. Whichever Seeker catches the Golden Snitch earns 150 points. The game ends when the Snitch is caught."
+    term="Quidditch"/>

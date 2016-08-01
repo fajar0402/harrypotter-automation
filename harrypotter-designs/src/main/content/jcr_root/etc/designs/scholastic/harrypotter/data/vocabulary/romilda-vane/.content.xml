@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/romilda_vane.mp3"
+    books="[HPHP]"
+    category="Characters"
+    definition="A girl at Hogwarts who has a crush on Harry . In Gryffindor house, two years below Harry."
+    term="Romilda Vane"/>

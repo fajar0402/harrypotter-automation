@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Creatures"
+    definition="Cross between a manticore and a fire-crab. They have no recognizable head or eyes, but they explode intermittently at one end. Males have a sting like a scorpion and females have suckers on their bellies. Adult Skrewts have thick grey armor and may grow to be ten feet long."
+    term="Blast-Ended Skrewt"/>

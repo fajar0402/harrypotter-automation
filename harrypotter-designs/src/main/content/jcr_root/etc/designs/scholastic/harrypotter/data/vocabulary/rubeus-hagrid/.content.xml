@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/rubeus.mp3"
+    books="[HPSS]"
+    category="Characters"
+    definition="Keeper of Keys and Grounds and teacher of Care of Magical Creatures from Harry's third year. After Hagrid was expelled from Hogwarts, Professor Dumbledore allowed him to stay as gamekeeper. Hagrid is almost twice as tall as any other person and seems five times as wide. He has masses of bushy, black hair and a huge tangled beard. Has a liking for strange and dangerous creatures - especially dragons."
+    term="Rubeus Hagrid"/>

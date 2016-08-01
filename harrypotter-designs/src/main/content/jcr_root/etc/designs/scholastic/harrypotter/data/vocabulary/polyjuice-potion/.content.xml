@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Potions"
+    definition="Potion that will allow the drinker to take on the appearance of another person for a period of time."
+    term="Polyjuice Potion"/>

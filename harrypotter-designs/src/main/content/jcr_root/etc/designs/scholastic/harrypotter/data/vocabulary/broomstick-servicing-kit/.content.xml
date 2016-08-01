@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPPA]"
+    category="Magical Objects"
+    definition="Thirteenth-birthday present for Harry from Hermione Granger. A black leather case containing a jar of Fleetwood's High-Finish Handle Polish, Tail-Twig Clippers, brass compass, and a Handbook of Do-it-Yourself Broomcare."
+    term="Broomstick Servicing Kit"/>

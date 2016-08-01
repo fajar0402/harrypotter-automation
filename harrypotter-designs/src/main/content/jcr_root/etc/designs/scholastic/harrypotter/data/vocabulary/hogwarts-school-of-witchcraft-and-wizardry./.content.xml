@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Places"
+    definition="An institution for magical education, reputed to be the best school of its kind in the world. Hogwarts is in a secret location somewhere in the north of Britain, founded more than a thousand years ago by the four greatest witches and wizards of the age: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. Pupils attend from age eleven for seven years of rigorous training in the art of witchcraft and wizardry."
+    term="Hogwarts School of Witchcraft and Wizardry."/>

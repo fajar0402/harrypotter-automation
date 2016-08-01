@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPOP]"
+    category="Organizations"
+    definition="A secret society founded by Dumbledore dedicated to fighting against Lord Voldemort. Its first incarnation ended with Voldemort's attempt to kill baby Harry, which caused his subsequent downfall. Dumbledore revived the Order after Harry's fourth year to fight the rejuvenated Dark Lord and Death Eaters."
+    term="Order of the Phoenix"/>

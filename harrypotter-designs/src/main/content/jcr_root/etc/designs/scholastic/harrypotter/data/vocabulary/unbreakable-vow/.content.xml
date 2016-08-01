@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPHP]"
+    category="Spells"
+    definition="A magical vow that requires the person who takes it to complete the avowed mission or die."
+    term="Unbreakable Vow"/>

@@ -1,0 +1,18 @@
+<sly data-sly-use.mappping="AboutAuthor"></sly>
+
+    <!-- type 1 template -->
+	<sly data-sly-use.type1="scholastic/harrypotter/components/content/about-author/templates/type-one.html" data-sly-call="${type1.contentLayout}" data-sly-test="${mappping.isTypeOne}"></sly>
+
+	<!-- type 2 template -->
+	<sly data-sly-use.type2="scholastic/harrypotter/components/content/about-author/templates/type-two.html" data-sly-call="${type2.contentLayout}" data-sly-test="${!mappping.isTypeOne}"></sly>
+
+<style>
+	.slide.author .slide-bg-svg::after, .slide.about-author .slide-bg-svg::after {
+		background-image : url(${properties.backgroundReference @ context='uri'}) !important;
+    }
+
+	.illustrators-list .illustrator .link .name {
+        color : #${properties.illustratorNameColor @ context='styleToken'};
+	}
+
+</style>

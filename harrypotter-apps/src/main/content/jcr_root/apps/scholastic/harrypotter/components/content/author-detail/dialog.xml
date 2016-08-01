@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Book Detail Hero Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./imageName"
+            fileReferenceParameter="./imageReference"
+            name="./image"
+            title="Image"
+            xtype="html5smartimage"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <name
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Name displayed as author name in author detail section"
+                    fieldLabel="Name"
+                    name="./name"
+                    xtype="textfield"/>
+                <birth-location
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Birth location displayed as author birth location in author detail section"
+                    fieldLabel="Birth Location"
+                    name="./birthLocation"
+                    xtype="textfield"/>
+                <current-home
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Current home displayed as current home in author detail section"
+                    fieldLabel="Current Home"
+                    name="./currentHome"
+                    xtype="textfield"/>
+                <biography
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Biography displayed as author biography in author detail section"
+                    fieldLabel="Biography"
+                    name="./biography"
+                    xtype="richtext">
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <paraformat
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <formats jcr:primaryType="cq:WidgetCollection">
+                                <p
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Paragraph"
+                                    tag="p"/>
+                                <h2
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 2"
+                                    tag="h2"/>
+                            </formats>
+                        </paraformat>
+                        <styles
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <styles jcr:primaryType="cq:WidgetCollection">
+                                <info
+                                    jcr:primaryType="nt:unstructured"
+                                    cssName="info"
+                                    text="info"/>
+                            </styles>
+                        </styles>
+                        <lists
+                            jcr:primaryType="nt:unstructured"
+                            features="[]"/>
+                    </rtePlugins>
+                </biography>
+            </items>
+        </text>
+    </items>
+</jcr:root>

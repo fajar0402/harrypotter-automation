@@ -1,0 +1,4761 @@
+{
+  "books": [
+    {
+      "code": "HPSS",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "image": "images/covers/cover-1.jpg"
+    },
+    {
+      "code": "HPCS",
+      "title": "Harry Potter and the Chamber of Secret",
+      "image": "images/covers/cover-2.jpg"
+    },
+    {
+      "code": "HPPA",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "image": "images/covers/cover-3.jpg"
+    },
+    {
+      "code": "HPGF",
+      "title": "Harry Potter and the Goblet of Fire",
+      "image": "images/covers/cover-4.jpg"
+    },
+    {
+      "code": "HPOP",
+      "title": "Harry Potter and the Order of Phoenix",
+      "image": "images/covers/cover-5.jpg"
+    },
+    {
+      "code": "HPHP",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "image": "images/covers/cover-6.jpg"
+    },
+    {
+      "code": "HPDH",
+      "title": "Harry Potter and the Deathly Hallows",
+      "image": "images/covers/cover-7.jpg"
+    }
+  ],
+  "vocabularyRecords": [
+    {
+      "term": "Abraxas Malfoy",
+      "definition": "Draco Malfoy's grandfather.",
+      "startedWith": "A",
+      "audio": "audio/glossary/abraxas_malfoy.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Accio",
+      "definition": "Incantation for the Summoning Charm.",
+      "startedWith": "A",
+      "audio": "audio/glossary/accio.mp3",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Acid Pops",
+      "definition": "Wizarding sweets that burn holes in your tongue. Available at Honeydukes in Hogsmeade.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPCS",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Aconite",
+      "definition": "Plant used in potions. Also known as monkshood or wolfsbane.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Adalbert Waffling",
+      "definition": "Author of Magical Theory.",
+      "startedWith": "A",
+      "audio": "audio/glossary/Adalbert_Waffling.mp3",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Agrippa",
+      "definition": "A wizard depicted on a wizard trading card.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Aguamenti",
+      "definition": "A spell to create water.",
+      "startedWith": "A",
+      "audio": "audio/glossary/aguamenti.mp3",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Aidan Lynch",
+      "definition": "Seeker for the Irish national Quidditch team.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Alastor Moody",
+      "definition": "Retired Auror hired to teach Defense Against the Dark Arts in Harry's fourth year. Known as Mad-Eye Moody since he lost an eye in the fight against Voldemort and his supporters, and replaced it with a magical eye. Badly scarred and has a wooden leg. A member of the Order of the Phoenix.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Alberic Grunnion",
+      "definition": "Name of a wizard depicted on a wizard trading card.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Albus Dumbledore",
+      "definition": "Headmaster of Hogwarts. Dumbledore is widely regarded as the finest wizard of his generation and was the only person that Voldemort was frightened of. He is tall, thin and very old and has very long, silver hair and beard. He has blue eyes and has been known to wear half-moon spectacles.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Alchemy",
+      "definition": "Medieval science that is concerned with the creation of the Sorcerer's Stone.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Alecto",
+      "definition": "A Death Eater, sister to Amycus",
+      "startedWith": "A",
+      "audio": "audio/glossary/alecto.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Alice Longbottom",
+      "definition": "Neville Longbottom's mother; a member of the original Order of the Phoenix. Tortured into insanity by the Death Eaters and now lives in St. Mungo's Hospital of Magical Maladies and Injuries.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Alicia Spinnet",
+      "definition": "One of the Chasers on the Gryffindor Quidditch team. She is two years above Harry at Hogwarts.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Alohomora",
+      "definition": "Unlocking Charm",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Amelia Susan Bones",
+      "definition": "Head of the Department of Magical Law Enforcement",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Amortentia",
+      "definition": "The most powerful love potion in the world.",
+      "startedWith": "A",
+      "audio": "audio/glossary/amortentia.mp3",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Amos Diggory",
+      "definition": "Father of Cedric. He is tall and has a brown beard.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Amycus",
+      "definition": "Death Eater, brother to Alecto",
+      "startedWith": "A",
+      "audio": "audio/glossary/amycus.mp3",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Anapneo",
+      "definition": "A spell used to help when someone is choking.",
+      "startedWith": "A",
+      "audio": "audio/glossary/anapneo.mp3",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Andromeda Tonks",
+      "definition": "NymphadoraTonks's mother.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Angelina Johnson",
+      "definition": "Hogwarts student. Chaser on the Gryffindor Quidditch team. Captain during Harry's fifth year.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Animagi",
+      "definition": "Wizards who can turn themselves into animals at will. The singular form is Animagus.",
+      "startedWith": "A",
+      "audio": "audio/glossary/animagi.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Aparecium",
+      "definition": "Spell to reveal hidden writing.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "apparate",
+      "definition": "To transport oneself instantly to any destination. Apparition is difficult and must not be done without a license from the Department of Magical Transportation. There is a danger of Splinching.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Arabella Figg",
+      "definition": "Elderly Muggle who used to baby-sit for Harry. She keeps cats.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "aragog",
+      "definition": "An Acromantula that lives in the Forbidden Forest.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Araminta Meliflua",
+      "definition": "Cousin of Sirius Black's mother.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Argus Filch",
+      "definition": "Caretaker at Hogwarts; a squib. Filch hates students and especially does not like Harry or his friends. Filch has a cat called Mrs Norris.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Arithmancy",
+      "definition": "Ancient study of the magical properties of numbers.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Arsenius Jigger",
+      "definition": "Author of Magical Draughts and Potions.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Arthur Weasley",
+      "definition": "Ron Weasley's father. Head of the Misuse of Muggle Artifacts Office at the Ministry of Magic.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Astronomy",
+      "definition": "Study of the stars and planets.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Aunt Marge",
+      "definition": "Dudley Dursley's dreadful aunt, sister to Vernon Dursley and no friend of Harry's.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Auror",
+      "definition": "Professional Dark-wizard-catcher.",
+      "startedWith": "A",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "AvadaKedavra",
+      "definition": "The Killing Curse. It brings about instant death in a flash of green light. There is no way of blocking it. It is one of the three Unforgivable Curses.",
+      "startedWith": "A",
+      "audio": "audio/glossary/avada_kedavra.mp3",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Azkaban",
+      "definition": "Prison fortress where wizarding criminals are sent. Guarded day and night by the terrifying Dementors, who drain peace, hope and happiness out of any human who comes too close to them.",
+      "startedWith": "A",
+      "audio": "audio/glossary/azkaban.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Bane",
+      "definition": "One of the centaurs who lives in the Forbidden Forest.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Bartemius Crouch",
+      "definition": "Head of the Department of International Magical Co-operation at the Ministry of Magic. He looks like a bank manager, with a toothbrush moustache, and is a great believer in rules.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Bartemius Crouch Junior",
+      "definition": "Son of Baremius Crouch, senior. He was imprisoned in Azkaban as a follower of Voldemort.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Basilisk",
+      "definition": "Giant snake whose stare will cause their victims to suffer instant death.",
+      "startedWith": "B",
+      "audio": "audio/glossary/basilisk.mp3",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Bathilda Bagshot",
+      "definition": "Author of A History of Magic.",
+      "startedWith": "B",
+      "audio": "audio/glossary/Bathilda_Bagshot.mp3",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Beater",
+      "definition": "Quidditch player who tries to knock the Bludgers towards the opposing team. There are two on each team.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Beauxbatons Academy of Magic",
+      "definition": "School of magic somewhere in Europe.",
+      "startedWith": "B",
+      "audio": "audio/glossary/beauxbatons.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Bellatrix Lestrange",
+      "definition": "Death Eater; sister to Andromeda Tonks and NarcissaMalfoy; imprisoned in Azkaban for sixteen years.",
+      "startedWith": "B",
+      "audio": "audio/glossary/bellatrix_lestrange.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Bertha Jorkins",
+      "definition": "Witch employed by the Ministry of Magic. She was abducted in Albania and suffered a terrible fate.",
+      "startedWith": "B",
+      "audio": "audio/glossary/bertha-jorkins.wav",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Bertie Bott's Every Flavor Beans",
+      "definition": "Wizarding sweets. Come in every flavor, including spinach, liver, tripe, sprout, curry, grass and even bogey and vomit flavors.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Bezoar",
+      "definition": "Stone taken from the stomach of a goat. A bezoar will counteract the majority of poisons.",
+      "startedWith": "B",
+      "audio": "audio/glossary/bezoar.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Bill Weasley",
+      "definition": "Ron Weasley's brother. Works for Gringotts Bank in Africa.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Black Forest",
+      "definition": "Place in Germany where Professor Quirrell was rumored to have encountered vampires.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Blast-Ended Skrewt",
+      "definition": "Cross between a manticore and a fire-crab. They have no recognisable head or eyes, but they explode intermittently at one end. Males have a sting like a scorpion and females have suckers on their bellies. Adult Skrewts have thick grey armour and may grow to be ten feet long.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Blood-flavored lollipops",
+      "definition": "Lollipops, presumably for vampires.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "The Bloody Baron",
+      "definition": "Slytherin ghost, covered in silver bloodstains.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Bludgers",
+      "definition": "Black balls that try to knock players off their brooms in Quidditch.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Boggart",
+      "definition": "Shape-shifter that takes on the likeness of your worst fear.",
+      "startedWith": "B",
+      "audio": "audio/glossary/boggart.mp3",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Borgin and Burkes",
+      "definition": "Dark Arts shop in Knockturn Alley.",
+      "startedWith": "B",
+      "audio": "audio/glossary/borgin_and_burkes.mp3",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Bouncing Bulb",
+      "definition": "Plant used in Herbology.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Bowtruckles",
+      "definition": "Magical creatures that appear to be made of bark or twigs; they usually live in trees that supply wand wood and subsist on woodlice or fairy eggs (when they can get them).",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Bozo",
+      "definition": "Photographer for the Daily Prophet.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Broderick Bode",
+      "definition": "An employee in the Department of Mysteries in the Ministry of Magic.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Broomstick Servicing Kit",
+      "definition": "Thirteenth birthday present for Harry from Hermione Granger. A black leather case containing a jar of Fleetwood's High-Finish Handle Polish, Tail-Twig Clippers, brass compass and a Handbook of Do-it-Yourself Broomcare.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Bubble-head Charm",
+      "definition": "Charm that enables you to breathe anywhere, even underwater, by giving the caster a supply of fresh oxygen. It gives the caster the appearance of wearing an upside-down goldfish bowl on their head.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Bubotuber",
+      "definition": "Plant that resembles a black slug with swellings that contain a yellowish green liquid. Bubotuber pus is used to cure acne, but undiluted it causes sores and boils.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Buckbeak",
+      "definition": "Name of a Hippogriff: a large flying creature that is half eagle and half horse.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Burrow",
+      "definition": "Home of the Weasley family.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Butterbeer",
+      "definition": "Frothy, hot drink served in Hogsmeade.",
+      "startedWith": "B",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Canary Creams",
+      "definition": "Trick custard-cream biscuits that turn the eater briefly into a canary. Invented by Fred and George Weasley.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Caradoc Dearborn",
+      "definition": "A member of the original Order of the Phoenix; disappeared while fighting Voldemort.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Care of Magical Creatures",
+      "definition": "Class at Hogwarts that teaches students how to look after magical creatures.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Cassandra Vablatsky",
+      "definition": "Author of Unfogging the Future, a guide to basic fortune-telling methods.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Cedric Diggory",
+      "definition": "Seeker on the Hufflepuff Quidditch team.",
+      "startedWith": "C",
+      "audio": "audio/glossary/cedric.mp3",
+      "books": [
+        "HPPA",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Centaurs",
+      "definition": "Half-man, half-horse beings. There are some living in the Forbidden Forest at Hogwarts.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "The Chamber of Secrets",
+      "definition": "Concealed room created by Salazar Slytherin wherein he sealed an unknown horror that could only be freed by his true heir to purge the school of those he considered unworthy to study magic.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Charlie Weasley",
+      "definition": "Ron Weasley's brother. Studies dragons in Romania.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Charm",
+      "definition": "Spell that adds properties to an object or person.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Charm Intruder",
+      "definition": "A spell that is used to tell when someone is breaking into a dwelling.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Chaser",
+      "definition": "Quidditch player who tries to score using the Quaffle. There are three on each team.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Cho Chang",
+      "definition": "Seeker of the Ravenclaw Quidditch team. A year above Harry.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Chocoballs",
+      "definition": "Wizarding sweets full of strawberry mousse and clotted cream.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Chocolate Frogs",
+      "definition": "Wizard confectionery that contains collector's cards of famous witches and wizards.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Chudley Cannons",
+      "definition": "Ron Weasley'sfavorite professional Quidditch team. They wear bright orange and black robes and their motto is “Let's all just keep our fingers crossed and hope for the best.”",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Circe",
+      "definition": "A witch depicted on a wizard trading card.",
+      "startedWith": "C",
+      "audio": "audio/glossary/circe.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "CleansweepSeven",
+      "definition": "Type of broomstick used by Fred and George Weasley.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Cliodna",
+      "definition": "A witch depicted on a wizard trading card.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Cockroach Clusters",
+      "definition": "Wizarding sweets, presumably made from cockroaches.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Colin Creevey",
+      "definition": "Admirer of Harry who follows him constantly and is always taking his picture. A year below Harry in Gryffindor house.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Comet",
+      "definition": "Type of broomstick flown by Cho Chang.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Common Room",
+      "definition": "Meeting room for each Hogwarts house.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Common Welsh Green",
+      "definition": "Type of dragon found in Britain.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Cormac McLaggen",
+      "definition": "A student who is part of the “Slug Club” and temporarily replaces Ron as Keeper.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Cornelius Fudge",
+      "definition": "Minister for Magic.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Cornish Pixies",
+      "definition": "Naughty little pixies that create havoc.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Cribbages Wizarding Crackers",
+      "definition": "Crackers are party favors used in the United Kingdom at Christmastime. Small cardboard tubes are filled with candy and trinkets, then wrapped in brightly colored paper twisted at each end. When two people pull on opposite ends of the paper, the tube bursts open with a crack and the treats inside fall out.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Crookshanks",
+      "definition": "Hermione Granger's pet cat. Ginger with thick and fluffy fur, he is a little bow-legged with a slightly crumpled face.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Cruciatus Curse",
+      "definition": "Inflicts torture with the command Crucio. One of the three Unforgivable Curses.",
+      "startedWith": "C",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "The Daily Prophet",
+      "definition": "The national wizarding newspaper.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "The Dark Mark",
+      "definition": "Sign of the Death Eaters: a skull with a serpent in its mouth.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Dean Thomas",
+      "definition": "Hogwarts pupil in the same year as Harry, in Gryffindor house. His best friend is Seamus Finnigan. Dean comes from a Muggle background.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Death Eaters",
+      "definition": "Followers of Voldemort. They are summoned by the Dark Mark.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Deathday Party",
+      "definition": "Celebration held by ghosts to commemorate the day they died.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Dedalus Diggle",
+      "definition": "A wizard whom Harry met in the Leaky Cauldron. He also once bowed to Harry in a shop. A member of the re-established Order of the Phoenix.",
+      "startedWith": "D",
+      "audio": "audio/glossary/dedalus_diggle.mp3",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Defense Against the Dark Arts",
+      "definition": "Lessons at Hogwarts that teach students how to defend themselves against evil creatures such as werewolves and vampires.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPOP",
+        ""
+      ]
+    },
+    {
+      "term": "Deflating Draught",
+      "definition": "Potion that counteracts a Swelling Solution. Causes swollen body parts to return to normal size.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Demelza Robbins",
+      "definition": "Chaser on the Gryffindor Quidditch team.",
+      "startedWith": "D",
+      "audio": "audio/glossary/demelza_robins.mp3",
+      "books": [
+        "HPSS",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Dementor",
+      "definition": "Creature who feeds on the happy emotions of humans. Dementors are employed as guards at Azkaban. The kiss of a Dementor will suck out a human's soul, leaving an empty shell.Wizarding equipment shop in Hogsmeade.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Dennis Creevey",
+      "definition": "Hogwarts pupil, younger brother of Colin Creevey. Dennis is three years below Harry in Gryffindor house.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Densaugeo",
+      "definition": "Spell which causes teeth to grow abnormally fast.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Dervish and Banges",
+      "definition": "Wizarding equipment shop in Hogsmeade.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Diagon Alley",
+      "definition": "A long cobbled street filled with fascinating wizarding shops. Accessible through the Leaky Cauldron pub in London.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Diffindo",
+      "definition": "Severing Charm.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Disillusionment Charm",
+      "definition": "Spell to make a person the same colour as their surroundings in order to disguise or camouflage them.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Divination",
+      "definition": "Magical art of telling the future using tea leaves, crystal balls and so forth. Professor Trelawney is the Divination teacher at Hogwarts.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Dobby",
+      "definition": "Name of a house-elf who idolizes Harry but gets him into lots of trouble.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Dolores Jane Umbridge",
+      "definition": "Senior Undersecretary to the Minister of Magic; Defense Against the Dark Arts teacher in Harry's fifth year.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Doris Crockford",
+      "definition": "A witch whom Harry meets in the Leaky Cauldron.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Dr Filibuster's Fabulous Wet-Start, No-Heat Fireworks",
+      "definition": "Wizarding fireworks and one of Fred and George Weasley's favorite jokes. They fill the room with red and blue stars that last for about half an hour.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Draco Dormiens Nunquam Titillandus",
+      "definition": "The Hogwarts motto. It means, \"Never tickle a sleeping dragon.\"",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPPH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Draco Malfoy",
+      "definition": "Harry's archenemy at Hogwarts. A thin boy with a pale, pointed face and a sneering expression. He has a bored, drawling voice and looks with contempt upon everyone else. Malfoy believes himself to be superior to Harry and hates Harry and all his friends. Malfoy is in Slytherin house.",
+      "startedWith": "D",
+      "audio": "audio/glossary/draco.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Dragon",
+      "definition": "Creatures that can fly and breathe fire. Hagrid is particularly fond of dragons and has a Norwegian Ridgeback called Norbert for a while as a pet.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "The Draught of Living Death",
+      "definition": "Powerful sleeping draught.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Drooble's Best Blowing Gum",
+      "definition": "Wizarding sweet. Fills the room with blue bubbles that last for about half an hour.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Dudley Dursley",
+      "definition": "Harry's horrible Muggle cousin. Dudley is fat, blond and rather stupid, but that doesn't stop him trying to bully Harry whenever he can.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Dueling Club",
+      "definition": "Club started by Professor Lockhart to teach students how to duel with spells.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "dumbledore's-army",
+      "definition": "A group of Hogwarts students to whom Harry teaches Defense Against the Dark Arts during his fifth year. Also known as the D.A.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Dungbomb",
+      "definition": "Stinkbomb",
+      "startedWith": "D",
+      "audio": "audio/glossary/dungbomb.wav",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Durmstrang Institute",
+      "definition": "School of wizardry somewhere in the far north of Europe. It is smaller than Hogwarts but has more extensive grounds.",
+      "startedWith": "D",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Edgar Bones",
+      "definition": "A member of the original Order of the Phoenix; brother of Amelia Bones",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Eeylops Owl Emporium",
+      "definition": "Owl shop in Diagon Alley where Harry bought Hedwig.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPCS"
+      ]
+    },
+    {
+      "term": "The Elixir of Life",
+      "definition": "Substance produced by the Sorcerer's Stone that will make the drinker immortal.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Eloise Midgeon",
+      "definition": "Hogwarts pupil who accidentally removed her nose when trying to cure her acne.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Elphias Doge",
+      "definition": "A member of the re-established Order of the Phoenix.",
+      "startedWith": "E",
+      "audio": "audio/glossary/Elphias_Doge.mp3",
+      "books": [
+        "HPCS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Emeric Switch",
+      "definition": "Author of A Beginner's Guide to Transfiguration.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Emmeline Vance",
+      "definition": "A member of the revitalized Order of the Phoenix.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Enervate",
+      "definition": "A spell that can revive people to a state of consciousness.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Engorgio",
+      "definition": "Engorgement Charm.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Ernie Macmillan",
+      "definition": "Hogwarts pupil in the same year as Harry, in Hufflepuff house.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ernie Prang",
+      "definition": "Driver of the Knight Bus",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Errol",
+      "definition": "Name of one of the Weasley family owls.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPPA",
+        ""
+      ]
+    },
+    {
+      "term": "Evanesco",
+      "definition": "The incantation for a spell that makes something disappear completely",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Expectopatronum",
+      "definition": "Spell to guard against Dementors.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Expelliarmus",
+      "definition": "The incantation for the Disarming Charm.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Exploding Bonbons",
+      "definition": "Wizarding sweets available from Honeydukes in Hogsmeade.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Exploding Snap",
+      "definition": "Card game.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Extendable Ears",
+      "definition": "Long flesh-colored strings that allow the user to eavesdrop on conversations from a distance. Invented by Fred and George Weasley.",
+      "startedWith": "E",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fabian Prewett",
+      "definition": "A member of the original Order of the Phoenix; brother to Gideon; killed by the Death Eaters.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fang",
+      "definition": "Hagrid's boarhound.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Fat Friar",
+      "definition": "Resident ghost of Hufflepuff Tower.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Fat Lady",
+      "definition": "The subject of the portrait guarding the entrance to Gryffindor Tower.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fawkes",
+      "definition": "Albus Dumbledore's pet phoenix.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Felix Felicis",
+      "definition": "Otherwise known as liquid luck, this potion provides its drinker with good fortune.",
+      "startedWith": "F",
+      "audio": "audio/glossary/felix_felicis.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fenrir Greyback",
+      "definition": "A dangerous werewolf who tries to bite and contaminate as many people as possibe.",
+      "startedWith": "F",
+      "audio": "audio/glossary/fenrir_greyback.mp3",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Ferula",
+      "definition": "Spell to conjure a sling for a broken limb.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fidelius Charm",
+      "definition": "A powerful charm that conceals a secret within the soul of a chosen person (called the Secret-Keeper). The secret is then impossible to uncover, unless the Secret-Keeper chooses to divulge it.",
+      "startedWith": "F",
+      "audio": "audio/glossary/fidelius_charm.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Firebolt",
+      "definition": "Fastest, most technologically advanced broomstick. Can accelerate from 0-150 miles per hour in ten seconds.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Firenze",
+      "definition": "A centaur who lives in the Forbidden Forest.",
+      "startedWith": "F",
+      "audio": "audio/glossary/firenze.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fizzing Whizbees",
+      "definition": "Wizarding sweets. Sherbet balls that make you levitate several inches in the air when you eat them.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Fleur Delacour",
+      "definition": "Pupil at Beauxbatons. Beautiful, with long, silvery blonde hair; her grandmother was a Veela.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Flobberworm",
+      "definition": "Species of worm that Harry and his friends have to keep alive to pass the Care of Magical Creatures course in third year.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Floo powder",
+      "definition": "Glittering powder that wizards use for traveling. Throw it into the fireplace; say the name of your destination and step into the flames.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Florean Fortescue's Ice-Cream Parlor",
+      "definition": "Wizarding ice-cream shop in Diagon Alley.",
+      "startedWith": "F",
+      "audio": "audio/glossary/Florean_Fortescues_Ice_Cream_Parlor.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Flourish and Blotts",
+      "definition": "Diagon Alley wizarding bookshop.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Flutterby Bush",
+      "definition": "Plant used in Herbology.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Foe-Glass",
+      "definition": "Magic mirror in which you can see your enemies.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Forbidden Forest",
+      "definition": "The dark woods at the edge of the Hogwarts grounds. Students are not allowed to go there unless accompanied by a teacher.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ford Anglia",
+      "definition": "Make of Mr .Weasley's bewitched car.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Four-Point Spell",
+      "definition": "A spell that makes your wand function as a compass, using the incantation “Point Me”",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Frank Bryce",
+      "definition": "Muggle killed by Lord Voldemort. Frank worked as a gardener at the Riddle House in the village of Little Hangleton.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Frank Longbottom",
+      "definition": "Neville Longbottom's father; a member of the original Order of the Phoenix. Tortured into insanity by the Death Eaters and now lives in St. Mungo's Hospital of Magical Maladies and Injuries.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Fred Weasley",
+      "definition": "One of Ron Weasley's older brothers and two years ahead of him at Hogwarts. Twin to George. In Gryffindor house.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Freezing Charm",
+      "definition": "A spell that freezes an object.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Fudge Flies",
+      "definition": "Wizarding sweets.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Furnunculus",
+      "definition": "Curse that causes boils.",
+      "startedWith": "F",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Gabrielle Delacour",
+      "definition": "Younger sister of Fleur.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "GalleonGold",
+      "definition": "Wizarding money.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Gambol and Japes",
+      "definition": "Wizarding joke shop in Diagon Alley.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "George Weasley",
+      "definition": "One of Ron Weasley's older brothers and two years ahead of him at Hogwarts. Twin to George. In Gryffindor house.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Ghoul",
+      "definition": "Ugly creature that generally lives in attics or barns. The Weasleys have one living in their attic.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Giant",
+      "definition": "Huge humanoid. Giants can grow to a height of 20 feet. They have a history of violence and warring among themselves. Many giants allied themselves with Voldemort and massacred Muggles during the Voldemort's original reign of power. Others withdrew to remote mountain ranges. Their numbers are in decline and in Britain they are believed to be extinct.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Gideon Prewett",
+      "definition": "A member of the original Order of the Phoenix; brother to Fabian; killed by the Death Eaters.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Gilderoy Lockhart",
+      "definition": "Teacher of Defense Against the Dark Arts in Harry's second year. Author of self-glorifying autobiographies and five times winner of Witch Weekly's Most-Charming-Smile Award.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Gillyweed",
+      "definition": "Water plant. If you eat it, you temporarily grow gills and fins.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Ginny Weasley",
+      "definition": "Ron Weasley's younger sister. Idolizes Harry. One year below Harry and Ron. In Gryffindor house.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Gnomes",
+      "definition": "Very small creatures with leathery skin and large, bald heads like knobbly potatoes. They have horny feet and razor-sharp teeth. They live in holes in gardens and aren't very bright. To de-gnome a garden, grab the gnome by the ankles, swing it round your head and throw!",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Goblet of Fire",
+      "definition": "Wooden cup full of flames, used as an impartial selector for the contenders in the Triwizard Tournament.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Goblins",
+      "definition": "Small creatures with swarthy faces, pointed beards and very long hands and feet. Goblins staff Gringotts Bank.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Gobstones",
+      "definition": "The wizarding version of marbles. The pieces squirt a stinky substance into other players' faces when they lose a point.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Godric Gryffindor",
+      "definition": "One of the four founders of Hogwarts. Gryffindor house was named after him.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Godric's Hollow",
+      "definition": "Village where Harry's parents, Lily and James Potter, lived, at the time of their deaths.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Golden Snitch",
+      "definition": "Small, golden ball with silver wings used in Quidditch. Must be caught by a Seeker to end the match.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Grawp",
+      "definition": "Hagrid's half-brother – a full giant.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Great Hall",
+      "definition": "The main hall in Hogwarts where Sorting takes place and where meals are served. The ceiling is bewitched to look like the sky outside.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Gregory Goyle",
+      "definition": "One of Draco Malfoy's stupid henchmen. Thickset and looks mean. Has short, bristly hair and long, gorilla-like arms. Also in Slytherin house.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Gregory the Smarmy",
+      "definition": "Statue at Hogwarts.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "The Grey Lady",
+      "definition": "Resident ghost of Ravenclaw Tower.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Grim",
+      "definition": "A giant black dog taken to be a death omen.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Grimmauld Place Number Twelve",
+      "definition": "The Black family house in London; headquarters of the revitalized Order of the Phoenix.",
+      "startedWith": "G",
+      "audio": "audio/glossary/grimmauld_place.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Grindylow",
+      "definition": "Water deon. Sickly green with sharp horns and very long fingers.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Gringotts",
+      "definition": "The wizard bank in London, with vaults far below the streets, run by goblins.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Griphook",
+      "definition": "Goblin at Gringotts Bank.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Grunnings",
+      "definition": "Firm where Harry's uncle Vernon Dursley is a director. Grunnings makes drills.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Gryffindor House",
+      "definition": "One of the four houses in Hogwarts. Harry, Hermione Granger and the Weasleys are all in Gryffindor house. It was founded by Godric Gryffindor and the Gryffindor symbol is a lion. The resident ghost is Sir Nicholas de Mimsy-Porpington, also known as Nearly Headless Nick. Professor McGonagall is head of Gryffindor house and Professor Dumbledore was in Gryffindor in his youth.",
+      "startedWith": "G",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Hand of Glory",
+      "definition": "Withered hand that gives light to the holder when a candle is placed in its grip.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Harry Potter",
+      "definition": "Student at Hogwarts. Famous for having survived an attack by Lord Voldemort in infancy. He is also sometimes known as ‘The Boy Who Lived'.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Hassan Mostafa",
+      "definition": "Chairwizard of the International Association of Quidditch. He is Egyptian, small and bald with a huge moustache.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "He-Who-Must-Not Be-Named",
+      "definition": "The evil Lord Voldemort, Dark Wizard. Also referred to as “You-Know-Who”.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP",
+        ""
+      ]
+    },
+    {
+      "term": "The Headless Hunt",
+      "definition": "Team of ghosts whose heads have been completely cut off. Activities include Horseback Head-Juggling and Head Polo. Nearly Headless Nick is keen to join the hunt but can't because his head has not been completely severed.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hebridean Black",
+      "definition": "A breed of wild dragon found in Britain.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hedwig",
+      "definition": "Harry's owl and mail courier. Harry bought Hedwig from Eeylops Owl Emporium.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Heir of Slytherin",
+      "definition": "The heir of Salazar Slytherin who is able to open the Chamber of Secrets.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Helga Hufflepuff",
+      "definition": "One of the four founders of Hogwarts. Hufflepuff house is named after her.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hengist of Woodcroft",
+      "definition": "A wizard depicted on a wizard trading card.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Herbology",
+      "definition": "Study of plants. Professor Sprout is the Herbology teacher at Hogwarts.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hermes",
+      "definition": "Percy Weasley's owl.",
+      "startedWith": "H",
+      "audio": "audio/glossary/hermes.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hermione Granger",
+      "definition": "Smart know-it-all at Hogwarts in Gryffindor house. She has bushy, brown hair, large front teeth and a loud, rather bossy voice. Hermione works very hard and always gets the best marks in her exams. Harry and Ron's friend. Her parents are Muggle dentists.",
+      "startedWith": "H",
+      "audio": "audio/glossary/hermione.mp3",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Hinkypunk",
+      "definition": "Small one-legged creatures that live in bogs and swamps, they wander about at night with a lantern to lure lost travelers into the swamps.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hippogriff",
+      "definition": "Magical creature that has the front legs, wings and head of an eagle, and the body, hind legs and tail of a horse.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hit Wizards",
+      "definition": "Wizard police from the Magical Law Enforcement Squad who are specially trained to deal with powerful criminals.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "The Hog's Head",
+      "definition": "The less reputable pub in Hogsmeade.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hogsmeade",
+      "definition": "The only completely magical village in Britain. Hogsmeade is not far from Hogwarts and has an array of wonderful shops including Honeydukes sweet shop, the Three Broomsticks pub and Zonko's joke shop.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hogwarts",
+      "definition": "School of Witchcraft and Wizardry. The best school of its kind in the world. Hogwarts is in a secret location somewhere in the North of Britain. The four greatest witches and wizards of the age founded Hogwarts more than a thousand years ago: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin. They built a remote castle, far away so that witches and wizards could train in safety. Pupils attend from age eleven for seven years of rigorous training in the art of witchcraft and wizardry. There are a hundred and forty-two staircases at Hogwarts and everything keeps moving around, so things are not always in the same place.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Honeydukes",
+      "definition": "Wizarding sweet shop in Hogsmeade.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Horace Slughorn",
+      "definition": "Professor at Hogwarts. One time Head of Slytherin. Creator of the “Slug Club”.",
+      "startedWith": "H",
+      "audio": "audio/glossary/horace_slughorn.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Horcrux",
+      "definition": "An Object in which a person has concealed part of their soul.",
+      "startedWith": "H",
+      "audio": "audio/glossary/horcruxes.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "The House Cup",
+      "definition": "Trophy awarded to the Hogwarts house with the most points at the end of the school year.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "House-elf",
+      "definition": "Small creature that works as a servant in some wizarding houses. A house-elf can only be set free when its master gives the elf a piece of clothing.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Howler",
+      "definition": "Wizarding letter which, when opened, shrieks and howls at the reader in an extremely loud voice. Comes in a scarlet red envelope and is usually sent by someone who is very angry. Ron Weasley received one from his mother after crashing the Ford Anglia into the Whomping Willow.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Hufflepuff house",
+      "definition": "One of the four houses in Hogwarts. It was founded by Helga Hufflepuff and the Hufflepuff symbol is a badger. The resident ghost is the Fat Friar.",
+      "startedWith": "H",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ice Mice",
+      "definition": "Wizarding sweets available from Honeydukes in Hogsmeade. Make your teeth squeak and chatter.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Igor Karkaroff",
+      "definition": "Headmaster of the Durmstrang Institute. A former Death Eater. He is tall and thin with white hair and a goatee.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Impediment Jinx",
+      "definition": "Spell to slow down and obstruct attackers. The incantation is “Impedimenta ”!",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Imperius Curse",
+      "definition": "Spell to control another person completely, using the incantation “Imperio”. One of the three Unforgivable Curses. It can be resisted only with great mental effort.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Incarcerous",
+      "definition": "The incantation for a spell that causes ropes to appear in mid-air and wrap around something completely.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Incendio",
+      "definition": "Fire-Making Spell.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Inferius",
+      "definition": "A dead body that has been bewitched to do a Dark wizard's bidding. Plural: Inferi",
+      "startedWith": "I",
+      "audio": "audio/glossary/inferius.mp3",
+      "books": [
+        "HPHP",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "The Inquisitorial Squad",
+      "definition": "A select group of students who are supportive of the Ministry of Magic, handpicked by Professor Umbridge.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Invisibility Cloak",
+      "definition": "Magic cloak granting the wearer invisibility.",
+      "startedWith": "I",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "James Potter",
+      "definition": "Harry's father.",
+      "startedWith": "J",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Jelly Slugs",
+      "definition": "Wizarding sweets available from Honeydukes in Hogsmeade.",
+      "startedWith": "J",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Jelly-Legs Jinx",
+      "definition": "Makes your adversary's legs wobbly.",
+      "startedWith": "J",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Jimmy Peaks",
+      "definition": "Gryffindor's newest Beater.",
+      "startedWith": "J",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Justin Finch-Fletchley",
+      "definition": "Hogwarts pupil in the same year as Harry. Justin is in Hufflepuff house.",
+      "startedWith": "J",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Kappa",
+      "definition": "Monkey-like creature that lives in water and strangles people who invade its territory.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Katie Bell",
+      "definition": "Chaser on the Gryffindor Quidditch team.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Keeper",
+      "definition": "Quidditch player who guards the goalposts.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "King's Cross Station",
+      "definition": "The station in London where the Hogwarts Express leaves from Platform Nine and Three-Quarters.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Kingsley Shacklebolt",
+      "definition": "A member of the revitalized Order of the Phoenix.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Knight Bus",
+      "definition": "Emergency bus that transports witches and wizards to any destination.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Knockturn Alley",
+      "definition": "Street of wizard shops devoted totally to the Dark Arts. Shops include Borgin and Burkes.",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Knut",
+      "definition": "Bronze Wizarding money. There are twenty-nine Knuts to a Sickle.",
+      "startedWith": "K",
+      "audio": "audio/glossary/knuts.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Kreacher",
+      "definition": "The Black family house-elf.",
+      "startedWith": "K",
+      "audio": "audio/glossary/kreacher.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Kwikspell",
+      "definition": "Correspondence course in beginner's magic for Squibs (magicians who have little magical powers).",
+      "startedWith": "K",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Lavender Brown",
+      "definition": "Hogwarts pupil in the same year as Harry. She is in Gryffindor house and her best friend is ParvatiPatil.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "The Leaky Cauldron",
+      "definition": "The Wizarding pub and boarding house through which witches and wizards gain access to Diagon Alley.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Lee Jordan",
+      "definition": "Pupil at Hogwarts. Has dreadlocks and is famed for his commentaries at Quidditch matches. Lee is in Gryffindor house, in the same year as Fred and George Weasley.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Leprechaun",
+      "definition": "Irish elf or pixie. Small and able to fly.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Levicorpus",
+      "definition": "A spell that dangles your opponent upside-down in the air by the ankle.",
+      "startedWith": "L",
+      "audio": "audio/glossary/levicorpus.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Liberacorpus",
+      "definition": "A spell that counters “Levicorpus” by releasing the victim from levitating.",
+      "startedWith": "L",
+      "audio": "audio/glossary/liberacorpus.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Lily Potter",
+      "definition": "Harry's mother, born to Muggles but married a wizard. Lily is the sister of Petunia Dursley.",
+      "startedWith": "L",
+      "audio": "audio/glossary/lily-potter.wav",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Lord Voldemort",
+      "definition": "Evil wizard greatly feared by wizarding folk. His dark reputation is such that his name is hardly ever spoken out loud. Most wizards will only refer to him as He-Who-Must Not-Be-Named or You-Know-Who. Disappeared from view after the death of James and Lily Potter following a battle that left Harry an orphan and bearing a lightning scar on his forehead.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Lucius Malfoy",
+      "definition": "Draco Malfoy's father. A Death Eater.",
+      "startedWith": "L",
+      "audio": "audio/glossary/lucius.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ludo Bagman",
+      "definition": "Head of the Department of Magical Games and Sports at the Ministry of Magic. A former Quidditch player, he was a Beater on the Wimbourne Wasps team and played for England. He is large and blond, with a round, pink face.",
+      "startedWith": "L",
+      "audio": "audio/glossary/ludo.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Lumos",
+      "definition": "Incantation to light your wand.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Luna Lovegood",
+      "definition": "A student at Hogwarts in the same year as Ginny. Luna is a Ravenclaw and a member of the D.A. Her father is the editor of The Quibbler. Everyone thinks she is a little odd.",
+      "startedWith": "L",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Madam Hooch",
+      "definition": "Flying teacher at Hogwarts.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Madam Malkin's Robes for All Occasions",
+      "definition": "Shop in Diagon Alley selling wizarding robes for all occasions.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Madam Pince",
+      "definition": "Librarian at Hogwarts.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Madam Poppy Pomfrey",
+      "definition": "Matron at Hogwarts.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Madam Rosmerta",
+      "definition": "Publican of the Three Broomsticks pub in Hogsmeade.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Magical Law Enforcement Squad",
+      "definition": "Wizard police or Hit Wizards who are specially trained to deal with powerful criminals.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Magical Menagerie",
+      "definition": "Wizarding pet shop in Diagon Alley.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Malfalda Hopkirk",
+      "definition": "An employee in the Improper Use of Magic Office",
+      "startedWith": "M",
+      "audio": "audio/glossary/Mafalda_Hopkirk.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Mandragora",
+      "definition": "Another word for Mandrake.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Mandrake",
+      "definition": "Powerful restorative plant used to return cursed or transfigured people to their natural state. The cry of the Mandrake is fatal to anyone who hears it. Also known as Mandragora.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Marauder's Map",
+      "definition": "A map that shows all the secret passageways and the whereabouts of everyone in Hogwarts.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Marcus Flint",
+      "definition": "Captain of the SlytherinQuidditch team.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Marietta Edgecombe",
+      "definition": "Cho Chang's friend; a Ravenclaw. Marietta is a member of the D.A., but also turns the group in to Professor Umbridge.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Marlene McKinnon",
+      "definition": "A member of the original Order of the Phoenix. Killed by Death Eaters.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Marvolo Gaunt",
+      "definition": "Lord Voldemort's grandfather",
+      "startedWith": "M",
+      "audio": "audio/glossary/marvolo_gaunt.mp3",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Merlin",
+      "definition": "Name of a wizard depicted on a wizard trading card.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Merope Gaunt",
+      "definition": "Lord Voldemort's mother",
+      "startedWith": "M",
+      "audio": "audio/glossary/merope_gaunt.mp3",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Merpeople",
+      "definition": "Underwater dwellers who have been known to build underwater cities. They have fishtails, green hair, and grey skin, and sometimes carry spears. Above water their voices are unintelligible unless one speaks Mermish.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Metamorph Medals",
+      "definition": "Medals which promise the wearer the ability to change their appearances at will, but which really have slightly unpleasant side-effects.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Metamorphmagu",
+      "definition": "One who can change his or her appearance at will.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Millicent Bulstrode",
+      "definition": "Hermione Granger's duelling partner in the second year Dueling Club. Millicent is in Slytherinhouse, in Harry's year.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Mimbulus Mimbletonia",
+      "definition": "A plant that Neville gets for his birthday. Has an amazing defense mechanism that shoots dark green liquid when poked.",
+      "startedWith": "M",
+      "audio": "audio/glossary/mimbulus_mimbletonia.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ministry of Magic",
+      "definition": "Government agency that tries to regulate the wizarding community and keep the activities of witches and wizards secret from non-magical people.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Miranda Goshawk",
+      "definition": "Author of The Standard Book of Spells series.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Mirror of Erised",
+      "definition": "Magical mirror that shows the onlooker their heart's desire.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Moaning Myrtle",
+      "definition": "Ghost girl at Hogwarts who hides in a girls' toilet.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Mobiliarbus",
+      "definition": "Incantation to move objects.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Mobilicorpus",
+      "definition": "Incantation to move people.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Molly Weasley",
+      "definition": "Ron Weasley's mother. Her maiden name was Prewett.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Monkshood",
+      "definition": "Plant used in potions. Also known as aconite or wolfsbane.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Monster Book of Monsters",
+      "definition": "Large green book about monsters. Required reading for third years. Must be stroked down the spine or it will bite your fingers and/or skitter away.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Moony",
+      "definition": "Professor Lupin's nickname when he was a student at Hogwarts.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Morfin Gaunt",
+      "definition": "Lord Voldemort's uncle",
+      "startedWith": "M",
+      "audio": "audio/glossary/morfin_gaunt.mp3",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Morgana",
+      "definition": "A witch depicted on a wizard trading card",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Morsmordre",
+      "definition": "Incantation to conjure the Dark Mark.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Mrs. Norris",
+      "definition": "Name of Filch's cat. She is a scrawny-looking, dust-colored cat with bulging eyes. Students must be wary not to break rules in front of her for she will alert Filch.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Mudblood",
+      "definition": "Term used to describe a person of non-magic parentage. Considered a great insult.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Muffliato",
+      "definition": "A spell that fills the ears of anyone nearby with an unidentifiable buzzing. Particularly useful for talking in class.",
+      "startedWith": "M",
+      "audio": "audio/glossary/muffliato.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Muggle",
+      "definition": "Person totally without magical powers. Muggles live in ignorance of the world of wizards and witches.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Muggle Studies",
+      "definition": "Class taken by wizarding folk to study non-magical people.",
+      "startedWith": "M",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Mundungus Fletcher",
+      "definition": "A member of the Order of the Phoenix. Mrs.Weasley doesn't approve of him because he's a thief.",
+      "startedWith": "M",
+      "audio": "audio/glossary/mundungus_fletcher.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "N.E.W.Ts",
+      "definition": "Nastily Exhausting Wizarding Tests. Higher-level examinations at Hogwarts.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nagini",
+      "definition": "A very large, venomous female snake kept by Voldemort.",
+      "startedWith": "N",
+      "audio": "audio/glossary/nagini.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Narcissa Malfoy",
+      "definition": "Mother of Draco and wife of Lucius Malfoy. A tall, slim, snooty blonde.",
+      "startedWith": "N",
+      "audio": "audio/glossary/narcissa.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Nearly Headless Nick",
+      "definition": "Resident ghost of Gryffindor Tower. So called because his beheading was not completely successful. His full name is Sir Nicholas de Mimsy-Porpington.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Neville Longbottom",
+      "definition": "Forgetful and rather clumsy friend of Harry's. Neville has a round face and thinks he is not very good at magic. He comes from a magical family but was a late starter. In Gryffindor house, in Harry's year.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Newt Scamader",
+      "definition": "Author of Fantastic Beasts and Where to Find Them.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nicholas Flamel",
+      "definition": "Albus Dumbledore's partner and the holder of the only known Sorcerer's Stone in existence. His wife is named Perenelle.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Niffler",
+      "definition": "Magical creature that can find buried treasure. Nifflers are black and fluffy with long snouts and spade-like feet.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nimbus 2000",
+      "definition": "Type of broomstick. Harry's first broomstick.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nimbus 2001",
+      "definition": "The successor to the Nimbus 2000 broomstick.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Norbert",
+      "definition": "Name of Hagrid's Norwegian Ridgeback dragon.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Norwegian Ridgeback",
+      "definition": "A very rare breed of dragon. Hagrid had one as a pet for a while.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nosebleed Nougat",
+      "definition": "Trick candies that cause your nose to bleed continuously. Invented by Fred and George Weasley.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nox",
+      "definition": "Spell to extinguish the light from your wand.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Nymphadora Tonks",
+      "definition": "A member of the revitalized Order of the Phoenix. A Metamorphmagus. Prefers to be called Tonks.",
+      "startedWith": "N",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "O.W.Ls",
+      "definition": "Ordinary Wizarding Levels. The standard-level examinations at Hogwarts.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Oblivator",
+      "definition": "Member of an Accidental Magic Reversal Squad. They work for the Improper Use of Magic Office.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Obliviate",
+      "definition": "Memory incantation that makes the subject forget a piece of information.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Occlumency",
+      "definition": "The magical defense of the mind against external penetration. An obscure branch of magic, but a highly useful one. Harry takes Occlumency lessons from Snape",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Oliver Wood",
+      "definition": "Captain and Keeper of the Gryffindor Quidditch team until leaving school at the end of Harry's third year.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Ollivanders",
+      "definition": "Diagon Alley wand shop. 'Makers of Fine Wands since 382 B.C.'",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Olympe Maxime",
+      "definition": "Head of Beauxbatons Academy. Because of her size, Madame Maxime is believed to be half-giant. She has black eyes and olive skin.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Omnioculars",
+      "definition": "Binoculars with slow-motion and replay settings.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Oppugno",
+      "definition": "A spell that makes magical birds attack.",
+      "startedWith": "O",
+      "audio": "audio/glossary/oppugno.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Order of the Phoenix",
+      "definition": "A secret society founded by Dumbledore dedicated to fighting against Lord Voldemort. Its first incarnation ended with Voldemort's attempt to kill baby Harry and his subsequent downfall; Dumbledore revived the Order after Harry's fourth year to fight the rejuvenated Dark Lord and Death Eaters.",
+      "startedWith": "O",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Padfoot",
+      "definition": "Sirius Black's nickname at Hogwarts.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Padma Patil",
+      "definition": "Hogwarts pupil in the same year as Harry, in Ravenclaw house. Twin sister of Parvati Patil.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pansy Parkinson",
+      "definition": "Hogwarts pupil in the same year as Harry, in Slytherin house. She has a pug-like face, and becomes a prefect in their fifth year.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Paracelsus",
+      "definition": "A wizard depicted on a wizard trading card.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Parselmouth",
+      "definition": "Wizard who can talk to snakes - a very rare trait often thought to be the sign of a Dark wizard.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Parseltongue",
+      "definition": "Language spoken by a Parselmouth",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Patronus",
+      "definition": "Positive force which acts as protection from a Dementor. It is conjured using the incantation “Expecto patronum”.",
+      "startedWith": "P",
+      "audio": "audio/glossary/patronus.mp3",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Peeves",
+      "definition": "Hogwarts' resident poltergeist. Tries to get students in trouble and loves causing havoc at any opportunity.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Penelope Clearwater",
+      "definition": "Percy Weasley's girlfriend.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Pensieve",
+      "definition": "Storage device for thoughts and memories. It looks like a stone basin holding a silvery liquid.",
+      "startedWith": "P",
+      "audio": "audio/glossary/pensieve.mp3",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pepper Imps",
+      "definition": "Wizarding sweets available from Honeydukes in Hogsmeade. Make you smoke at the mouth.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pepper-Up Potion",
+      "definition": "Magical restorative.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Peppermint Toads",
+      "definition": "Toad-shaped peppermint sweets that hop about in the stomach after they've been eaten.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Percy Weasley",
+      "definition": "Ron's older brother, four years older than him. Thinks he is terribly grown-up and important. A prefect at Hogwarts, he then goes to work at the Ministry of Magic. In Gryffindor house.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Peruvian Instant Darkness Powder",
+      "definition": "A powder sold at Weasleys' Wizard Wheezes. Imported from Peru, it casts an instant darkness around everyone but the user.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Peter Pettigrew",
+      "definition": "Friend of James Potter, Harry's father, while at Hogwarts. His nickname was Wormtail.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "PetrificusTotalus",
+      "definition": "Spell to bind arms and legs together",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Phineas Nigellus",
+      "definition": "Former headmaster of Hogwarts; Sirius's great-great-grandfather.",
+      "startedWith": "P",
+      "audio": "audio/glossary/Phineas_Nigellus_Black.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Phoenix",
+      "definition": "Rare bird that bursts into flames and rises from its ashes. Their tears can heal wounds. Albus Dumbledore has a pet phoenix, Fawkes.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Phyllida Spore",
+      "definition": "Author of One Thousand Magical Herbs.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pigwidgeon",
+      "definition": "Name of a young grey owl belonging to Ron Weasley. Often called Pig for short.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Platform nine and three-quarters",
+      "definition": "The platform at King's Cross Station where students gather to board the Hogwarts Express.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pocket Sneakoscope",
+      "definition": "Small wizarding toy - a spinning glass top that lights up when there is somebody or something suspicious around.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Polyjuice Potion",
+      "definition": "Potion that will allow the drinker to take on the appearance of another person for a period of time",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Portkey",
+      "definition": "Object that transports wizards to a prearranged place. As soon as you touch the Portkey, you are whisked to the destination. Any object can be turned into a Portkey.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Potions",
+      "definition": "Class at Hogwarts to learn how to brew magical potions. Professor Snape is Potions master at Hogwarts during Harry's first five years there.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pravati Patil",
+      "definition": "Hogwarts pupil in the same year as Harry, in Gryffindor house. Twin sister of Padma Patil and best friend of Lavender Brown.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "PrioriIncantatem",
+      "definition": "Incantation that reveals the most recent spell or spells a wand has performed.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Privet Drive",
+      "definition": "The street where Harry lives with the Dursleys.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Professor Binns",
+      "definition": "History of Magic teacher at Hogwarts. The only ghost teacher at the school. He fell asleep in front of the fire and in the morning left his body behind!",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPPH",
+        ""
+      ]
+    },
+    {
+      "term": "Professor Flitwick",
+      "definition": "Charms teacher at Hogwarts. Tiny little wizard who has to stand on piles of books to see over his desk.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Professor Grubbly Plank",
+      "definition": "Substitute teacher who took over Care of Magical Creatures when Hagrid was indisposed. An elderly witch with cropped grey hair and a prominent chin.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Professor Kettleburn",
+      "definition": "Care of Magical Creatures teacher at Hogwarts. Retired at the end of Harry's second year, to enjoy some time with his remaining limbs.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Professor Minerva McGonagall",
+      "definition": "Deputy Headmistress of Hogwarts. She is a rather serious-looking woman, with jet-black hair scraped into a tight bun on her head. She wears square glasses and an emerald green cloak. Professor McGonagall is Head of Gryffindor house and the Transfiguration teacher.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Professor Quirrell",
+      "definition": "Defence Against the Dark Arts teacher at Hogwarts in Harry's first year.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Professor Sinistra",
+      "definition": "Teacher of Astronomy at Hogwarts.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Professor Sprout",
+      "definition": "Herbology professor at Hogwarts and Head of Hufflepuff house.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Professor Sybill Trelawny",
+      "definition": "Divination teacher at Hogwarts. Has a liking for (wrongly) predicting student deaths every year at Hogwarts. She is very thin with large glasses that magnify her eyes so much that she looks like a giant insect. She has made two real predictions in her life.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Professor Vector",
+      "definition": "Arithmancy teacher at Hogwarts.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Prongs",
+      "definition": "James Potter's nickname at Hogwarts.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Protean Charm",
+      "definition": "A spell Hermione uses to bewitch coins to inform D.A. members of the time and date of their next meeting.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Ptolemy",
+      "definition": "A wizard depicted on a wizard trading card.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Puking Pastilles",
+      "definition": "Trick candy that causes you to vomit uncontrollably. Invented by Fred and George Weasley.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pumpkin Juice",
+      "definition": "Wizarding drink.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pumpkin Pasty",
+      "definition": "Wizarding food.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Pure-Blood",
+      "definition": "Someone born to parents of pure magical heritage.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Put-Outer",
+      "definition": "Device resembling cigarette lighter, used to turn street-lamps on and off. Used by Albus Dumbledore.",
+      "startedWith": "P",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Pygmy Puffs",
+      "definition": "Miniature Puffskeins. Fred and George breed and sell them in their joke shop.",
+      "startedWith": "P",
+      "audio": "audio/glossary/pygmy_puffs.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Quaffle",
+      "definition": "Red ball used for scoring in Quidditch.",
+      "startedWith": "Q",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Quality Quidditch Supplies",
+      "definition": "Quidditch shop in Diagon Alley.",
+      "startedWith": "Q",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Quentin Trimble",
+      "definition": "Author of The Dark Forces: A Guide to Self-Protection.",
+      "startedWith": "Q",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "The Quibbler",
+      "definition": "A tabloid newspaper in the wizarding world, edited by Luna Lovegood's father.",
+      "startedWith": "Q",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Quick-Quotes Quill",
+      "definition": "Pen that writes by itself. Rita Skeeter uses one.",
+      "startedWith": "Q",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Quidditch",
+      "definition": "The wizarding national sport. Played on broomsticks by seven players: three Chasers, one Keeper, two Beaters, and one Seeker. Played with four balls: the Quaffle (red) is used for scoring; two Bludgers (black) which try to knock players off their brooms; one Golden Snitch (bright gold with silver wings). The Chasers throw the Quaffle to each other and try to score by throwing the Quaffle through one of the six hoops, three at each end. Ten points are awarded every time a player scores. The Keeper guards the goalposts and tries to prevent the Chasers from scoring. The Beaters try to keep the Bludgers away from their team and knock them towards the opposing team. The Seeker tries to catch the Golden Snitch. Whichever team catches the Golden Snitch earns 150 points. The game ends when the Snitch is caught.",
+      "startedWith": "Q",
+      "audio": "audio/glossary/quidditch.mp3",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Quietus",
+      "definition": "Command that reverses the charm Sonorus.",
+      "startedWith": "Q",
+      "audio": "",
+      "books": [
+        "HPPA",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Rabastan Lestrange",
+      "definition": "Death Eater; imprisoned in Azkaban for sixteen years.",
+      "startedWith": "R",
+      "audio": "audio/glossary/rabastan_lestrange.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ravenclaw house",
+      "definition": "One of the four school houses in Hogwarts, founded by Rowena Ravenclaw. The Ravenclaw symbol is an eagle. The resident ghost is the Grey Lady.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Red Cap",
+      "definition": "Goblin-like creature found in places where bloodshed has occurred. They lie in wait to bludgeon the lost.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Reducio",
+      "definition": "Shrinking Charm.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Reductor Curse",
+      "definition": "A curse that blasts apart a solid object. The incantation is “Reducto!”",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Regulus Black",
+      "definition": "Sirius's younger brother. He was killed by Lord Voldemort.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Relashio",
+      "definition": "Spell to make someone or something release their hold. ",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Remembrall",
+      "definition": "Magical glass ball, the size of a large marble, filled with white smoke. The smoke turns red to tell you that there is something you have forgotten to do.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Reparo",
+      "definition": "Repairing charm.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Rictusempra",
+      "definition": "Incantation for the Tickling Charm.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Riddikulus",
+      "definition": "Spell to defend against a Boggart.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Riddle House",
+      "definition": "Deserted former home of Voldemort's father, in the village of Little Hangleton.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Ripper",
+      "definition": "Aunt Marge's dog.",
+      "startedWith": "R",
+      "audio": "audio/glossary/ripper.wav",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Rita Skeeter",
+      "definition": "Journalist. She is nosy and malicious, and has stiff blond curls.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Ritchie Coote",
+      "definition": "Gryffindor's newest Beater, replacing Fred and George",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Rodolphus Lestrange",
+      "definition": "Bellatrix's husband, Death Eater; imprisoned in Azkaban for sixteen years.",
+      "startedWith": "R",
+      "audio": "audio/glossary/rodolphus_lestrange.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Roger Davies",
+      "definition": "Captain of the RavenclawQuidditch team.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Romilda Vane",
+      "definition": "A girl at Hogwarts who has a crush on Harry.",
+      "startedWith": "R",
+      "audio": "audio/glossary/romilda_vane.mp3",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Ron Weasley",
+      "definition": "Harry's best friend at Hogwarts. Ron has flaming red hair and freckles, like all his brothers. Has a pet rat called Scabbers. In Gryffindor house.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Ronan",
+      "definition": "Name of a centaur in the Forbidden Forest.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "room-of-requirement",
+      "definition": "A room that a person can only enter when he or she has real need of it. When it appears it is always equipped for the seeker's needs. Also known to the house-elves as the Come and Go Room.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Rowena Ravenclaw",
+      "definition": "One of the four founders of Hogwarts. Ravenclawhouse was named after her.",
+      "startedWith": "R",
+      "audio": "",
+      "books": [
+        "HPDH",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Rubeus Hagrid",
+      "definition": "Keeper of Keys and Grounds and teacher of Care of Magical Creatures from Harry's third year. Hagridwas a student at Hogwarts but was expelled for unknown reasons. Professor Dumbledore allowed him to stay as gamekeeper. Hagrid is almost twice a tall as any other person and seems five times as wide. He has masses of bushy, black hair and a huge tangled beard. Has a liking for strange and dangerous creatures – especially dragons.",
+      "startedWith": "R",
+      "audio": "audio/glossary/rubeus.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Rufus Scrimgeour",
+      "definition": "The Minister for  Magic who takes over from Cornelius Fudge.",
+      "startedWith": "R",
+      "audio": "audio/glossary/rufus_scrimgeour.mp3",
+      "books": [
+        "HPCS",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Salazar Slytherin",
+      "definition": "One of the four founders of Hogwarts. Slytherin house is named after him. Created the Chamber of Secrets.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Scabbers",
+      "definition": "Ron Weasley's pet rat. He once belonged to Ron's older brother Percy Weasley.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Scourgify",
+      "definition": "The incantation for the Vanishing Charm.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Seamus Finnigan",
+      "definition": "Hogwarts pupil in the same year as Harry. Seamus is in Gryffindor house. His best friend is Dean Thomas.",
+      "startedWith": "S",
+      "audio": "audio/glossary/seamus.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Secrecy Sensor",
+      "definition": "Antenna that vibrates when it detects concealment and deception.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sectumsempra",
+      "definition": "A curse that slashes its victim open as though with a sword.",
+      "startedWith": "S",
+      "audio": "audio/glossary/sectumsempra.mp3",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Seeker",
+      "definition": "Quidditch player who tries to catch the Golden Snitch.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Self-Shuffling playing Cards",
+      "definition": "Wizarding playing cards that shuffle themselves.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Severus Snape",
+      "definition": "Potions master at Hogwarts. He is tall and thin with sallow skin, greasy black hair and a hooked nose. He hates Harry Potter. Head of Slytherin house.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Shield Charm",
+      "definition": "Casts a temporary invisible wall around you to deflect minor curses.",
+      "startedWith": "S",
+      "audio": "audio/glossary/shield-charm.wav",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Shrieking Shack",
+      "definition": "Rumoured to be the most haunted building in Britain. Situated in the town of Hogsmeade.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sickle",
+      "definition": "Silver wizarding money. There are seventeen Sickles in one Galleon.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Silencio",
+      "definition": "The incantation for the Silencing Charm.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Sir Cadogan",
+      "definition": "Knight from a portrait in the North Tower. Temporary guardian of Gryffindor Tower while the Fat Lady was being repaired.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Sir Nicholas de Mimsy-Porpington",
+      "definition": "Resident ghost of Gryffindor Tower. Also known as Nearly Headless Nick.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Sir Patrick Delaney Podmore",
+      "definition": "Leader of the Headless Hunt.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPCS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sirius Black",
+      "definition": "Escaped prisoner from Azkaban; Harry's godfather",
+      "startedWith": "S",
+      "audio": "audio/glossary/sirius.mp3",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Skele-Gro",
+      "definition": "Potion used to re-grow bones.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Skiving Snackboxes",
+      "definition": "Joke “treats” created by Fred and George Weasley. Students take one to get sick and out of class, and then another to eliminate the effects of the first.",
+      "startedWith": "S",
+      "audio": "audio/glossary/skiving_snackboxes.mp3",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Sleekeazy's Hair Potion",
+      "definition": "Tames bushy hair.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Slug Club",
+      "definition": "Horace Slughorn's hand-picked club of chosen students who have great magical talent or connections with famous people.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Slytherin house",
+      "definition": "One of the school houses in Hogwarts. Founded by Salazar Slytherin. The Slytherin symbol is a snake. The resident ghost is the Bloody Baron. Harry's archenemy, Draco Malfoy, is in Slytherin. Professor Snape is Head of Slytherin house during Harry's time at Hogwarts.",
+      "startedWith": "S",
+      "audio": "audio/glossary/slytherin.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Smeltings",
+      "definition": "Dudley Dursley's private school. Uncle Vernon also attended.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sneakoscope",
+      "definition": "Glass spinning top that lights up and spins when there is someone untrustworthy around.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Society for the Promotion of Elfish Welfare",
+      "definition": "Activist group organized by Hermione in her fourth year at Hogwarts.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sonorus",
+      "definition": "Charm to magnify one's voice.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sorcerer's Stone",
+      "definition": "Legendary stone which will transform any metal into pure gold. It also produces the Elixir of Life, which will make the drinker immortal. The only known stone belongs to Nicholas Flamel, Albus Dumbledore's former alchemy partner.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Sorting Hat",
+      "definition": "The hat that decides which house students shall be in while at Hogwarts.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "SpecialisRevelio",
+      "definition": "A spell used to reveal any bewitching or hexings on an object.",
+      "startedWith": "S",
+      "audio": "audio/glossary/specialis_revelio.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Spellotape",
+      "definition": "Wizarding repair tape. It was used by Ron Weasley to try to mend his broken wand.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Spinner's End",
+      "definition": "A street in an unidentified town where Severus Snape has a house.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Splinching",
+      "definition": "Injury caused by careless Apparition: part of the person's body is left behind.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Squib",
+      "definition": "Someone born without magical powers in a magical family.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Stan Shunpike",
+      "definition": "Conductor on the Knight Bus.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Stinksap",
+      "definition": "Green liquid that shoots from a MimbulusMimbletonia. It's green and smells like rancid manure.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Stupefy",
+      "definition": "Stunning Spell.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Sturgis Podmore",
+      "definition": "A member of the revitalized Order of the Phoenix.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Susan Bones",
+      "definition": "A member of the D.A. Her aunt is Amelia Bones.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Swelling Solution",
+      "definition": "Potion that causes body parts to swell to enormous proportions.",
+      "startedWith": "S",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Tarantallegra",
+      "definition": "Spell that causes a person to dance uncontrollably.",
+      "startedWith": "T",
+      "audio": "audio/glossary/Tarantallegra.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ted Tonks",
+      "definition": "NymphadoraTonks's father.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Terence Higgs",
+      "definition": "Seeker on the Slytherin Quidditch team in Harry's first year.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Tergeo",
+      "definition": "A spell that siphons off liquid.",
+      "startedWith": "T",
+      "audio": "audio/glossary/tergeo.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Thestrals",
+      "definition": "Fleshless winged horses that pull the carriages to Hogwarts. They can only been seen by people who have witnessed death.",
+      "startedWith": "T",
+      "audio": "audio/glossary/thestrals.mp3",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Three Broomsticks",
+      "definition": "Pub in Hogsmeade.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Time-Turner",
+      "definition": "Hourglass that allows the wearer to travel back in time.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Tobias Snape",
+      "definition": "Severus Snape's father",
+      "startedWith": "T",
+      "audio": "audio/glossary/tobias_snape.mp3",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Tom Marvolo Riddle",
+      "definition": "The young Lord Voldemort, who attended Hogwarts.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Ton-Tongue Toffee",
+      "definition": "Trick candy that causes the tongue to swell enormously. Invented by Fred and George Weasley.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Toothflossing Stringmints",
+      "definition": "Wizarding sweets that can be bought in Honeydukes.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Transfiguration",
+      "definition": "The art of turning one thing into another.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Transfiguration Today",
+      "definition": "Specialist wizarding magazine about Transfiguration.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Trevor",
+      "definition": "Neville Longbottom's pet toad.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Triwizard Tournament",
+      "definition": "Competition between the three largest European schools of witchcraft and wizardry: Hogwarts, Beauxbatons and Durmstrang. Each school selects a champion, and the champions compete in three magical tasks. The prize money is 1000 Galleons. The Triwizard Tournament was first established some 700 years ago.",
+      "startedWith": "T",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Unbreakable Vow",
+      "definition": "A magical vow that requires the person who takes it to complete the avowed mission or die.",
+      "startedWith": "U",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Unforgivable Curses",
+      "definition": "The three Unforgivable Curses are the Killing Curse, the Imperius Curse and the Cruciatus Curse.",
+      "startedWith": "U",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Unicorn",
+      "definition": "Mythical white horse-like creature with a golden mane and a golden horn sprouting from the head. Innocent, beautiful creatures. Tail hair and horn can be used in magic. If one drinks the blood of a unicorn this will sustain the life of the drinker but at a grave price.",
+      "startedWith": "U",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Unspeakable",
+      "definition": "Employee of the Department of Mysteries. No one knows what they do.",
+      "startedWith": "U",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Vampire",
+      "definition": "Creature that roams the night feeding on the blood of living beings. Cannot go out in the daylight.",
+      "startedWith": "V",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Veela",
+      "definition": "Beautiful women with white-gold hair. Men are hypnotically fascinated by them. When enraged, Veela grow beaks and scaly wings.",
+      "startedWith": "V",
+      "audio": "audio/glossary/veela.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Venomous Tentacula",
+      "definition": "A magical plant.",
+      "startedWith": "V",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Veritaserum",
+      "definition": "Spell to extinguish the light from your wand.",
+      "startedWith": "V",
+      "audio": "audio/glossary/veritaserum.mp3",
+      "books": [
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Viktor Krum",
+      "definition": "Seeker for the Bulgarian national Quidditch team. Pupil at the Durmstrang Institute. Dark, with a large curved nose and thick eyebrows; walks duck- footed and round- shouldered, but is in his element on a broomstick.",
+      "startedWith": "V",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Vincent-Crabbe",
+      "definition": "One of Draco Malfoy's stupid henchmen. Thickset and looks very mean. Has a pudding-basin haircut and a very thick neck. He is in Slytherin house.",
+      "startedWith": "V",
+      "audio": "",
+      "books": [
+        "HPHP",
+        "HPDH"
+      ]
+    },
+    {
+      "term": "Violet",
+      "definition": "A wizened witch, who lives in a painting in a room next to the Great Hall in Hogwarts; a friend of the Fat Lady.",
+      "startedWith": "V",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Viridian Vindictus",
+      "definition": "Author of Curses and Counter-curses (Bewitch Your Friends and Befuddle Your Enemies with the Latest Revenges: Hair Loss, Jelly-Legs, Tongue-Tying and Much, Much More).",
+      "startedWith": "V",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    },
+    {
+      "term": "Walden Macnair",
+      "definition": "Executioner for the Ministry of Magic. A former Death Eater.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Wand",
+      "definition": "Instrument used by witches and wizards for magic. Available from Ollivanders in Diagon Alley, as well as other wand shops.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPCS"
+      ]
+    },
+    {
+      "term": "Weasleys' Wizard Wheezes",
+      "definition": "Fred and George Weasley's joke shop in Diagon Alley.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "The Weird Sisters",
+      "definition": "Popular music group. The line-up includes guitars, drums, lute, cello and bagpipes.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Werewolf",
+      "definition": "Half-man, half-wolf creature. A werewolf will kill given the chance. If not fatal, the werewolf's bite will turn the victim into a werewolf too.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Which Broomstick?",
+      "definition": "Broomstick consumer magazine. Test-rides all makes of broom and reviews them.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Whomping Willow",
+      "definition": "Large tree in the grounds of Hogwarts that hits anything that comes too close.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Wilbert Slinkhard",
+      "definition": "Author of Defensive Magical Theory.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPOP",
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Wilkie Twycross",
+      "definition": "The Apparition instructor from the Ministry of Magic.",
+      "startedWith": "W",
+      "audio": "audio/glossary/wilkie_twycross.mp3",
+      "books": [
+        "HPHP"
+      ]
+    },
+    {
+      "term": "Wingardium Leviosa",
+      "definition": "Incantation for the Levitation Charm.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPSS",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Winky",
+      "definition": "A house-elf who lives at Hogwarts, formerly in the employ of the Crouch family.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Witherwings",
+      "definition": "Buckbeak'scode name after he returns to Hagrid's care again.",
+      "startedWith": "W",
+      "audio": "audio/glossary/witherwings.mp3",
+      "books": [
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Wizengamot",
+      "definition": "The wizard high court",
+      "startedWith": "W",
+      "audio": "audio/glossary/wizengamot.mp3",
+      "books": [
+        "HPSS"
+      ]
+    },
+    {
+      "term": "Wolfsbane",
+      "definition": "Plant used in potions. Also known as monkshood or aconite.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF"
+      ]
+    },
+    {
+      "term": "Wormtail",
+      "definition": "Nickname of Peter Pettigrew.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "WWN",
+      "definition": "The Wizarding Wireless Network.",
+      "startedWith": "W",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPSS"
+      ]
+    },
+    {
+      "term": "You-Know-Who",
+      "definition": "The evil Lord Voldemort, a Dark wizard who killed Harry's parents. Also referred to as He-Who-Must-Not-Be-Named.",
+      "startedWith": "Y",
+      "audio": "",
+      "books": [
+        "HPGF",
+        "HPOP"
+      ]
+    },
+    {
+      "term": "Zonko's",
+      "definition": "Wizard joke shop in Hogsmeade.",
+      "startedWith": "Z",
+      "audio": "",
+      "books": [
+        "HPPA"
+      ]
+    }
+  ]
+}

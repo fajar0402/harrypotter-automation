@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Marketing Promo Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Background Desktop"
+            xtype="html5smartimage"/>
+        <background-mobile
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundMobileName"
+            fileReferenceParameter="./backgroundMobileReference"
+            name="./background-mobile"
+            title="Background Mobile"
+            xtype="html5smartimage"/>
+        <image-one
+            jcr:primaryType="cq:Widget"
+            title="Image (1)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <image-one
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./promoImageOneName"
+                    fileReferenceParameter="./promoImageOneReference"
+                    height="{Long}200"
+                    name="./promoImageOne"
+                    xtype="html5smartimage"/>
+                <image-url-one
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL path of image"
+                    fieldLabel="URL"
+                    name="./imageUrlOne"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+            </items>
+        </image-one>
+        <image-two
+            jcr:primaryType="cq:Widget"
+            title="Image (2)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <image-two
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./promoImageTwoName"
+                    fileReferenceParameter="./promoImageTwoReference"
+                    height="{Long}200"
+                    name="./promoImageTwo"
+                    xtype="html5smartimage"/>
+                <image-url-two
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL path of image"
+                    fieldLabel="URL"
+                    name="./imageUrlTwo"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+            </items>
+        </image-two>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title text displayed in top of marketing promo description section"
+                    fieldLabel="Title Text"
+                    name="./titleText"
+                    xtype="textfield"/>
+                <title-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of title in marketing promo section"
+                    fieldLabel="Title Color"
+                    name="./titleColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <description-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Description text displayed in description field of marketing promo section"
+                    fieldLabel="Description Text"
+                    name="./definitionText"
+                    xtype="textarea"/>
+                <description-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of description in marketing promo section"
+                    fieldLabel="Description Color"
+                    name="./descriptionColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </text>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <button-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Text displayed as label of marketing promo button section"
+                    fieldLabel="Text"
+                    name="./buttonText"
+                    xtype="textfield"/>
+                <button-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Url path of marketing promo button section"
+                    fieldLabel="Url"
+                    name="./buttonUrl"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <button-label-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of button label in marketing promo section"
+                    fieldLabel="Text Color"
+                    name="./buttonLabelColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <button-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of button color in marketing promo section"
+                    fieldLabel="Button Color"
+                    name="./buttonColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </button>
+    </items>
+</jcr:root>

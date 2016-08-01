@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="Forgetful and rather clumsy student in Gryffindor house, in Harry's year. Neville has a round face and thinks he is not very good at magic. He comes from a magical family but was a late starter."
+    term="Neville Longbottom"/>

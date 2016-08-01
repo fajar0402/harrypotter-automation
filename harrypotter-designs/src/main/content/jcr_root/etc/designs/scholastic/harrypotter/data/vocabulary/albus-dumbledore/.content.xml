@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="Headmaster of Hogwarts. Dumbledore is widely regarded as the finest wizard of his generation and is the only person that Voldemort is frightened of. He is tall, thin and very old, and has very long, silver hair and beard. He has blue eyes and has been known to wear half-moon spectacles."
+    term="Albus Dumbledore"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="Sweets"
+    books="[ created by Fred and George Weasley. Students take one to get sick and out of class, and then another to eliminate the effects of the first.]"
+    category="treats"
+    definition="Joke "
+    term="Skiving Snackbox"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/ludo.mp3"
+    books="[HPGF]"
+    category="Characters"
+    definition="Head of the Department of Magical Games and Sports at the Ministry of Magic. A former Quidditch player, he was a Beater on the Wimbourne Wasps team and played for England. He is large and blond, with a round, pink face."
+    term="Ludo Bagman"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/bezoar.mp3"
+    books="[HPSS]"
+    category="Potions"
+    definition="Stone taken from the stomach of a goat. A bezoar will counteract the majority of poisons."
+    term="Bezoar"/>

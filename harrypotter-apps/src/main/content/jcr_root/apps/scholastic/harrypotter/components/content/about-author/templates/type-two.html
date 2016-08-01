@@ -1,0 +1,41 @@
+<template data-sly-template.contentLayout>
+	<div class="slide about-author">
+		<div class="slide-bg-outer">
+			<div class="slide-bg-svg">
+				<svg>
+					<path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="#A3A7AC"></path>
+                </svg>
+			</div>
+		</div>
+
+		<div class="credit">Photo by:<br><strong>Mary McCartney</strong></div>
+
+		<div class="slide-wrapper">
+			<img src="${properties.mobileBackgroundReference}" alt="${properties.authorName}" class="rowling">
+
+			<ul class="split">
+				<li>
+					<h4><span class="credit">Photo by: <strong>Mary McCartney</strong></span>${properties.authorPlaceOfBirth}</h4>
+					<span class="text"><span class="text-inner"><p>${properties.authorBiography}</p></span><a href="" class="text-action">See All</a></span>
+                    <a href="${properties.readMoreUrl}" class="link">${properties.readMore}</a>
+					<div class="link"></div>
+					<div class="clear"></div>
+					
+					<ul class="illustrator-box" data-sly-list="${properties.illustrators}">
+						<li data-sly-use.illustrators="${'../../utils/JSON.js' @ source=item}" data-sly-test="${illustrators.image}">
+							<img src="${illustrators.image}" alt="${illustrators.name}">
+						</li>
+						<li>
+							<h4>${properties.illustratorTitle}</h4>
+							<p>${illustrators.bio}</p>
+                            <a href="${illustrators.url}" class="link to-press">${illustrators.name}</a>
+
+						</li>	
+					</ul>
+				</li>
+				
+				<li></li>
+			</ul>
+		</div>
+	</div>
+</template>

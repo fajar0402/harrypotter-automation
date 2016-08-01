@@ -1,0 +1,61 @@
+<template data-sly-template.contentLayout>
+<div class="slide read-next" data-sly-use.id="${'../../utils/GenerateRandomNum.js'}" id="${id}">
+    <div class="slide-bg-outer">
+        <div class="slide-bg-svg">
+			<svg data-sly-test="${!properties.backgroundImageReference}">
+				<path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="#${properties.backgroundColor || 'cfdaee'}"></path>
+            </svg>
+			<svg data-sly-test="${properties.backgroundImageReference}">
+				<defs>
+					<pattern id="slide-read-next" patternUnits="userSpaceOnUse" width="1080" height="100%">
+						<image xlink:href="${properties.backgroundImageReference @ context='uri'}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
+					</pattern>
+				</defs>
+				<path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="url(#slide-read-next)"></path>
+            </svg>
+		</div>
+    </div>
+    <div class="slide-wrapper">
+        <div class="centered">
+            <img src="${properties.iconImageReference}" alt="">
+
+    		<h3>${properties.titleText}</h3>
+
+            <div class="slider-frame">
+				<ul class="next-books" data-sly-list="${properties.books}">
+					<li class="book-holder" data-sly-use.books="${'../../utils/JSON.js' @ source=item}" data-sly-test="${books.image}">
+						<div class="like to-press">
+							<div class="thumbs-up">s</div>
+							<span class="like-count">888</span>
+						</div>
+
+						<a href="${books.url}"><img src="${books.image}" alt="${books.title}"></a>
+
+						<div class="book-title" style="color : #${books.color @ context='styleToken'} !important;">${books.title}</div>
+					</li>
+				</ul>
+
+				<ul class="pages"></ul>
+			</div>
+
+        	<a href="${properties.buttonUrl}" class="button bigger-gap" data-sly-test="${properties.buttonText && properties.buttonUrl}">${properties.buttonText}</a>
+		
+        </div>
+	</div>
+</div>
+
+<style data-sly-use.ImageIconColor="ImageIconColorizer.js">
+    #${id @ context='styleToken'}.slide.read-next h3 {
+		color : #${properties.titleColor @ context='styleToken'} !important;
+    }
+    #${id @ context='styleToken'}.slide.read-next .centered>img {
+    	-webkit-filter: ${ImageIconColor.colorFilter @ context='unsafe'} !important;
+    }
+	a.button.bigger-gap {
+    	color: #${properties.labelColor @ context='styleToken'};
+	}
+	body.is-ie .slide.read-next .next-books .book-holder::before {
+       	content: none;
+   	}
+</style>
+</template>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPDH]"
+    category="Magical Objects"
+    definition="Three powerful magical objects said to be created by Death: the Elder Wand, the Resurrection Stone, and the Invisibility Cloak. Legend has it that if one possesses all three Hallows at the same time, they become Master of Death."
+    term="Deathly Hallows"/>

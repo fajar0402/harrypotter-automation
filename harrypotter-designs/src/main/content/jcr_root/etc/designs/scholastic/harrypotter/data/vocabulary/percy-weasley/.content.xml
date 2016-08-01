@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="The third Weasley son, four years older than Ron. Thinks he is terribly grown-up and important. A prefect and Head Boy at Hogwarts, he then goes to work at the Ministry of Magic. In Gryffindor house."
+    term="Percy Weasley"/>

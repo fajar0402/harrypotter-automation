@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/veela.mp3"
+    books="[HPGF]"
+    category="Creatures"
+    definition="Beautiful women with white-gold hair. Men are hypnotically fascinated by them. When enraged, Veela grow beaks and scaly wings."
+    term="Veela"/>

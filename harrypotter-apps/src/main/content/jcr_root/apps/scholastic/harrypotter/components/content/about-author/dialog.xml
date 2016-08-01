@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="About Author Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Desktop Background"
+            xtype="html5smartimage"/>
+        <mobile-background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./mobileBackgroundName"
+            fileReferenceParameter="./mobileBackgroundReference"
+            name="./mobileBackground"
+            title="Mobile Background"
+            xtype="html5smartimage"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <author-name
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Author name displayed in author section"
+                    fieldLabel="Title"
+                    name="./authorName"
+                    xtype="textfield"/>
+                <author-place-of-birth
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Place of birth displayed in author section"
+                    fieldLabel="Subtitle"
+                    name="./authorPlaceOfBirth"
+                    xtype="textfield"/>
+                <author-biography
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Author biography name displayed in author section"
+                    fieldLabel="Biography"
+                    name="./authorBiography"
+                    xtype="textarea"/>
+                <illustrator-title
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Illustrator title displayed in illustrators section"
+                    fieldLabel="Illustrator Title"
+                    name="./illustratorTitle"
+                    xtype="textfield"/>
+                <illustrator-name-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of illustrator name"
+                    fieldLabel="Illustrator Name Color"
+                    name="./illustratorNameColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <read-more
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Read more text displayed in author section"
+                    fieldLabel="Read More Text"
+                    name="./readMore"
+                    xtype="textfield"/>
+                <read-more-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL path of read more text"
+                    fieldLabel="URL"
+                    name="./readMoreUrl"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+            </items>
+        </text>
+        <illustrators
+            jcr:primaryType="cq:Widget"
+            title="Illustrators"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <illustrators
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Illustrators"
+                    hideLabel="{Boolean}true"
+                    name="./illustrators"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        limit="{Long}4"
+                        xtype="illustratorCompositeField"/>
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        beforeadd="function(list, component, index) {&#xa;    var limit = list.fieldConfig.limit;&#xa;    var length = list.items.length;&#xa;    var addButton = list.items.items[length-1];&#xa;    if(length == limit){&#xa;        addButton.hide();&#xa;    }&#xa;}"
+                        removeditem="function(list) {&#xa;    var length = list.items.length;&#xa;    if (length &lt;= list.fieldConfig.limit) {&#xa;        list.items.items[length - 1].show();&#xa;    }&#xa;}"/>
+                </illustrators>
+            </items>
+        </illustrators>
+    </items>
+</jcr:root>

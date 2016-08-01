@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPHP]"
+    category="Characters"
+    definition="The owner of a potions book Harry finds himself in possession of during his sixth year. The potion-making shortcuts and invented curses the Prince scribbled in the margins give Harry a leg up in class."
+    term="Half-Blood Prince"/>

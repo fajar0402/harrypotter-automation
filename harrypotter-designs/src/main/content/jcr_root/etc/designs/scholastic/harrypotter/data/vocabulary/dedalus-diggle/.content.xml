@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/dedalus_diggle.mp3"
+    books="[HPSS]"
+    category="Characters"
+    definition="A wizard whom Harry met in the Leaky Cauldron. He also once bowed to Harry in a shop. A member of the reestablished Order of the Phoenix."
+    term="Dedalus Diggle"/>

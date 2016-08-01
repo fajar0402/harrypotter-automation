@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPOP]"
+    category="Characters"
+    definition="Cho Chang's friend; a Ravenclaw. Marietta is a member of the D.A., but also turns the group in to Professor Umbridge."
+    term="Marietta Edgecombe"/>

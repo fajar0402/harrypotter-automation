@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="400"
+    stateful="false"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <basic
+                    jcr:primaryType="cq:Widget"
+                    path="/libs/wcm/foundation/components/page/tab_basic.infinity.json"
+                    xtype="cqinclude"/>
+                <advanced
+                    jcr:primaryType="cq:Widget"
+                    path="/libs/wcm/foundation/components/page/tab_advanced.infinity.json"
+                    xtype="cqinclude"/>
+                <image
+                    jcr:primaryType="cq:Widget"
+                    path="/libs/wcm/foundation/components/page/tab_image.infinity.json"
+                    xtype="cqinclude"/>
+                <cloudservices
+                    jcr:primaryType="cq:Widget"
+                    path="/libs/wcm/foundation/components/page/tab_cloudservices.infinity.json"
+                    xtype="cqinclude"/>
+                <blueprint
+                    jcr:primaryType="cq:Widget"
+                    path="/libs/wcm/foundation/components/page/tab_blueprint.infinity.json"
+                    xtype="cqinclude"/>
+                <livecopy
+                    jcr:primaryType="cq:Widget"
+                    path="/libs/wcm/foundation/components/page/tab_livecopy.infinity.json"
+                    xtype="cqinclude"/>
+                <scripts
+                    jcr:primaryType="cq:Panel"
+                    title="Scripts">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <site-classes
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="CSS classes to be added in the '.site' class. Multivalue separated by comma." 
+                            fieldLabel="Site Classes"
+                            name="./siteClasses"
+                            xtype="textfield"/>
+                        <main-classes
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="CSS classes to be added in the '.main' class. Multivalue separated by comma."
+                            fieldLabel="Main Classes"
+                            name="./mainClasses"
+                            xtype="textfield"/>
+                        <custom-footer-script
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="Script to be added at the bottom of the HTML"
+                            fieldLabel="Custom Footer Script"
+                            name="./customFooterScript"
+                            xtype="textarea"/>
+                    </items>
+                </scripts>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPOP]"
+    category="Organization"
+    definition="A group of Hogwarts students to whom Harry teaches Defense Against the Dark Arts during his fifth year. Also known as the D.A."
+    term="Dumbledore's Army"/>

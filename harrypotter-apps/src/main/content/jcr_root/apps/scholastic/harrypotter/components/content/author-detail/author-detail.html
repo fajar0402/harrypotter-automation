@@ -1,0 +1,37 @@
+<div class="slide author-detail no-mask">
+	<div class="slide-bg-outer">
+		<div class="slide-bg"></div>
+	</div>
+
+	<div class="slide-wrapper">
+		<div class="author-info">
+			<div class="info">
+				<div class="name">
+                	<h1>${properties.name}</h1></div>
+				<div class="born" data-sly-test="${properties.birthLocation}">Born: ${properties.birthLocation}</div>
+				<div class="home" data-sly-test="${properties.currentHome}">Current Home: ${properties.currentHome}</div>
+			</div>
+
+			<div class="actions">
+			</div>
+		</div>
+
+		<div class="author-text">
+			<div class="avatar">
+				<img data-sly-test="${properties.imageReference}" src="${properties.imageReference}" alt="J.K. Rowling">
+			</div>
+
+			<div class="text">
+				${properties.biography @ context='html'}
+				<a href="" class="collapse button" data-collapse="0"><span>Read more</span> <span class="icon-down" aria-hidden="true"></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+.main.author-detail .author-detail .author-text .text p span.info {
+    font-size: 24px;
+    line-height: 32px;
+}
+</style>

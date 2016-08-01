@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="History of Magic teacher at Hogwarts. The only ghost teacher at the school: He fell asleep in front of a fire and in the morning got up to teach, leaving his body behind. Extremely boring, with a soporific voice."
+    term="Professor Binns"/>

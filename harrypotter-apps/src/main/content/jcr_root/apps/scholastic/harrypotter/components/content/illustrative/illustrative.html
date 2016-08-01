@@ -1,0 +1,63 @@
+<div class="slide illustrated">
+    <div class="slide-bg-outer">
+        <div class="slide-bg-svg">
+            <svg>
+                <defs>
+                    <pattern id="slide-bg-5" patternUnits="userSpaceOnUse" width="1080" height="100%">
+                        <image xlink:href="${properties.backgroundReference}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" class="desktopbg"/>
+                        <image xlink:href="${properties.backgroundReference}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" class="mobilebg"/>
+                    </pattern>
+                </defs>
+
+                <path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="url(#slide-bg-5)"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div class="slide-wrapper">
+        <ul class="split">
+            <li>
+                <ul class="books">
+                    <li data-sly-test="${properties.promoImageOneReference}">
+                        <div class="like">
+                            <div class="thumbs-up">s</div>
+                            <span class="like-count">888</span>
+                        </div>
+                        <a href="${properties.imageUrlOne}"><img src="${properties.promoImageOneReference}" alt="harry potter - sorcerers stone"></a>
+                    </li>
+                    <li data-sly-test="${properties.promoImageTwoReference}">
+                        <a href="${properties.imageUrlTwo}"><img src="${properties.promoImageTwoReference}" alt="harry potter - chamber of secrets"></a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="book-detail">
+                    <h2>${properties.titleText}</h2>
+                    <p>${properties.definitionText}</p>
+                </div>
+                <a href="${properties.buttonUrl}" class="button bordered small-gap" data-sly-test="${properties.buttonText && properties.buttonUrl}">${properties.buttonText}</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<style>
+
+    .book-detail h2 {
+        color : #${properties.titleColor @ context='styleToken'} !important;
+    }
+
+    .slide.illustrated .split>li .book-detail p {
+        color : #${properties.descriptionColor @ context='styleToken'} !important;
+    }
+
+    .slide.illustrated .button {
+        color : #${properties.buttonLabelColor @ context='styleToken'} !important;
+        background-color : #${properties.buttonColor @ context='styleToken'} !important;
+    }
+    
+    body.is-ie .illustrated.slide .split > li .books li::before {
+		z-index: 0;
+	}
+</style>

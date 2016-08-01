@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Places"
+    definition="A room in Hogwarts that a person can enter only when he or she has real need of it. When it appears, it is always equipped for the seeker's needs. Also known to the house-elves as the Come and Go Room."
+    term="Room of Requirement"/>

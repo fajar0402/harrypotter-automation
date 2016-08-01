@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPPA]"
+    category="Creatures"
+    definition="Goblin-like creature found in places where bloodshed has occurred. Red Caps lie in wait to bludgeon the lost."
+    term="Red Cap"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="Pupil at Hogwarts. Lee has dreadlocks and is famed for his commentary on Quidditch matches. Lee is in Gryffindor house, in the same year as Fred and George Weasley."
+    term="Lee Jordan"/>

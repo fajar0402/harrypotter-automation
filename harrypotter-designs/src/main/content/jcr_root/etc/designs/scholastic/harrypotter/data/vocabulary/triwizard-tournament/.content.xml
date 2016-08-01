@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category=""
+    definition="Competition between the three largest European schools of witchcraft and wizardry - Hogwarts, Beauxbatons, and Durmstrang - first established 700 years ago. The Goblet of Fire selects each school's champion , and the champions compete in three magical tasks. The prize money is 1000 Galleons."
+    term="Triwizard Tournament"/>

@@ -1,0 +1,7 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-call="${clientLib.all @ categories=['sch.harrypotter.core']}"/>
+
+<sly data-sly-use.page="${'scholastic/harrypotter/components/page/hp-page/templates/hp-page.html'}" data-sly-call="${page.contentLayout @ siteClasses=properties.siteClasses, mainClasses=properties.mainClasses}"/>
+
+<sly data-sly-include="customfooterlibs.html" />
+
+${properties.customFooterScript @ context='unsafe'}

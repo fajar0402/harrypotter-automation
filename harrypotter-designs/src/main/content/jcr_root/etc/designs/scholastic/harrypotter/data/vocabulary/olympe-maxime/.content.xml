@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Characters"
+    definition="Head of Beauxbatons Academy. Because of her size, Madame Maxime is believed to be half giant. She has black eyes and olive skin."
+    term="Olympe Maxime"/>

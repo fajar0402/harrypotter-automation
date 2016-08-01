@@ -1,0 +1,17 @@
+<meta name="author" content="PLATFORM">
+<meta charset="UTF-8">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=apple-mobile-web-app-status-bar-style content=black>
+
+<script>
+	(function() {
+		var channel = "default";
+		document.write("<scr" + "ipt id='schheadtag' src='//ltm.scholastic.com/ltm/headtag/" + document.location.hostname + "/" + channel + "'></scr" + "ipt>");
+
+		document.addEventListener("webkitfullscreenchange", function(){
+            $("body").toggleClass("fullscreen", document.webkitIsFullScreen);
+        });
+    }());
+</script>

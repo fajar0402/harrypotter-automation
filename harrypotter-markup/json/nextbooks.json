@@ -1,0 +1,18 @@
+{
+	"1": {
+		"cover": "images/detail/covers/next-hp-2.jpg",
+		"name": "Harry Potter and the Chamber of Secrets"
+	},
+	"2": {
+		"cover": "images/detail/covers/next-hp-3.jpg",
+		"name": "Harry Potter and the Prisoner of Azkaban"
+	},
+	"3": {
+		"cover": "images/detail/covers/next-hp-4.jpg",
+		"name": "Harry Potter and the Goblet of Fire"
+	},
+	"4": {
+		"cover": "images/detail/covers/next-hp-5.jpg",
+		"name": "Harry Potter and the Order of Phoenix"
+	}
+}

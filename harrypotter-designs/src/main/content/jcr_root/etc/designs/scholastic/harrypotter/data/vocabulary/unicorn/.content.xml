@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Creatures"
+    definition="Mythical white horselike creature with a golden mane and a golden horn sprouting from the head. If one drinks the blood of a unicorn, it will sustain the life of the drinker, but at a grave price."
+    term="Unicorn"/>

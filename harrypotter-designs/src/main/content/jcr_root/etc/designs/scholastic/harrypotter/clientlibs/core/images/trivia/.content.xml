@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <bar-shadow.png/>
+    <quiz-cover-1.png/>
+    <quiz-cover-3.png/>
+    <bg-trivia.jpg/>
+    <icon-play-again.png/>
+    <quiz-cover-4.png/>
+    <quiz-cover-2.png/>
+    <quiz-divider.png/>
+    <quiz-selected.png/>
+    <quiz-wand-1.png/>
+    <quiz-wand-2.png/>
+    <quiz-wand-3.png/>
+    <quiz-wands.png/>
+</jcr:root>

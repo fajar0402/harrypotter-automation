@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Characters"
+    definition="A group of ghosts  whose heads have been completely cut off. Activities include Horseback Head-Juggling and Head Polo. Nearly Headless Nick is keen to join the hunt, but can't because his head has not been completely severed."
+    term="Headless Hunt"/>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Glossary Promo Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Background"
+            xtype="html5smartimage"/>
+        <icon
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./iconName"
+            fileReferenceParameter="./iconReference"
+            name="./icon"
+            title="Icon"
+            xtype="html5smartimage"/>
+        <audio
+            jcr:primaryType="cq:Widget"
+            title="Audio"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <audio
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change audio assets in glossary section"
+                    fieldLabel="Audio"
+                    name="./audio"
+                    rootPath="/content/dam/scholastic/harrypotter/audio"
+                    xtype="pathfield"/>
+                <icon-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of audio icon in glossary section"
+                    fieldLabel="Icon Color"
+                    name="./iconColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </audio>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title text displayed in top of glossary section"
+                    fieldLabel="Title Text"
+                    name="./titleText"
+                    xtype="textfield"/>
+                <title-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of title text in glossary section"
+                    fieldLabel="Title Color"
+                    name="./titleColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <word-of-the-day-title-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Word of the Day Title text displayed above term placeholder."
+                    fieldLabel="Word of the Day Title Text"
+                    name="./wordOfTheDayTitleText"
+                    xtype="textfield"/>
+                <word-of-the-day-title-text-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of Word of the Day Title text in glossary section"
+                    fieldLabel="Word of the Day Title Text Color"
+                    name="./wordOfTheDayTitleTextColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <term-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Term text displayed in term placeholder of glossary section"
+                    fieldLabel="Word of the Day Text"
+                    name="./termText"
+                    xtype="textfield"/>
+                <term-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of term placeholder in glossary section"
+                    fieldLabel="Word of the Day Text Color"
+                    name="./termColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <definition-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Definition text displayed in definition field of glossary section"
+                    fieldLabel="Definition Text"
+                    name="./definitionText"
+                    xtype="textarea"/>
+                <definition-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of definition text in glossary section"
+                    fieldLabel="Definition Color"
+                    name="./definitionColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </text>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <button-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Text displayed as label of glossary button section"
+                    fieldLabel="Text"
+                    name="./buttonText"
+                    xtype="textfield"/>
+                <button-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Url path of glossary button section"
+                    fieldLabel="Url"
+                    name="./buttonUrl"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+            </items>
+        </button>
+    </items>
+</jcr:root>

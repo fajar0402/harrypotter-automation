@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/fenrir_greyback.mp3"
+    books="[HPHP]"
+    category="Characters"
+    definition="A dangerous werewolf who tries to bite and contaminate as many people as possible."
+    term="Fenrir Greyback"/>

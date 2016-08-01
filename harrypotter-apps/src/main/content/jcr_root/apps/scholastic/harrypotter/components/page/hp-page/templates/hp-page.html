@@ -1,0 +1,29 @@
+<template data-sly-template.contentLayout="${@ siteclasses, mainClasses, resourceType}">
+    <svg class="definition">
+        <defs>
+            <clipPath id="slideMask">
+                <path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0"></path>
+            </clipPath>
+        </defs>
+    </svg>
+    <div class="site ${siteClasses}">
+        <div class="wrapper">
+            <sly data-sly-test="${siteClasses != 'home'}">
+                <div class="back-to-hp">
+                    <a href="/content/harrypotter/en/home.html"><span class="icon-left"></span>Harry Potter Home Page</a>
+                </div>
+            </sly>
+            <div class="main ${mainClasses}">
+                <sly data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-test="${!resourceType}"/>
+                <sly data-sly-resource="${'par' @ resourceType=resourceType}" data-sly-test="${resourceType}"/>
+                <div id="footer-wrapper-4o">
+                    <div id="footer-global"> 
+                        <a href="http://www.scholastic.com/privacy.htm" class="footer-global-pp">PRIVACY POLICY</a> · 
+                        <a href="http://www.scholastic.com/terms.htm">Terms of Use</a> 
+                        · TM ® &amp; © 2016 Scholastic Inc. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'ScholasticKids Icons';
+	src: url('../fonts/ScholasticKids_Icons.eot?u04gn7');
+	src: url('../fonts/ScholasticKids_Icons.eot?u04gn7#iefix') format('embedded-opentype'),
+		url('../fonts/ScholasticKids_Icons.ttf?u04gn7') format('truetype'),
+		url('../fonts/ScholasticKids_Icons.woff?u04gn7') format('woff'),
+		url('../fonts/ScholasticKids_Icons.svg?u04gn7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'ScholasticKids Icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-up-solid:before {
+	content: "\31";
+}
+.icon-news:before {
+	content: "\32";
+}
+.icon-play:before {
+	content: "\33";
+}
+.icon-favorite-filled:before {
+	content: "\35";
+}
+.icon-cart-filled:before {
+	content: "\36";
+}
+.icon-email-filled:before {
+	content: "\37";
+}
+.icon-link:before {
+	content: "\38";
+}
+.icon-search-active:before {
+	content: "\39";
+}
+.icon-lock:before {
+	content: "\61";
+}
+.icon-video:before {
+	content: "\62";
+}
+.icon-trash-open:before {
+	content: "\63";
+}
+.icon-heart:before {
+	content: "\64";
+}
+.icon-book2:before {
+	content: "\65";
+}
+.icon-inside:before {
+	content: "\66";
+}
+.icon-left:before {
+	content: "\67";
+}
+.icon-connect:before {
+	content: "\69";
+}
+.icon-email:before {
+	content: "\6b";
+}
+.icon-down:before {
+	content: "\6c";
+}
+.icon-up:before {
+	content: "\6d";
+}
+.icon-video-play:before {
+	content: "\6e";
+}
+.icon-cross-cursor:before {
+	content: "\6f";
+}
+.icon-down-solid:before {
+	content: "\70";
+}
+.icon-author:before {
+	content: "\71";
+}
+.icon-book3:before {
+	content: "\72";
+}
+.icon-favorite:before {
+	content: "\73";
+}
+.icon-cart:before {
+	content: "\74";
+}
+.icon-close:before {
+	content: "\75";
+}
+.icon-trash:before {
+	content: "\76";
+}
+.icon-book1:before {
+	content: "\77";
+}
+.icon-search:before {
+	content: "\78";
+}
+.icon-check:before {
+	content: "\79";
+}
+.icon-right:before {
+	content: "\7a";
+}
+.icon-question:before {
+	content: "\e613";
+}

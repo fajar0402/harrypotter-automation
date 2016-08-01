@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPDH]"
+    category="Characters"
+    definition="Luna Lovegood's father. He is the editor of The Quibbler, a Wizarding tabloid full of conspiracy theories and imaginary creatures."
+    term="Xenophilius Lovegood"/>

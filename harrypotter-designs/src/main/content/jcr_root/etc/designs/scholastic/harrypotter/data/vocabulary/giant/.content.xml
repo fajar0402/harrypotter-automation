@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Creatures"
+    definition="Huge humanoid. Giants can grow to a height of twenty feet. They have a history of violence and warring among themselves. Many giants allied themselves with Voldemort and massacred Muggles during Voldemort's original reign of power. Others withdrew to remote mountain ranges. Their numbers are in decline and in Britain they are believed to be extinct."
+    term="Giant"/>

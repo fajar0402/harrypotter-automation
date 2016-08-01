@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Video Promo Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fieldDescription="Enter the URL to display Background Image"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Background"
+            xtype="html5smartimage"/>
+        <title
+            jcr:primaryType="cq:Widget"
+            title="Title"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title-image
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldDescription="Title text displayed in title field of video promo section"
+                    fieldLabel="Title"
+                    fileNameParameter="./ititleName"
+                    fileReferenceParameter="./titleReference"
+                    height="{Long}200"
+                    name="./title"
+                    xtype="html5smartimage"/>
+                <title-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of title in marketing promo section"
+                    fieldLabel="Title Color"
+                    name="./titleColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </title>
+        <subtitle
+            jcr:primaryType="cq:Widget"
+            title="Subtitle"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <description-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Description text displayed in description field of video promo section"
+                    fieldLabel="Description Text"
+                    name="./definitionText"
+                    xtype="textarea"/>
+                <description-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of description in marketing promo section"
+                    fieldLabel="Description Color"
+                    name="./descriptionColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </subtitle>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Play Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <button-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of button color in video promo section"
+                    fieldLabel="Button Color"
+                    name="./buttonColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </button>
+        <logo
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./logoName"
+            fileReferenceParameter="./logoReference"
+            name="./logo"
+            title="Logo"
+            xtype="html5smartimage"/>
+        <video
+            jcr:primaryType="cq:Widget"
+            title="Media ID"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <media-id
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Data video ID"
+                    fieldLabel="Media ID"
+                    name="./mediaId"
+                    xtype="textfield"/>
+            </items>
+        </video>
+    </items>
+</jcr:root>

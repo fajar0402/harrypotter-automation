@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Organizations"
+    definition="One of the four houses of Hogwarts, founded by Helga Hufflepuff. The Hufflepuff symbol is a badger, and the house colors are yellow and black. The resident ghost is the Fat Friar ."
+    term="Hufflepuff House"/>

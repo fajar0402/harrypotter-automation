@@ -1,0 +1,89 @@
+<template data-sly-template.contentLayout>
+<div class="slide explore-all">
+	<div class="slide-bg-outer">
+        <div class="slide-bg-svg">
+			<svg data-sly-test="${!properties.backgroundImageReference}">
+				<path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="#${properties.backgroundColor || 'CFDAEE'}"></path>
+            </svg>
+			<svg data-sly-test="${properties.backgroundImageReference}">
+				<defs>
+					<pattern id="slide-explore-all" patternUnits="userSpaceOnUse" width="1080" height="100%">
+						<image xlink:href="${properties.backgroundImageReference @ context='uri'}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" />
+					</pattern>
+				</defs>
+				<path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="url(#slide-explore-all)"></path>
+            </svg>
+		</div>
+    </div>
+						
+	<div class="slide-wrapper">
+		<div class="centered">
+								
+			<img src="${properties.iconImageReference}" alt="eye icon">
+								
+			<h3>${properties.titleText}</h3>
+
+            <div class="slider-frame">
+				<ul class="features">
+					<li data-sly-test="${properties.imageOneReference}">
+						<div class="like to-press">
+							<div class="thumbs-up">s</div>
+							<span class="like-count">888</span>
+						</div>
+						<div class="feature-icon" style="background-image: url(images/detail/feature-1-bg.jpg);">
+							<a href="${properties.urlOne}">
+								<div class="feature-icon-overflow">
+									<img src="${properties.imageOneReference}" alt="glossary icon" class="feature-icon-image">
+								</div>
+							</a>
+						</div>
+						<div class="feature-name" style="color : #${properties.colorOne @ context='styleToken'} !important;">${properties.titleOne}</div>
+					</li>
+					<li data-sly-test="${properties.imageTwoReference}">
+						<div class="like to-press">
+							<div class="thumbs-up">s</div>
+							<span class="like-count">888</span>
+						</div>
+						<a href="${properties.urlTwo}">
+							<div class="feature-icon">
+								<img src="${properties.imageTwoReference}" alt="trivia background" class="feature-icon-bg">
+								<img src="" alt="trivia broom icon" class="feature-icon-image">
+							</div>
+						</a>
+						<div class="feature-name" style="color : #${properties.colorTwo @ context='styleToken'} !important;">${properties.titleTwo}</div>
+					</li>
+					<li data-sly-test="${properties.imageThreeReference}">
+						<div class="like to-press">
+							<div class="thumbs-up">s</div>
+							<span class="like-count">888</span>
+						</div>
+						<a href="${properties.urlThree}">
+							<div class="feature-icon" style="background-image: url(images/detail/feature-3-bg.jpg);">
+								<img src="${properties.imageThreeReference}" alt="hat sorting" class="feature-icon-image">
+							</div>
+						</a>
+						<div class="feature-name" style="color : #${properties.colorThree @ context='styleToken'} !important;">${properties.titleThree}</div>
+					</li>
+				</ul>
+
+                <ul class="pages"></ul>
+            </div>
+								
+			<a href="${properties.buttonUrl}" class="button" data-sly-test="${properties.buttonText && properties.buttonUrl}">${properties.buttonText}</a>
+								
+		</div>
+	</div>
+</div>
+
+<style data-sly-use.ImageIconColor="ImageIconColorizer.js">
+    .slide.explore-all h3 {
+		color : #${properties.titleColor @ context='styleToken'} !important;
+    }
+    .slide.explore-all .centered>img {
+    	-webkit-filter: ${ImageIconColor.colorFilter @ context='unsafe'} !important;
+    }
+	.slide.explore-all .features>li:nth-child(3) .feature-icon .feature-icon-image {
+    	margin: 0px 0 0 3px;
+	}
+</style>
+</template>

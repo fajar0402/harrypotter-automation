@@ -1,0 +1,212 @@
+{
+	"1": {
+		"question": "Which of these words best describes you?",
+		"answers": {
+			"1": {
+				"answer": "Loyal",
+				"type": "normal"
+			},
+			"2": {
+				"answer": "Cunning",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Brave",
+				"type": "normal"
+			},
+			"4": {
+				"answer": "Clever",
+				"type": "normal"
+			}
+		}
+	},
+	"2": {
+		"question": "What’s the first thing people would notice<br>when they walk into your room?",
+		"answers": {
+			"1": {
+				"answer": "Pictures of your friends<br>and family",
+				"type": "long"
+			},
+			"2": {
+				"answer": "Posters of your favorite<br>superheroes and movie stars",
+				"type": "long"
+			},
+			"3": {
+				"answer": "Books. Lots of them.",
+				"type": "long"
+			},
+			"4": {
+				"answer": "It's very clean.<br>You spend most of your<br>time in other places.",
+				"type": "long"
+			}
+		}
+	},
+	"3": {
+		"question": "Who do you like to spend time with?",
+		"answers": {
+			"1": {
+				"answer": "Usually just my<br>best friends!",
+				"type": "long"
+			},
+			"2": {
+				"answer": "Do fictional<br>characters count?",
+				"type": "long"
+			},
+			"3": {
+				"answer": "I have a big group of<br>friends and I’m always<br>open to making more!",
+				"type": "long"
+			},
+			"4": {
+				"answer": "I prefer to be alone",
+				"type": "long"
+			}
+		}
+	},
+	"4": {
+		"question": "If you could have any superpower what would it be?",
+		"answers": {
+			"1": {
+				"answer": "Healing powers",
+				"type": "normal"
+			},
+			"2": {
+				"answer": "Invincibility",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Time travel",
+				"type": "normal"
+			},
+			"4": {
+				"answer": "Shapeshifting",
+				"type": "normal"
+			}
+		}
+	},
+	"5": {
+		"question": "What's your favorite thing to do on the weekends?",
+		"answers": {
+			"1": {
+				"answer": "Spend time at home with<br>my family and friends",
+				"type": "long"
+			},
+			"2": {
+				"answer": "Go exploring!",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Curl up with a<br>good book.",
+				"type": "normal"
+			},
+			"4": {
+				"answer": "Play strategy games.",
+				"type": "normal"
+			}
+		}
+	},
+	"6": {
+		"question": "You see a man push an old lady down and take off wit her<br>purse. The first thing you do is...",
+		"answers": {
+			"1": {
+				"answer": "Help the old lady up and<br>make sure she's okay.",
+				"type": "long"
+			},
+			"2": {
+				"answer": "Run after him.",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Call the police.",
+				"type": "normal"
+			},
+			"4": {
+				"answer": "Take a picture of the man,<br>it may be useful as<br>evidence later.",
+				"type": "long"
+			}
+		}
+	},
+	"7": {
+		"question": "What do you want to do when you grow up?",
+		"answers": {
+			"1": {
+				"answer": "It doesn't matter as long<br>as I have my best friends<br>by side!",
+				"type": "long"
+			},
+			"2": {
+				"answer": "Travel to new places!",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Discover new things and<br>share them with the world.",
+				"type": "long"
+			},
+			"4": {
+				"answer": "Rule the world!",
+				"type": "normal"
+			}
+		}
+	},
+	"8": {
+		"question": "What would you like to be remembered for?",
+		"answers": {
+			"1": {
+				"answer": "Being a good person",
+				"type": "normal"
+			},
+			"2": {
+				"answer": "Changing the world",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Inventing something<br>incredible",
+				"type": "normal"
+			},
+			"4": {
+				"answer": "Being famous",
+				"type": "normal"
+			}
+		}
+	},
+	"9": {
+		"question": "What is your favorite color?",
+		"answers": {
+			"1": {
+				"answer": "Yellow",
+				"type": "normal"
+			},
+			"2": {
+				"answer": "Red",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "Blue",
+				"type": "normal"
+			},
+			"4": {
+				"answer": "Green",
+				"type": "normal"
+			}
+		}
+	},
+	"10": {
+		"question": "How do you make big decisions?",
+		"answers": {
+			"1": {
+				"answer": "I run things by my friends<br>and get their opinions.",
+				"type": "long"
+			},
+			"2": {
+				"answer": "I go with my gut.",
+				"type": "normal"
+			},
+			"3": {
+				"answer": "I think it through and play<br>out different scenarios in<br>my head.",
+				"type": "long"
+			},
+			"4": {
+				"answer": "I figure it out as<br>I go along.",
+				"type": "long"
+			}
+		}
+	}
+}

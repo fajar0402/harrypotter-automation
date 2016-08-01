@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Characters"
+    definition="Retired Auror hired to teach Defense Against the Dark Arts in Harry's fourth year. Known as Mad-Eye Moody since he lost an eye in the fight against Voldemort and his supporters, and replaced it with a magical eye. Badly scarred and has a wooden leg. A member of the Order of the Phoenix."
+    term="Alastor Moody"/>

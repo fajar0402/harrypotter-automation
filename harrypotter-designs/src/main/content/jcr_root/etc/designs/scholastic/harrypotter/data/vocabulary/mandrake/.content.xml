@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Magical Plants"
+    definition="Powerful restorative plant used to return cursed, transfigured, or Petrified  people to their natural state. The cry of the Mandrake is fatal to anyone who hears it. Also known as Mandragora."
+    term="Mandrake"/>

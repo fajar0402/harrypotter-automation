@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Magical Objects"
+    definition="Glittering powder that wizards use for transportation. To use it, throw it into the fireplace, say the name of your destination, and step into the flames."
+    term="Floo Powder"/>

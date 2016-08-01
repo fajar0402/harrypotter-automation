@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Characters"
+    definition="Care of Magical Creatures teacher at Hogwarts. He retires at the end of Harry's second year to enjoy some time with his remaining limbs."
+    term="Professor Silvanus Kettleburn"/>

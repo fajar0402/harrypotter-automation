@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Magical Objects"
+    definition="A Magical glass ball, the size of a large marble, filled with white smoke. The smoke turns red to tell you that there is something you have forgotten to do."
+    term="Remembrall"/>

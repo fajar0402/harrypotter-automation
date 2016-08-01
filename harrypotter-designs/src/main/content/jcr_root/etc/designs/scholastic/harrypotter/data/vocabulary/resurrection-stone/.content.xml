@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPDH]"
+    category="Magical Objects"
+    definition="One of the Deathly Hallows. It is capable of bringing back a shadow of the holder's loved one - something more solid than a ghost, but still not quite human."
+    term="Resurrection Stone"/>

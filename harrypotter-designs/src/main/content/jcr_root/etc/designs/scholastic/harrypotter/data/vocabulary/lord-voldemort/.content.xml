@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="Evil wizard greatly feared by Wizarding folk. His dark reputation is such that his name is hardly ever spoken out loud. Most wizards will only refer to him as He-Who-Must-Not-Be-Named or You-Know-Who. He disappeared from view after the death of James and Lily Potter, following a battle that left Harry an orphan and bearing a lightning scar on his forehead."
+    term="Lord Voldemort"/>

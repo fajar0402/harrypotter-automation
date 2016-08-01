@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio="/content/dam/scholastic/harrypotter/audio/glossary/avada_kedavra.mp3"
+    books="[HPGF]"
+    category="Spells"
+    definition="The Killing Curse. It brings about instant death in a flash of green light. There is no way of blocking it. It is one of the three Unforgivable Curses."
+    term="Avada Kedavra"/>

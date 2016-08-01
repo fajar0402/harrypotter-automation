@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Spells"
+    definition="Spell to control another person completely, using the incantation “Imperio.” One of the three Unforgivable Curses. It can be resisted only with great mental effort."
+    term="Imperius Curse"/>

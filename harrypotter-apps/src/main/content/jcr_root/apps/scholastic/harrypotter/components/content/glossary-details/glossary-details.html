@@ -1,0 +1,139 @@
+<div class="header-outer">
+
+    <div class="header">
+        <div class="hero">
+            <div class="hero-heading">
+                <h1>${properties.titleText}</h1>
+            </div>
+
+            <div class="hero-search">
+                <form onsubmit="return false">
+                    <span class="icon-search-active" aria-hidden="true"></span>
+                    <input type="text" name="search-terms" placeholder="${properties.searchTermText}" data-placeholder="${properties.searchTermText}">
+                    <a href="" class="close"><span class="icon-close"></span></a>
+                </form>
+            </div>
+        </div>
+
+        <div class="listing">
+            <div class="characters-outer">
+                <select class="characters">
+                    <option value="" disabled selected>A - Z</option>
+
+                    <option value=a>a</option>
+                    <option value=b>b</option>
+                    <option value=c>c</option>
+                    <option value=d>d</option>
+                    <option value=e>e</option>
+                    <option value=f>f</option>
+                    <option value=g>g</option>
+                    <option value=h>h</option>
+                    <option value=i>i</option>
+                    <option value=j>j</option>
+                    <option value=k>k</option>
+                    <option value=l>l</option>
+                    <option value=m>m</option>
+                    <option value=n>n</option>
+                    <option value=o>o</option>
+                    <option value=p>p</option>
+                    <option value=q>q</option>
+                    <option value=r>r</option>
+                    <option value=s>s</option>
+                    <option value=t>t</option>
+                    <option value=u>u</option>
+                    <option value=v>v</option>
+                    <option value=w>w</option>
+                    <option value=x>x</option>
+                    <option value=y>y</option>
+                    <option value=z>z</option>
+                </select>
+
+                <ul class="characters">
+                    <li class="character"><a href=#a>a</a></li>
+                    <li class="character"><a href=#b>b</a></li>
+                    <li class="character"><a href=#c>c</a></li>
+                    <li class="character"><a href=#d>d</a></li>
+                    <li class="character"><a href=#e>e</a></li>
+                    <li class="character"><a href=#f>f</a></li>
+                    <li class="character"><a href=#g>g</a></li>
+                    <li class="character"><a href=#h>h</a></li>
+                    <li class="character"><a href=#i>i</a></li>
+                    <li class="character"><a href=#j>j</a></li>
+                    <li class="character"><a href=#k>k</a></li>
+                    <li class="character"><a href=#l>l</a></li>
+                    <li class="character"><a href=#m>m</a></li>
+                    <li class="character"><a href=#n>n</a></li>
+                    <li class="character"><a href=#o>o</a></li>
+                    <li class="character"><a href=#p>p</a></li>
+                    <li class="character"><a href=#q>q</a></li>
+                    <li class="character"><a href=#r>r</a></li>
+                    <li class="character"><a href=#s>s</a></li>
+                    <li class="character"><a href=#t>t</a></li>
+                    <li class="character"><a href=#u>u</a></li>
+                    <li class="character"><a href=#v>v</a></li>
+                    <li class="character"><a href=#w>w</a></li>
+                    <li class="character"><a href=#x>x</a></li>
+                    <li class="character"><a href=#y>y</a></li>
+                    <li class="character"><a href=#z>z</a></li>
+                    <li class="character">
+                        <a href="#books" class="books-show">
+                            <span class="text"></span>
+                            <span class="icon-down"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="books"></ul>
+        </div>
+    </div>
+</div>
+
+<div class="no-results">
+    <div class="middled">
+        <div>
+            <h2>Sorry, no word was found.</h2>
+            <p>Check your spelling</p>
+        </div>
+    </div>
+</div>
+
+<ul class="glossary-sections">
+
+</ul>
+
+<div class="back-to-top">
+    <a href="#"><span class="icon-up"></span><br>Back to Top</a>
+</div>
+
+<style>
+    .main.glossary .glossary-sections>.section .section-content li .hover-outer .hover .buttons .button.action-play:not([data-audio^="audio"]) {
+        display: inline-block;
+    }
+
+	.main.glossary .glossary-sections>.section .section-content li .hover-outer .hover .buttons .button.action-play[data-audio=""] {
+        display: none;
+    }
+
+    .main.glossary .header .hero .hero-heading:after {
+        background: no-repeat url(${properties.iconReference @ context='uri'}) center center / contain;
+    }
+
+    .main.glossary .header .hero {
+        background: no-repeat url(${properties.backgroundReference @ context='uri'}) bottom center/cover;
+    }
+    
+    .glossary-hero {
+        background: no-repeat url(${properties.backgroundReference @ context='uri'}) bottom center;
+    }
+
+    .main.glossary .back-to-top {
+        background: url(/etc/designs/scholastic/harrypotter/clientlibs/core/images/glossary/back-to-top-shadow.png) repeat-x top center,
+        url(${properties.backgroundReference @ context='uri'}) no-repeat center center;
+    }
+
+	.main.glossary .listing .characters-outer ul.characters .character a.books-show .text::after{
+        content: "${properties.ddDefaultLabel @ context='styleString'}";
+	}
+
+</style>

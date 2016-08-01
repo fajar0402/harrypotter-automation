@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Spells"
+    definition="To transport oneself instantly to any destination. Apparition is difficult and must not be done without a license from the Department of Magical Transportation. There is a danger of Splinching."
+    term="Apparate"/>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<meta name="author" content="PLATFORM">
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name=apple-mobile-web-app-capable content=yes>
+	<meta name=apple-mobile-web-app-status-bar-style content=black>
+
+
+	<title>Harry Potter | Home Page</title>
+
+	<!--<link rel="icon" href="images/favicon.png">-->
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<link href="css/scholastickids-icons.css" rel="stylesheet" type="text/css">
+	<link href="css/museo-sans.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/mousewheel.js"></script>
+	<script type="text/javascript" src="js/sly.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/glossary.js"></script>
+	<script type="text/javascript" src="js/hat-sorting.js"></script>
+	<script src="http://www.youtube.com/player_api" async></script>
+
+	<script>
+		(function() {
+			var channel = "default";
+			document.write("<scr" + "ipt id='schheadtag' src='//ltm.scholastic.com/ltm/headtag/" + document.location.hostname + "/" + channel + "'></scr" + "ipt>");
+		}());
+	</script>
+</head>
+
+<body class="">
+	<svg class="definition">
+		<defs>
+			<clipPath id="slideMask">
+				<path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" />
+			</clipPath>
+		</defs>
+	</svg>
+	<div class="site">
+		<div class="wrapper">
+
+			<div class="sidemenu">
+				<img src="images/side-nav.jpg" alt="">
+			</div>
+
+			<div class="main hat-sorting">
+				<a href="" class="skip">skip quiz<span class="icon-close" aria-hidden="true"></span></a>
+
+				<div class="questions hide">
+					<img src="images/extras/hat.png" title="" alt="" class="hat">
+
+					<div class="position">
+						<div>
+							<div class="position-active">1</div>
+						</div>
+
+						<div>
+							<div class="position-divider">of</div>
+							<div class="position-max">10</div>
+						</div>
+					</div>
+
+					<div class="question"></div>
+
+					<ul class="answers">
+						<li class="answer" data-answer-order="1">
+							<div class="answer-left"></div>
+							<div class="answer-middle"></div>
+							<div class="answer-right"></div>
+						</li>
+						<li class="answer" data-answer-order="2">
+							<div class="answer-left"></div>
+							<div class="answer-middle"></div>
+							<div class="answer-right"></div>
+						</li>
+						<li class="answer" data-answer-order="3">
+							<div class="answer-left"></div>
+							<div class="answer-middle"></div>
+							<div class="answer-right"></div>
+						</li>
+						<li class="answer" data-answer-order="4">
+							<div class="answer-left"></div>
+							<div class="answer-middle"></div>
+							<div class="answer-right"></div>
+						</li>
+					</ul>
+
+					<div class="message hide"><img src="images/hat-sorting/right-then.png" title="" alt=""></div>
+				</div>
+
+				<div class="result hide">
+					<div class="title">You belong in...</div>
+
+					<div class="image"><img src="images/hat-sorting/slytherin.png" title="" alt=""></div>
+
+					<div class="text">
+						You are courageous, chivalrous, and determined.
+						<br>You can be short-tempered, and sometimes reckless.
+
+						<p>
+							<a href="" class="link">Sign Up</a> or <a href="" class="link">Log In</a> to save your house, or <a href="" class="link">retake the test</a>!
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script>
+		$(function() {
+			app.hatSorting.init();
+		})
+	</script>
+	<script src="//ltm.scholastic.com/ltm/resources/tag/footer.js"></script>
+</body>
+
+</html>

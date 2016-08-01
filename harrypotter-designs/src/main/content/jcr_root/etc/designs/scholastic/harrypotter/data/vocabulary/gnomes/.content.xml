@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPCS]"
+    category="Creatures"
+    definition="Very small creatures with leathery skin and large, bald heads like knobbly potatoes. They have horny feet and razor-sharp teeth. They live in holes in gardens and aren't very bright. To de-gnome a garden, grab the gnome by the ankles, swing it around your head, and throw."
+    term="Gnomes"/>

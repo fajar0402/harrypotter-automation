@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Animation Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            ddGroups="[media]"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundImageName"
+            fileReferenceParameter="./backgroundImageReference"
+            name="./file"
+            title="Background Image"
+            xtype="html5smartimage"/>
+        <cover-one
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (1)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-one
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageOneName"
+                    fileReferenceParameter="./coverImageOneReference"
+                    height="{Long}200"
+                    name="./coverImageOne"
+                    xtype="html5smartimage"/>
+                <cover-url-one
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlOne"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-one
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageOneName"
+                    fileReferenceParameter="./newCoverImageOneReference"
+                    height="{Long}200"
+                    name="./newCoverImageOne"
+                    xtype="html5smartimage"/>
+                <new-cover-url-one
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlOne"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-one
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameOne"
+                    xtype="textfield"/>
+            </items>
+        </cover-one>
+        <cover-two
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (2)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-two
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageTwoName"
+                    fileReferenceParameter="./coverImageTwoReference"
+                    height="{Long}200"
+                    name="./coverImageTwo"
+                    xtype="html5smartimage"/>
+                <cover-url-two
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlTwo"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-two
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageTwoName"
+                    fileReferenceParameter="./newCoverImageTwoReference"
+                    height="{Long}200"
+                    name="./newCoverImageTwo"
+                    xtype="html5smartimage"/>
+                <new-cover-url-two
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlTwo"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-two
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameTwo"
+                    xtype="textfield"/>
+            </items>
+        </cover-two>
+        <cover-three
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (3)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-three
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageThreeName"
+                    fileReferenceParameter="./coverImageThreeReference"
+                    height="{Long}200"
+                    name="./coverImageThree"
+                    xtype="html5smartimage"/>
+                <cover-url-three
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlThree"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-three
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageThreeName"
+                    fileReferenceParameter="./newCoverImageThreeReference"
+                    height="{Long}200"
+                    name="./newCoverImageThree"
+                    xtype="html5smartimage"/>
+                <new-cover-url-three
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlThree"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-three
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameThree"
+                    xtype="textfield"/>
+            </items>
+        </cover-three>
+        <cover-four
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (4)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-four
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageFourName"
+                    fileReferenceParameter="./coverImageFourReference"
+                    height="{Long}200"
+                    name="./coverImageFour"
+                    xtype="html5smartimage"/>
+                <cover-url-four
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlFour"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-four
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageFourName"
+                    fileReferenceParameter="./newCoverImageFourReference"
+                    height="{Long}200"
+                    name="./newCoverImageFour"
+                    xtype="html5smartimage"/>
+                <new-cover-url-four
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlFour"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-four
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameFour"
+                    xtype="textfield"/>
+            </items>
+        </cover-four>
+        <cover-five
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (5)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-five
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageFiveName"
+                    fileReferenceParameter="./coverImageFiveReference"
+                    height="{Long}200"
+                    name="./coverImageFive"
+                    xtype="html5smartimage"/>
+                <cover-url-five
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlFive"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-five
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageFiveName"
+                    fileReferenceParameter="./newCoverImageFiveReference"
+                    height="{Long}200"
+                    name="./newCoverImageFive"
+                    xtype="html5smartimage"/>
+                <new-cover-url-five
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlFive"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-five
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameFive"
+                    xtype="textfield"/>
+            </items>
+        </cover-five>
+        <cover-six
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (6)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-six
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageSixName"
+                    fileReferenceParameter="./coverImageSixReference"
+                    height="{Long}200"
+                    name="./coverImageSix"
+                    xtype="html5smartimage"/>
+                <cover-url-six
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlSix"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-six
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageSixName"
+                    fileReferenceParameter="./newCoverImageSixReference"
+                    height="{Long}200"
+                    name="./newCoverImageSix"
+                    xtype="html5smartimage"/>
+                <new-cover-url-six
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlSix"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-six
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameSix"
+                    xtype="textfield"/>
+            </items>
+        </cover-six>
+        <cover-seven
+            jcr:primaryType="cq:Widget"
+            title="Cover Book (7)"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <cover-image-seven
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="Image"
+                    fileNameParameter="./coverImageSevenName"
+                    fileReferenceParameter="./coverImageSevenReference"
+                    height="{Long}200"
+                    name="./coverImageSeven"
+                    xtype="html5smartimage"/>
+                <cover-url-seven
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for cover image in home animation section"
+                    fieldLabel="URL"
+                    name="./coverUrlSeven"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <new-cover-image-seven
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldLabel="New Image"
+                    fileNameParameter="./newCoverImageSevenName"
+                    fileReferenceParameter="./newCoverImageSevenReference"
+                    height="{Long}200"
+                    name="./newCoverImageSeven"
+                    xtype="html5smartimage"/>
+                <new-cover-url-seven
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="URL target for new cover image in home animation section"
+                    fieldLabel="New Image URL"
+                    name="./newCoverUrlSeven"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <cover-name-seven
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title cover displayed in home animation section"
+                    fieldLabel="Title"
+                    name="./coverNameSeven"
+                    xtype="textfield"/>
+            </items>
+        </cover-seven>
+    </items>
+</jcr:root>

@@ -1,0 +1,18 @@
+{
+	"1": {
+		"cover": "images/detail/covers/more-hp-1.jpg",
+		"name": "Tales of <br>Beedle Bard"
+	},
+	"2": {
+		"cover": "images/detail/covers/more-hp-2.jpg",
+		"name": "Quidditch <br>through aged"
+	},
+	"3": {
+		"cover": "images/detail/covers/more-hp-3.png",
+		"name": "Hogwarts Classics"
+	},
+	"4": {
+		"cover": "images/detail/covers/more-hp-4.jpg",
+		"name": "Harry Potter Coloring Book"
+	}
+}

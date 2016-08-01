@@ -1,0 +1,14 @@
+{
+	"1": {
+		"logo": "images/detail/extras/glossary-logo.jpg",
+		"name": "Glossary"
+	},
+	"2": {
+		"logo": "images/detail/extras/trivia-logo.jpg",
+		"name": "Trivia Game"
+	},
+	"3": {
+		"logo": "images/detail/extras/hat-logo.jpg",
+		"name": "Hat Sorting"
+	}
+}

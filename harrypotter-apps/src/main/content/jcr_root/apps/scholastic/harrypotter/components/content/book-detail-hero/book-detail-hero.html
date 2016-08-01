@@ -1,0 +1,111 @@
+<div class="slide detail">
+    <div class="slide-bg-outer">
+        <div class="slide-bg"></div>
+    </div>
+
+    <div class="slide-wrapper">
+        <div itemscope itemtype="http://schema.org/Book" class="detail-slide">
+            <div>
+                <a href="" class="inside"><span href="" class="link">see inside</span><img src="/etc/designs/scholastic/harrypotter/clientlibs/core/images/detail/extras/ico-crkd-arrow.png" alt="arrow"></a>
+                <img itemprop="image" src="${properties.bookImageReference}" alt="book cover">
+            </div>
+            <div></div>
+            <div>
+                <ul class="book-specs">
+                    <li class="series">${properties.eyebrow}</li>
+                    <li class="title">
+                        <h1 itemprop="name">${properties.bookTitle}</h1></li>
+                    <li class="author" data-sly-test="${properties.author}">by: <a href="${properties.authorurl}" class="detail-link author-name"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">${properties.author}</span></span></a></li>
+                    <li class="illustrator" data-sly-test="${properties.illustrator}">Illustrator: <a href="${properties.illustratorurl}" class="detail-link illustrator-name">${properties.illustrator}</a></li>
+                    <li class="spec-details">
+                        <div class="age">
+                            <div class="spec-title">age range</div>
+                            <div class="spec-value">${properties.ages}</div>
+                        </div>
+                        <div class="level">
+                            <div class="spec-title">guided reading</div>
+                            <div class="spec-value to-press">${properties.readingLevel}</div>
+                        </div>
+                        <div class="genre">
+                            <div class="spec-title">genre</div>
+                            <div itemprop="genre" class="spec-value">${properties.genre}</div>
+                        </div>
+                    </li>
+                    <li class="book-about">
+                        <span class="text"><p>${properties.description @ context='html'}</p></span> <a href="" class="detail-link to-press underline">See All</a>
+                    </li>
+                    <li class="cta" data-sly-use.bookData="BookData.js">
+                        <a class="get-pop-up" href="${properties.buttonUrl}" data-ecomm="${bookData}">
+                            <div class="get"><span>r</span>GET THIS BOOK</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="//www.scholastic.com/scripts/jquery.ecommpop.js"></script>
+
+<script type="text/javascript">
+
+    jQuery('.get-pop-up').ecommPop({
+        ageScreener : true
+    });
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="//www.scholastic.com/kids/stacks/multiverse-navigation/age-screener.css"/>
+
+<style>
+    /* Age Screener Workaround - Start */
+    .slide.detail .detail-slide>div ul.book-specs .cta > a {
+        -webkit-flex-basis: 260px;
+        -ms-flex-preferred-size: 260px;
+        flex-basis: 260px;
+    }
+
+    .slide.detail .detail-slide>div ul.book-specs .cta div.get {
+        margin-right : 40px;
+    }
+
+	/* Age Screener Workaround - End */
+
+    a.detail-link.author-name {
+    	cursor: pointer;
+	}
+
+    a.detail-link.illustrator-name {
+    	cursor: pointer;
+	}
+
+    .slide.detail .detail-slide>div ul.book-specs .spec-details>div .spec-value {
+    	cursor: default;
+	}
+
+	.slide.detail .slide-bg {
+		background-image : url(${properties.backgroundReference @ context='uri'}) !important;
+    }
+
+	/* book detail hero */
+	@media (max-width:736px) {
+		.slide.detail .detail-slide>div ul.book-specs .cta > a {
+			flex-basis: 50px;
+		}
+	}
+    
+    /* Add bullet list and numbered list */
+    .slide.detail .detail-slide .book-about .text ul {
+		padding-left: 2em;
+    }
+    .slide.detail .detail-slide .book-about .text ol {
+		padding-left: 2em;
+    }
+
+	.slide.detail .detail-slide .book-about .text ul li {
+		list-style-type: inherit;
+    }
+    .slide.detail .detail-slide .book-about .text ol li {
+		list-style-type: inherit;
+    }
+</style>

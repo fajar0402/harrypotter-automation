@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPSS]"
+    category="Characters"
+    definition="Deputy Headmistress of Hogwarts. She is a rather serious-looking woman, with jet-black hair scraped into a tight bun on her head. She wears square glasses and an emerald green cloak. Professor McGonagall is Head of Gryffindor house and the Transfiguration teacher."
+    term="Professor Minerva McGonagall"/>

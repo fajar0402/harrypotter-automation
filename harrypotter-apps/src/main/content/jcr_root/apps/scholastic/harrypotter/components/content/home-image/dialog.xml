@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Sorting Hat Promo Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            cropParameter="./imageCrop"
+            ddGroups="[media]"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./fileName"
+            fileReferenceParameter="./fileReference"
+            mapParameter="./imageMap"
+            name="./file"
+            requestSuffix=".img.png"
+            rotateParameter="./imageRotate"
+            title="hero Image"
+            xtype="html5smartimage"/>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            title="Advanced"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./jcr:title"
+                    xtype="textfield"/>
+                <alt
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="(leave empty to use the title defined above)"
+                    fieldLabel="Alt Text"
+                    name="./alt"
+                    xtype="textfield"/>
+                <imageCaption
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Image caption"
+                    name="./imgCaption"
+                    xtype="textfield"/>
+                <linkURL
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Drop files or pages from the Content Finder"
+                    fieldLabel="Link to"
+                    name="./linkURL"
+                    xtype="pathfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Description"
+                    name="./jcr:description"
+                    xtype="textarea"/>
+                <size
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Size"
+                    heightParameter="./height"
+                    widthParameter="./width"
+                    xtype="sizefield"/>
+            </items>
+        </advanced>
+        <styles
+            jcr:primaryType="cq:Widget"
+            title="Styles"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <styleClass
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Please select 'fullwidth' if you want the image to span the whole content box width"
+                    fieldLabel="ClassName"
+                    name="./styleclass"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <fullwidth
+                            jcr:primaryType="nt:unstructured"
+                            text="fullwidth"
+                            value="fullwidth"/>
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            text="default"
+                            value=""/>
+                    </options>
+                </styleClass>
+            </items>
+        </styles>
+    </items>
+</jcr:root>

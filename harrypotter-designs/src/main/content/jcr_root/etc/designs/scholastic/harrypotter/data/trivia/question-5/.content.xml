@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    answers="[Bathilda Bagshot,Trans Figmenta,Lily Mcgonnagol,Emeric Switch]"
+    correctAnswer="Emeric Switch"
+    question="Who wrote &quot; A beginners guide to transfiguration?&quot;"/>

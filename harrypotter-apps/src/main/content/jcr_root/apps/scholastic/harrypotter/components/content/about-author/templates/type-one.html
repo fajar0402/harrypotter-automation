@@ -1,0 +1,42 @@
+<template data-sly-template.contentLayout>
+    <div class="slide author">
+        <div class="slide-bg-outer">
+            <div class="slide-bg-svg">
+                <svg>
+                    <path d="M0,30 C200,-6 510,-13 540,30 C570,-13 880,-6 1080,30 V 2000 H 0" fill="#a3a7ac"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="slide-wrapper">
+            <img src="${properties.mobileBackgroundReference}" alt="J.K. Rowling" class="rowling">
+            <div class="credit">Photo by:
+                <br><strong>Mary McCartney</strong>
+            </div>
+            <ul class="split">
+                <li>
+                    <h2>${properties.authorName}</h2>
+                    <div class="caption" data-sly-test="${properties.authorPlaceOfBirth}">
+                        <strong>${properties.authorPlaceOfBirth}</strong><span class="credit"><span class="divider">|</span>Photo by: <strong>Mary McCartney</strong></span>
+                    </div>
+                    <span class="text"><span class="text-inner"><p>${properties.authorBiography}</p></span><a href="" class="text-action">See All</a></span>
+                    <a href="${properties.readMoreUrl}" class="link">${properties.readMore}</a>
+                    <div class="clear"></div>
+
+                    <div class="caption illustrators">${properties.illustratorTitle}</div>
+                    <div class="illustrators-list" data-sly-list="${properties.illustrators}">
+                        <div class="illustrator" data-sly-use.illustrators="${'../../utils/JSON.js' @ source=item}" data-sly-test="${illustrators.image}">
+                            <a href="${illustrators.url}"></a>
+                            <div class="link">
+                                <img src="${illustrators.image}" alt="${illustrators.name}">
+                                <div class="name">${illustrators.name}</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Book Detail Hero Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Background"
+            xtype="html5smartimage"/>
+        <image
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fileNameParameter="./bookImageName"
+            fileReferenceParameter="./bookImageReference"
+            name="./bookImage"
+            title="Image"
+            xtype="html5smartimage"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <eyebrow
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Eyebrow displayed in book detail hero section"
+                    fieldLabel="Eyebrow"
+                    name="./eyebrow"
+                    xtype="textfield"/>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Book title displayed in book detail hero section"
+                    fieldLabel="Book Title"
+                    name="./bookTitle"
+                    xtype="textfield"/>
+                <subtitle
+                    jcr:primaryType="cq:Widget"
+                    disabled="{Boolean}true"
+                    fieldDescription="Subtitle displayed in book detail hero section"
+                    fieldLabel="Subtitle"
+                    name="./subtitle"
+                    xtype="textfield"/>
+                <author
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Author displayed in book detail hero section"
+                    fieldLabel="Author"
+                    name="./author"
+                    xtype="textfield"/>
+                <author-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Author URL displayed in book detail hero section"
+                    fieldLabel="Author URL"
+                    name="./authorurl"
+                    xtype="textfield"/>
+                <illustrator
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Illustrator displayed in book detail hero section"
+                    fieldLabel="Illustrator"
+                    name="./illustrator"
+                    xtype="textfield"/>
+                <illustrator-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Illustrator URL displayed in book detail hero section"
+                    fieldLabel="Illustrator URL"
+                    name="./illustratorurl"
+                    xtype="textfield"/>
+                <ages
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Ages displayed in book detail hero section"
+                    fieldLabel="Ages"
+                    name="./ages"
+                    xtype="textfield"/>
+                <reading-level
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Reading level displayed in book detail hero section"
+                    fieldLabel="Reading Level"
+                    name="./readingLevel"
+                    xtype="textfield"/>
+                <genre
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Genre displayed in book detail hero section"
+                    fieldLabel="Genre"
+                    name="./genre"
+                    xtype="textfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Description displayed in book detail hero section"
+                    fieldLabel="Description"
+                    name="./description"
+                    xtype="richtext">
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <links jcr:primaryType="nt:unstructured">
+                            <linkDialogConfig
+                                jcr:primaryType="nt:unstructured"
+                                height="{Long}316">
+                                <linkAttributes jcr:primaryType="cq:WidgetCollection">
+                                    <linkAdvanced
+                                        jcr:primaryType="cq:Widget"
+                                        collapsed="{Boolean}true"
+                                        collapsible="{Boolean}true"
+                                        inputValue="advanced"
+                                        name="./linkdialog/cq:adhocLinkTrackingTab"
+                                        title="Link tracking"
+                                        xtype="dialogfieldset">
+                                        <items jcr:primaryType="cq:WidgetCollection">
+                                            <enable
+                                                jcr:primaryType="nt:unstructured"
+                                                attribute="enabletracking"
+                                                fieldDescription="override analytics framework settings"
+                                                fieldLabel="Custom link tracking"
+                                                name="./linkdialog/cq:adhocLinkTrackingEnableTracking"
+                                                xtype="checkbox">
+                                                <listeners
+                                                    jcr:primaryType="nt:unstructured"
+                                                    check="function(component){var dlg=component.findParentByType('rtelinkdialog');dlg.enableSCFields(component.checked);}"/>
+                                            </enable>
+                                            <events
+                                                jcr:primaryType="nt:unstructured"
+                                                attribute="adhocevents"
+                                                fieldDescription="e.g.: event2, event7"
+                                                fieldLabel="Include SiteCatalyst events"
+                                                name="./linkdialog/cq:adhocLinkTrackingEvents"
+                                                xtype="textfield"/>
+                                            <evars
+                                                jcr:primaryType="nt:unstructured"
+                                                attribute="adhocevars"
+                                                fieldDescription="e.g.: eVar1: pagedata.url, prop4: 'const'"
+                                                fieldLabel="Include SiteCatalyst variables"
+                                                name="./linkdialog/cq:adhocLinkTrackingEvars"
+                                                xtype="textfield"/>
+                                        </items>
+                                    </linkAdvanced>
+                                </linkAttributes>
+                            </linkDialogConfig>
+                        </links>
+                        <paraformat
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <formats jcr:primaryType="cq:WidgetCollection">
+                                <p
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Paragraph"
+                                    tag="p"/>
+                            </formats>
+                        </paraformat>
+                    </rtePlugins>
+                    <isRichTextFlag
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./textIsRich"
+                        value="true"
+                        xtype="hidden"/>
+                </description>
+            </items>
+        </text>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Url path of get book button section"
+                    fieldLabel="Book URL"
+                    name="./buttonUrl"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <vendor
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Vendor"
+                    name="./vendor"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="nt:unstructured"
+                        xtype="vendorCompositeField"/>
+                </vendor>
+            </items>
+        </button>
+    </items>
+</jcr:root>

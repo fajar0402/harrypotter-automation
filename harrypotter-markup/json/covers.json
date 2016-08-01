@@ -1,0 +1,44 @@
+{
+	"1": {
+		"cover-original": "images/covers/cover-1.jpg",
+		"cover-new": "images/covers/cover-new-1.jpg",
+		"name": "Harry Potter<br> and the Sorcerer’s Stone",
+		"order": "images/covers/1.png"
+	},
+	"2": {
+		"cover-original": "images/covers/cover-2.jpg",
+		"cover-new": "images/covers/cover-new-2.jpg",
+		"name": "Harry Potter<br> and the Chamber of Secrets",
+		"order": "images/covers/2.png"
+	},
+	"3": {
+		"cover-original": "images/covers/cover-3.jpg",
+		"cover-new": "images/covers/cover-new-3.jpg",
+		"name": "Harry Potter<br> and the Prisoner of Azkaban",
+		"order": "images/covers/3.png"
+	},
+	"4": {
+		"cover-original": "images/covers/cover-4.jpg",
+		"cover-new": "images/covers/cover-new-4.jpg",
+		"name": "Harry Potter and the Goblet of Fire",
+		"order": "images/covers/4.png"
+	},
+	"5": {
+		"cover-original": "images/covers/cover-5.jpg",
+		"cover-new": "images/covers/cover-new-5.jpg",
+		"name": "Harry Potter and the Order of the Phoenix",
+		"order": "images/covers/5.png"
+	},
+	"6": {
+		"cover-original": "images/covers/cover-6.jpg",
+		"cover-new": "images/covers/cover-new-6.jpg",
+		"name": "Harry Potter and the Half-Blood Prince",
+		"order": "images/covers/6.png"
+	},
+	"7": {
+		"cover-original": "images/covers/cover-7.jpg",
+		"cover-new": "images/covers/cover-new-7.jpg",
+		"name": "Harry Potter<br> and the Deathly Hallows",
+		"order": "images/covers/7.png"
+	}
+}

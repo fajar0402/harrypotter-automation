@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    audio=""
+    books="[HPGF]"
+    category="Characters"
+    definition="Substitute teacher who takes over Care of Magical Creatures when Hagrid is indisposed. An elderly witch with cropped gray hair and a prominent chin."
+    term="Professor Wilhelmina Grubbly-Plank"/>

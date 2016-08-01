@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="Game Promo Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <background
+            jcr:primaryType="cq:Widget"
+            ddGroups="media"
+            disableZoom="{Boolean}true"
+            fieldDescription="Enter the URL to display Background Image"
+            fileNameParameter="./backgroundName"
+            fileReferenceParameter="./backgroundReference"
+            name="./background"
+            title="Background"
+            xtype="html5smartimage"/>
+        <icon
+            jcr:primaryType="cq:Widget"
+            title="Icon"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <icon-image
+                    jcr:primaryType="cq:Widget"
+                    ddGroups="media"
+                    disableZoom="{Boolean}true"
+                    fieldDescription="Icon image displayed in icon field of wizard section"
+                    fieldLabel="Icon Image"
+                    fileNameParameter="./iconName"
+                    fileReferenceParameter="./iconReference"
+                    height="{Long}200"
+                    name="./icon"
+                    xtype="html5smartimage"/>
+                <icon-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Icon text displayed in top of wizard description section"
+                    fieldLabel="Icon Text"
+                    name="./iconText"
+                    xtype="textfield"/>
+            </items>
+        </icon>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Text"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Title text displayed in top of wizard description section"
+                    fieldLabel="Title Text"
+                    name="./titleText"
+                    xtype="textfield"/>
+                <title-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of title in wizard section"
+                    fieldLabel="Title Color"
+                    name="./titleColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <description-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Description text displayed in description field of wizard section"
+                    fieldLabel="Description Text"
+                    name="./definitionText"
+                    xtype="richtext">
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <paraformat
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <formats jcr:primaryType="cq:WidgetCollection">
+                                <p
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Paragraph"
+                                    tag="p"/>
+                            </formats>
+                        </paraformat>
+                        <lists
+                            jcr:primaryType="nt:unstructured"
+                            features="[]"/>
+                    </rtePlugins>
+                </description-text>
+                <description-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of description in wizard section"
+                    fieldLabel="Description Color"
+                    name="./descriptionColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </text>
+        <button
+            jcr:primaryType="cq:Widget"
+            title="Button"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <button-text
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Text displayed as label of wizard button section"
+                    fieldLabel="Text"
+                    name="./buttonText"
+                    xtype="textfield"/>
+                <button-url
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Url path of wizard button section"
+                    fieldLabel="Url"
+                    name="./buttonUrl"
+                    parBrowse="{Boolean}true"
+                    xtype="pathfield"/>
+                <button-label-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of button label in wizard section"
+                    fieldLabel="Text Color"
+                    name="./buttonLabelColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <button-color
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Change color of button color in wizard section"
+                    fieldLabel="Button Color"
+                    name="./buttonColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </button>
+    </items>
+</jcr:root>

@@ -1,0 +1,225 @@
+/* Glossary Header FIx: */
+.main.glossary .header.floating {
+  position: fixed;
+  top: -160px;
+}
+
+.main.glossary .header-outer {
+  position: relative;
+  height: 400px;
+}
+
+.main.glossary .listing .books {
+  max-height: calc(100vh - 113px - 35px);
+}
+
+/* .main.glossary .glossary-sections>.section .section-headline span {
+  margin-top: 50px;
+} */
+
+/*header position fixed */
+
+#unav-stacks {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+body {
+    padding-top: 35px;
+}
+
+/*footer css added */
+
+#footer-wrapper-4o {
+    position: relative;
+    background: #ece9dc url(/global_resources/universal/layout/images/footer-bg.gif) repeat-x;
+    font: normal 12px arial, sans-serif;
+    text-align: left;
+}
+#footer-global {
+    background: #e3e0d1 url(/global_resources/universal/layout/images/footer-topborder.gif) repeat-x;
+    color: #6a6a6a;
+    padding: 20px 0 15px;
+    text-align: center;
+}
+#footer-global a.footer-global-pp {
+    font-weight: bold;
+    font-size: 110%;
+}
+#footer-global a {
+    color: #18628c;
+    text-decoration: none;
+}
+
+/** bright cove player **/
+
+.section.brightcoveplayer {
+    margin: 20px 0;
+}
+.brightcoveplayer .module-audiovideo {
+    width: 62%;
+}
+.brightcoveplayer .module-audiovideo.aligncenter {
+    margin: 0 auto;
+}
+.bc-player-9aff0d13-3492-425b-a9e3-5b987004cacc_default.vjs-mouse .vjs-big-play-button,
+.bc-player-9aff0d13-3492-425b-a9e3-5b987004cacc_default .vjs-big-play-button {
+    display: none;
+}
+.brightcoveplayer .bc-player-9aff0d13-3492-425b-a9e3-5b987004cacc_default {
+    width: 100% !important;
+    height: 0 !important;
+    padding-bottom: 56.25%;
+}
+.mobile-relatedpost .video-js {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.module-audiovideo.aligncenter {
+    text-align: center
+}
+.section.brightcoveplayer {
+    margin: 20px 0;
+}
+.article-auth-name {
+    margin-bottom: 52px;
+}
+
+/*BRIDECOVE VIDEO CSS*/
+.module-audiovideo .video-js{
+    width: 100%;
+    z-index: 999;
+}
+.home-video-show a{
+    display:none;
+}
+
+/***************************
+ * Fullscreen display      *
+ ***************************/
+body.vjs-full-window {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.video-js.vjs-fullscreen {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.video-js:-webkit-full-screen {
+    width: 100% !important;
+    height: 100% !important;
+}
+.video-js.vjs-fullscreen.vjs-user-inactive {
+    cursor: none;
+}
+
+/* aem component wrapper fix */
+.main > div:not(:first-child) .slide {
+    margin-top: -30px;
+}
+.main > div[class^="cq-placeholder-par"]:first-child + div .slide {
+    margin-top: 0;
+}
+.slide {
+    overflow: hidden;
+    z-index: 2;
+}
+.main.trivia-detail > div:not(:first-child) .slide {
+    position: relative;
+    z-index: 10;
+}
+.main.trivia-detail > div[class^="cq-placeholder-par"]:first-child + div .slide {
+    position: relative;
+    z-index: 10;
+}
+ 
+/* author detail */
+.main.author-detail .author-detail .author-text::before {
+    width: calc(100% - -160px);
+}
+.main.author-detail .author-detail .author-info::before {
+    width: calc(100% - -160px);
+}
+.main.author-detail .parbase.author-detail {
+    padding: 0;
+}
+.slide.about-author .rowling {
+    width: calc(100vw - -10%);
+}
+ 
+/* about author */
+.site .wrapper .main.home .author .rowling {
+    width: calc(100vw - -10%);
+}
+ 
+/* glossary */
+@media (max-width:736px) {
+    .site .wrapper .main.home .glossary.parbase {
+        padding: 0;
+    }
+}
+ 
+/* more books */
+@media (max-width: 960px) {
+    .site .wrapper .main .parbase.more-books {
+        padding: 0;
+    }
+}
+
+/* illustrative - marketing component - bg check */
+@media (min-width: 480px) {
+    .mobilebg {
+		display:none;
+	}
+}
+
+/* header */
+@media (min-width: 481px) {
+    #universal {
+        display:none;
+    }
+}
+@media (max-width: 480px) {
+    .desktopbg, .unav-stacks-acct, .unav-stacks-menu {
+		display:none;
+	}
+    .mobilebg {
+		display:block;
+	}
+    #unav-stacks {
+        background:black !important;
+        max-width: 480px !important;
+    	min-width: 0 !important;
+    }
+    #universal {
+        width: 160px;
+    	display: block;
+    	margin: auto;
+    	height: 34px;
+    }
+    #universal-account {
+        float: right;
+    	padding-top: 8px;
+    	margin-top: 0px;
+    	width: 160px;
+    }
+    #universal-signInOut {
+        float: left;
+    	text-align: center;
+    	width: 70px;
+    }
+	#universal-myAccount {
+        float: right;
+    	text-align: center;
+    	width: 90px;
+    }
+}
