@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -92,23 +93,21 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
     public WebElement newCoverBooks7;
 
     public void checkOldCoverBooks(){
-        Assert.assertTrue(oldCoverBooks1.getAttribute("class").equals("cover old"));
-        Assert.assertTrue(oldCoverBooks2.getAttribute("class").equals("cover old"));
-        Assert.assertTrue(oldCoverBooks3.getAttribute("class").equals("cover old"));
-        Assert.assertTrue(oldCoverBooks4.getAttribute("class").equals("cover old"));
-        Assert.assertTrue(oldCoverBooks5.getAttribute("class").equals("cover old"));
-        Assert.assertTrue(oldCoverBooks6.getAttribute("class").equals("cover old"));
-        Assert.assertTrue(oldCoverBooks7.getAttribute("class").equals("cover old"));
+        List<WebElement> elements = new ArrayList<WebElement>(driver.findElements(By.cssSelector(".cover-holder")));
+        int total = elements.size();
+        for (int i = 1; i < total; ++i){
+            WebElement element = driver.findElement(By.cssSelector("img[src=\"/content/dam/scholastic/harrypotter/image/covers/cover-"+i+".jpg\"]"));
+            Assert.assertTrue(element.getAttribute("class").equals("cover old"));
+        }
     }
 
     public void checkNewCoverBooks(){
-        Assert.assertTrue(newCoverBooks1.getAttribute("class").equals("cover new"));
-        Assert.assertTrue(newCoverBooks2.getAttribute("class").equals("cover new"));
-        Assert.assertTrue(newCoverBooks3.getAttribute("class").equals("cover new"));
-        Assert.assertTrue(newCoverBooks4.getAttribute("class").equals("cover new"));
-        Assert.assertTrue(newCoverBooks5.getAttribute("class").equals("cover new"));
-        Assert.assertTrue(newCoverBooks6.getAttribute("class").equals("cover new"));
-        Assert.assertTrue(newCoverBooks7.getAttribute("class").equals("cover new"));
+        List<WebElement> elements = new ArrayList<WebElement>(driver.findElements(By.cssSelector(".cover-holder")));
+        int total = elements.size();
+        for (int i = 1; i < total; ++i){
+            WebElement element = driver.findElement(By.cssSelector("img[src=\"/content/dam/scholastic/harrypotter/image/covers/cover-new-"+i+".jpg\"]"));
+            Assert.assertTrue(element.getAttribute("class").equals("cover new"));
+        }
     }
 
     public void getTxtInRightMenuHeader(int index){
