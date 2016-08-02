@@ -2,6 +2,7 @@ package com.scholastic.harrypotter.steps;
 
 import com.scholastic.harrypotter.ui.pages.HarryPotterBasePage;
 import com.scholastic.harrypotter.ui.pages.HarryPotterHomePage;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
@@ -76,6 +77,26 @@ public class HarryHomePageStep {
         harryPotterHomePage.waitForelementToBeClickable(harryPotterHomePage.signInMenuBtn);
         harryPotterHomePage.signInMenuBtn.click();
         Thread.sleep(3000);
+    }
+
+    @When("^I see 'See More' button$")
+    public void i_see_See_More_button() throws Throwable {
+        harryPotterHomePage.scrollElementIntoView(harryPotterHomePage.accioTxt);
+        harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.seeMoreBtn);
+        harryPotterHomePage.seeMoreBtn.click();
+//        Thread.sleep(10000);
+    }
+
+    @And("^I scroll into 'See More' button$")
+    public void i_scroll_into_See_More_button() throws Throwable {
+        harryPotterHomePage.scrollToElementByPointer("window.scrollBy(0,150)");
+        harryPotterHomePage.scrollElementIntoView(harryPotterHomePage.accioTxt);
+        harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.seeMoreBtn);
+    }
+
+    @When("^I click 'See More' button$")
+    public void i_click_See_More_button() throws Throwable {
+        harryPotterHomePage.seeMoreBtn.click();
     }
 
 }

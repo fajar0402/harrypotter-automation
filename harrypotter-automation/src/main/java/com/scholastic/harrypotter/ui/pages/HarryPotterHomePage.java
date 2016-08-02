@@ -92,6 +92,12 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
     @FindBy(css = "img[src=\"/content/dam/scholastic/harrypotter/image/covers/cover-new-7.jpg\"]")
     public WebElement newCoverBooks7;
 
+    @FindBy(css = ".button.bordered.big-gap")
+    public WebElement seeMoreBtn;
+
+    @FindBy(css = ".input > input[type=\"text\"]")
+    public WebElement accioTxt;
+
     public void checkOldCoverBooks(){
         List<WebElement> elements = new ArrayList<WebElement>(driver.findElements(By.cssSelector(".cover-holder")));
         int total = elements.size();
