@@ -5,8 +5,7 @@ import com.scholastic.harrypotter.ui.pages.HarryPotterHomePage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
-import junit.framework.Assert;
-import org.openqa.selenium.By;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -23,7 +22,7 @@ public class HarryHomePageStep {
         harryPotterHomePage.navigateTo( "publish", "");
         harryPotterHomePage.setNewDefaultTimeOut(30);
         harryPotterHomePage.verifyMeAsCurrentPage();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 
     @When( "^I click 'Skip' button to skip the video$" )
@@ -99,4 +98,11 @@ public class HarryHomePageStep {
         harryPotterHomePage.seeMoreBtn.click();
     }
 
+    @When( "^I click \"([^\"]*)\" Button from Book Promo section$" )
+    public void iClickLearnMoreBtn(String txtBtn) throws InterruptedException {
+        harryPotterHomePage.waitForelementToBeClickable(harryPotterHomePage.bookPromoLearnMoreBtn);
+        Assert.assertEquals(txtBtn,harryPotterHomePage.bookPromoLearnMoreBtn.getText());
+        harryPotterHomePage.bookPromoLearnMoreBtn.click();
+        Thread.sleep(3000);
+    }
 }

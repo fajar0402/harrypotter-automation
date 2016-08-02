@@ -22,4 +22,5 @@ public class RunTest extends AbstractZucchiniCustomTest {
     @Override
     public void setup( TestContext out ) {
     }
+
 }

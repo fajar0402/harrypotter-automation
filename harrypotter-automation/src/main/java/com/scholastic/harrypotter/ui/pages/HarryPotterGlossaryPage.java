@@ -15,7 +15,7 @@ public class HarryPotterGlossaryPage extends HarryPotterBasePage{
     @FindBy(css = "body > div.site > div > div.main.glossary > div.header-outer > div > div.hero > div.hero-heading > h1")
     public WebElement titleTxt;
 
-    @FindBy(css = "body > div.site > div > div.main.glossary > div.header-outer > div > div.hero > div.hero-search > form > input[type=\"text\"]")
+    @FindBy(css = "input[name=\"search-terms\"]")
     public WebElement searchField;
 
     @FindBy(css = "body > div.site > div > div.main.glossary > ul > li.section.first > ul > li[style=\"display: inline-block;\"] > div.title")

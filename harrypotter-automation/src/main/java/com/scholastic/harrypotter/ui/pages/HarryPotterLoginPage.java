@@ -31,6 +31,19 @@ public class HarryPotterLoginPage extends HarryPotterBasePage {
         PageFactory.initElements(driver, this);
     }
 
+    public String inputUsername(String username){
+        waitForelementToBeClickable(inputUsername);
+        inputUsername.sendKeys(username);
+        pause(3);
+        return username;
+    }
+
+    public void inputPassword(String password){
+        waitForelementToBeClickable(inputPassword);
+        inputPassword.sendKeys(password);
+        pause(3);
+    }
+
     /**
      *  Check the current url of Harry Potter is on Login page
      */

@@ -20,26 +20,28 @@ public class HarryLoginPageStep {
         Assert.assertEquals(text + "is not displayed", text, harryPotterLoginPage.loginModalText.getText());
     }
 
+    private String getUsername;
     @When("^I Enter username : \"([^\"]*)\"$")
     public void iEnterUsername(String username) throws InterruptedException {
-        harryPotterLoginPage.waitForelementToBeClickable(harryPotterLoginPage.inputUsername);
-        harryPotterLoginPage.inputUsername.sendKeys(username);
-        harryPotterLoginPage.pause(3);
+        getUsername = harryPotterLoginPage.inputUsername(username);
     }
 
     @When("^I Enter password : \"([^\"]*)\"$")
     public void iEnterPassword(String password) throws InterruptedException {
-        harryPotterLoginPage.waitForelementToBeClickable(harryPotterLoginPage.inputPassword);
-        harryPotterLoginPage.inputPassword.sendKeys(password);
+        harryPotterLoginPage.inputPassword(password);
+    }
+
+    @When("^I click \"([^\"]*)\" button from 'Sign In' modal$")
+    public void iClickGOBtnFromLoginModal(String checkAssertBtn){
+        harryPotterLoginPage.waitForelementToBeClickable(harryPotterLoginPage.signInGoBtn);
+        Assert.assertTrue(harryPotterLoginPage.signInGoBtn.getAttribute("alt").equals(checkAssertBtn));
+        harryPotterLoginPage.signInGoBtn.click();
         harryPotterLoginPage.pause(3);
     }
 
-    @When( "^I enter username : \"([^\"]*)\" and password : \"([^\"]*)\"$" )
-    public void checkUserSuccessfullLogin(String username, String password) throws InterruptedException {
-        iEnterUsername(username);
-        iEnterPassword(password);
-        harryPotterLoginPage.signInGoBtn.click();
+    @When( "^System validates username and password$" )
+    public void checkUserSuccessfullLogin() throws InterruptedException {
         harryPotterLoginPage.waitAndValidateVisibility(harryPotterHomePage.signOutBtn);
-        Assert.assertTrue(harryPotterHomePage.loginAccount.getText().equals("Welcome, " + username));
+        Assert.assertTrue(harryPotterHomePage.loginAccount.getText().equals("Welcome, " + this.getUsername));
     }
 }

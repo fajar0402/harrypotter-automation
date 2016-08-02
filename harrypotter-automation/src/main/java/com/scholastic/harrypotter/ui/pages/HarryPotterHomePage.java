@@ -98,6 +98,13 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
     @FindBy(css = ".input > input[type=\"text\"]")
     public WebElement accioTxt;
 
+    /**
+     *  Book Promo
+     */
+
+    @FindBy(css = ".button.bordered.small-gap")
+    public WebElement bookPromoLearnMoreBtn;
+
     public void checkOldCoverBooks(){
         List<WebElement> elements = new ArrayList<WebElement>(driver.findElements(By.cssSelector(".cover-holder")));
         int total = elements.size();

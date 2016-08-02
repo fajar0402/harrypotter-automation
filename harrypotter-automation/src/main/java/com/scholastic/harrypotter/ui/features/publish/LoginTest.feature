@@ -7,4 +7,7 @@
       And I see "Sign in now." modal is displayed
 
     Scenario: Successfully Login
-      And I enter username : "computingeating53" and password : "Welcome123"
+      And I Enter username : "computingeating53"
+      And I Enter password : "Welcome123"
+      When I click "Go" button from 'Sign In' modal
+      Then System validates username and password
