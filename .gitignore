@@ -1,2 +1,5 @@
 .idea/
 harrypotter-automation/target/
+harrypotter.ipr
+harrypotter.iws
+target/
