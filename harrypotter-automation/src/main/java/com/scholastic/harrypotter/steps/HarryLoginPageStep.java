@@ -3,7 +3,7 @@ package com.scholastic.harrypotter.steps;
 import com.scholastic.harrypotter.ui.pages.HarryPotterHomePage;
 import com.scholastic.harrypotter.ui.pages.HarryPotterLoginPage;
 import cucumber.api.java.en.When;
-import junit.framework.Assert;
+import org.junit.Assert;
 
 /**
  * Created by C07HJAXNDJD0 on 8/1/16.

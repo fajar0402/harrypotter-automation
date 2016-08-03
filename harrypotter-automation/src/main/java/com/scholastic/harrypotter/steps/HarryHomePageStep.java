@@ -1,14 +1,10 @@
 package com.scholastic.harrypotter.steps;
 
-import com.scholastic.harrypotter.ui.pages.HarryPotterBasePage;
 import com.scholastic.harrypotter.ui.pages.HarryPotterHomePage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 /**
  * Created by C07HJAXNDJD0 on 7/29/16.

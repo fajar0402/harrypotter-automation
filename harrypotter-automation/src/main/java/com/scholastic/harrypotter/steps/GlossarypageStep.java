@@ -13,7 +13,7 @@ public class GlossarypageStep extends HarryPotterBasePage{
     private HarryPotterGlossaryPage glossaryPage = new HarryPotterGlossaryPage();
 
     @Then("^I landing in Glossary page$")
-    public void i_landing_in_Glossary_page() throws Throwable {
+    public void i_landing_in_Glossary_page(){
 //        glossaryPage.waitAndValidateVisibility(glossaryPage.titleTxt);
 //        assert glossaryPage.titleTxt.getText() == "Glossary";
 //        assert glossaryPage.searchField.isDisplayed() == true;
@@ -21,10 +21,22 @@ public class GlossarypageStep extends HarryPotterBasePage{
     }
 
     @And("^I input \"(.*?)\" in the search field$")
-    public void i_input_in_the_search_field(String arg1) throws Throwable {
+    public void i_input_in_the_search_field(String arg1){
         glossaryPage.waitAndValidateVisibility(glossaryPage.searchField);
         glossaryPage.scrollElementIntoView(glossaryPage.titleTxt);
         glossaryPage.searchField.sendKeys(arg1);
         Assert.assertEquals(glossaryPage.resultTitle.getText(), arg1);
+    }
+
+    @And("^I filter with click \"(.*?)\" button$")
+    public void i_Click_button(String arg1) throws InterruptedException {
+        glossaryPage.clickAlphabet(arg1);
+        Thread.sleep(2000);
+    }
+
+    @And("^I filter by selected book$")
+    public void i_filter_by_book() throws InterruptedException {
+        glossaryPage.filterBoookBtn.click();
+        glossaryPage.checkAllBookDisplay();
     }
 }

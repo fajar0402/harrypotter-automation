@@ -11,3 +11,14 @@ Feature: Harry Potter Glossary Filter
 
   Scenario: I want to check filter in glossary page
 #    And I input "Giant" in the search field
+    And I filter with click "A" button
+    And I filter with click "B" button
+    And I filter with click "C" button
+    And I filter with click "D" button
+    And I filter with click "E" button
+    And I filter with click "F" button
+    And I filter with click "G" button
+    And I filter with click "H" button
+    And I filter with click "I" button
+    And I filter with click "J" button
+#    And I filter by selected book
