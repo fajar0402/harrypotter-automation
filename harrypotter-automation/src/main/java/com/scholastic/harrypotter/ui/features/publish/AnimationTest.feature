@@ -18,4 +18,21 @@ Feature: Harry Potter Home Page Animation
     When I click 'Check out new cover art by Kazu Kibuishi!' Button
     Then I see the cover books is changed
 
+  Scenario: I should be able to view and close video
+    When I scroll the Home page : "150" Point
+    When I scroll the Home page : "1900" Point
+    And I able to click 'play' button
+    And I able to close 'video' window
+
+  Scenario: I should be able to show all text and hide text description
+    And I scroll the Home page : "150" Point
+    And I scroll the Home page : "2400" Point
+    When I click "See All"  button
+    And I able to view all text description display
+    When I click "Close"  button
+    And I able to view truncated text description
+
+
+
+
 

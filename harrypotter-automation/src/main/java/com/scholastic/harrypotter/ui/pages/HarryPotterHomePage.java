@@ -98,6 +98,18 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
     @FindBy(css = ".input > input[type=\"text\"]")
     public WebElement accioTxt;
 
+    @FindBy(css = "img.pressed")
+    public WebElement playBtn;
+
+    @FindBy(css = "div.video-inner > a.video-close")
+    public WebElement closeVideoBtn;
+
+    @FindBy(css = "li > span > a.text-action:last-child")
+    public WebElement showHideBtn;
+
+    @FindBy(css = "span.text-inner > p")
+    public WebElement textDesc;
+
     /**
      *  Book Promo
      */

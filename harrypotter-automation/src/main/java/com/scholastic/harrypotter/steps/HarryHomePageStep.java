@@ -101,4 +101,43 @@ public class HarryHomePageStep {
         harryPotterHomePage.bookPromoLearnMoreBtn.click();
         Thread.sleep(3000);
     }
+
+    @And("^I able to click 'play' button$")
+    public void i_view_click_button() throws InterruptedException {
+        harryPotterHomePage.playBtn.click();
+        Thread.sleep(3000);
+    }
+
+    @And("^I able to close 'video' window$")
+    public void i_close_window() throws InterruptedException {
+        harryPotterHomePage.closeVideoBtn.click();
+        Thread.sleep(3000);
+    }
+
+    @And("^I click \"([^\"]*)\"  button$")
+    public void click_show_hide_btn(String text){
+        Assert.assertEquals(text, harryPotterHomePage.showHideBtn.getText());
+        harryPotterHomePage.showHideBtn.click();
+    }
+
+    @And("^I able to view all text description display$")
+    public void view_all_desc() throws InterruptedException {
+        Assert.assertEquals("J.K. Rowling is the author of the record-breaking, multi-award-winning Harry Potter novels. "+
+                "Loved by fans around the world, the series has sold over 450 million copies, been translated into 78 languages, "+
+                "and made into eight blockbuster films. She has written three companion volumes for charity: Quidditch Through "+
+                "the Ages and Fantastic Beasts and Where to Find Them (to benefit Comic Relief), and The Tales of Beedle the Bard "+
+                "(to benefit Lumos), as well as a film script inspired by Fantastic Beasts and Where to Find Them. In 2012, J.K."+
+                " Rowling’s digital company, Pottermore, was launched, where fans can enjoy her new writing and immerse themselves"+
+                " deeper in the wizarding world. J.K. Rowling has written a novel for adult readers, The Casual Vacancy, and also"+
+                " writes crime novels under the pseudonym Robert Galbraith. As well as receiving an OBE for services to children’s "+
+                "literature, she has received many awards and honors, including France’s Légion d’honneur and the Hans Christian "+
+                "Andersen Award.", harryPotterHomePage.textDesc.getText());
+        Thread.sleep(2000);
+        harryPotterHomePage.scrollToElementByPointer("window.scrollBy(0,200)");
+    }
+
+    @And("^I able to view truncated text description$")
+    public void view_some_desc() throws InterruptedException {
+        Assert.assertTrue(harryPotterHomePage.textDesc.getText().contains("J.K. Rowling is the author of the record-breaking, "));
+    }
 }
