@@ -21,8 +21,8 @@ public class HarryPotterGlossaryPage extends HarryPotterBasePage{
     @FindBy(css = "body > div.site > div > div.main.glossary > ul > li.section.first > ul > li[style=\"display: inline-block;\"] > div.title")
     public WebElement resultTitle;
 
-    @FindBy(css = ".characters-outer > ul.characters > li:nth-child(27) > a")
-    public WebElement filterBoookBtn;
+    @FindBy(xpath = "/html/body/div[2]/div/div[2]/div[1]/div/div[2]/div/ul/li[27]/a/span[2]")
+    public WebElement filterBookBtn;
 
     String[] alphabet ={"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
     String[] bookCode = {"HPSS","HPCS","HPPA","HPGF","HPOP","HPHP","HPDH"};

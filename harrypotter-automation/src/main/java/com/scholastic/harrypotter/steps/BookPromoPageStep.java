@@ -21,6 +21,13 @@ public class BookPromoPageStep extends HarryPotterBasePage {
                 harryPotterBookPromoPage.validateTextInCurrentUrl("books"));
     }
 
+    @When( "^I click \"([^\"]*)\" button to navigated to Home page$" )
+    public void iClickHarryPotterHomePage(String text){
+        Assert.assertTrue(harryPotterBookPromoPage.backToHarryPotterHomePage.getText().equals(text));
+        harryPotterBookPromoPage.backToHarryPotterHomePage.click();
+        harryPotterBookPromoPage.pause(3);
+    }
+
     @When( "^I click 'See All' Button$" )
     public void iClickSeeAllBtn() throws InterruptedException {
         harryPotterBookPromoPage.scrollElementIntoView(harryPotterBookPromoPage.tittleOfBook);
@@ -50,5 +57,53 @@ public class BookPromoPageStep extends HarryPotterBasePage {
         harryPotterBookPromoPage.scrollElementIntoView(harryPotterBookPromoPage.tittleOfBook);
         harryPotterBookPromoPage.pause(3);
         Assert.assertEquals("See All", harryPotterBookPromoPage.seeAllAndLessBtn.getText());
+    }
+
+    @When( "^I click \"([^\"]*)\" button from Book Promo details page$" )
+    public void iClickGetThisBookBtnFromBookPromoDetails(String text){
+        harryPotterBookPromoPage.scrollElementIntoView(harryPotterBookPromoPage.ageSection);
+        harryPotterBookPromoPage.pause(3);
+        Assert.assertTrue(harryPotterBookPromoPage.getThisBookBtn.getText().equals(text));
+        harryPotterBookPromoPage.getThisBookBtn.click();
+        harryPotterBookPromoPage.pause(3);
+    }
+
+    @When( "^Check \"([^\"]*)\" modal is displayed$" )
+    public void checkGetTheBookModalIsDisplayed(String text){
+        Assert.assertEquals("The Modal is not displayed", text, harryPotterBookPromoPage.getTheBookTxt.getText());
+        harryPotterBookPromoPage.pause(2);
+    }
+
+    @When( "^I click \"([^\"]*)\" button from the Modal$" )
+    public void iClickGetTheBookBtnInModal(String getTheBookBtnTxt){
+        harryPotterBookPromoPage.waitForelementToBeClickable(harryPotterBookPromoPage.getTheBookBtn);
+        Assert.assertTrue("The button is not displayed", harryPotterBookPromoPage.getTheBookBtn.getText().equals(getTheBookBtnTxt));
+        harryPotterBookPromoPage.getTheBookBtn.click();
+        harryPotterBookPromoPage.pause(3);
+    }
+
+    @When( "^Check 'Customer form' is displayed$" )
+    public void checkCustomerFormIsDisplayed(){
+        harryPotterBookPromoPage.waitAndValidateVisibility(harryPotterBookPromoPage.customerFormTxt);
+        Assert.assertEquals("Customer form is not displayed", "Customer Form", harryPotterBookPromoPage.customerFormTxt.getText());
+        harryPotterBookPromoPage.pause(3);
+    }
+
+    @When( "^Input DOB as \"([^\"]*)\" in 'Customer Form'$" )
+    public void inputDOB(String DOB){
+        harryPotterBookPromoPage.waitForelementToBeClickable(harryPotterBookPromoPage.inputDOB);
+        harryPotterBookPromoPage.inputDOB.sendKeys(DOB);
+    }
+
+    @When( "^I click 'Submit' button$" )
+    public void iClickSubmitBtn(){
+        harryPotterBookPromoPage.waitForelementToBeClickable(harryPotterBookPromoPage.submitBtn);
+        harryPotterBookPromoPage.submitBtn.click();
+        harryPotterBookPromoPage.pause(3);
+    }
+
+    @When( "^Check scholastic store new window$" )
+    public void checkScholasticStoreNewWindow() throws InterruptedException {
+        harryPotterBookPromoPage.scholasticStoreOnlineNewWindow();
     }
 }

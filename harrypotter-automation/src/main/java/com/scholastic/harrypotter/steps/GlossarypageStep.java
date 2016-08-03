@@ -36,7 +36,7 @@ public class GlossarypageStep extends HarryPotterBasePage{
 
     @And("^I filter by selected book$")
     public void i_filter_by_book() throws InterruptedException {
-        glossaryPage.filterBoookBtn.click();
+        glossaryPage.filterBookBtn.click();
         glossaryPage.checkAllBookDisplay();
     }
 }

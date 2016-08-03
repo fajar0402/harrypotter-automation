@@ -9,8 +9,25 @@
       When I click "LEARN MORE" Button from Book Promo section
       Then The 'Book Promo Details' page is loaded
 
+    Scenario: User navigates to Home page by clicking 'Back' button
+      When I click "Harry Potter Home Page" button to navigated to Home page
+      Then User's at Harry Potter Home page
+
     Scenario: I should be able to click 'See All' Button
       And I click 'See All' Button
       And Check 'See Less' Button is displayed after clicking 'See All' Button
       When I click 'See Less' Button
       Then Check the button is changed into 'See All'
+      
+    Scenario: I should be able to view 'Get The Book' modal is displayed
+      When I click "rGET THIS BOOK" button from Book Promo details page
+      Then Check "Get the Book!" modal is displayed
+
+    Scenario: I should be able to Get The Book
+      And I click "rGET THIS BOOK" button from Book Promo details page
+      And Check "Get the Book!" modal is displayed
+      And I click "Get the Book" button from the Modal
+      And Check 'Customer form' is displayed
+      And Input DOB as "02/04/1992" in 'Customer Form'
+      When I click 'Submit' button
+      Then Check scholastic store new window

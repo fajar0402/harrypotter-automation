@@ -21,6 +21,12 @@ public class HarryHomePageStep {
         Thread.sleep(3000);
     }
 
+    @When( "^User's at Harry Potter Home page$" )
+    public void userAtHarryPotterHomePage(){
+        harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.harryPotterTextImage);
+        harryPotterHomePage.validateTextInCurrentUrl("home");
+    }
+
     @When( "^I click 'Skip' button to skip the video$" )
     public void iClickSkipBtn(){
         harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.skipCloseBtn);
