@@ -12,17 +12,6 @@ import java.util.List;
  * Created by c07nw8vqg1hw on 8/2/16.
  */
 public class HarryPotterGlossaryPage extends HarryPotterBasePage{
-    @FindBy(css = "body > div.site > div > div.main.glossary > div.header-outer > div > div.hero > div.hero-heading > h1")
-    public WebElement titleTxt;
-
-    @FindBy(css = "input[name=\"search-terms\"]")
-    public WebElement searchField;
-
-    @FindBy(css = "body > div.site > div > div.main.glossary > ul > li.section.first > ul > li[style=\"display: inline-block;\"] > div.title")
-    public WebElement resultTitle;
-
-    @FindBy(xpath = "/html/body/div[2]/div/div[2]/div[1]/div/div[2]/div/ul/li[27]/a/span[2]")
-    public WebElement filterBookBtn;
 
     String[] alphabet ={"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
     String[] bookCode = {"HPSS","HPCS","HPPA","HPGF","HPOP","HPHP","HPDH"};
@@ -56,5 +45,11 @@ public class HarryPotterGlossaryPage extends HarryPotterBasePage{
             String bookCodeElement = driver.findElement(By.cssSelector("ul.books > li:nth-child("+i+")")).getAttribute("data-book-code");
             Assert.assertEquals(bookCode[i-1],bookCodeElement);
         }
+    }
+
+    public String inputValue(String input){
+        driver.findElement(By.name("search-terms")).sendKeys(input);
+        pause(3);
+        return input;
     }
 }

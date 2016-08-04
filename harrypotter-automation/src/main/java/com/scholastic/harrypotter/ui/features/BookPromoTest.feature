@@ -30,4 +30,11 @@
       And Check 'Customer form' is displayed
       And Input DOB as "02/04/1992" in 'Customer Form'
       When I click 'Submit' button
-      Then Check scholastic store new window
+      Then Check scholastic store in new window
+
+    @CloseBrowserAfterScenarioFinished
+    Scenario: I should be able to Find The Book
+      And I click "rGET THIS BOOK" button from Book Promo details page
+      And Check "Get the Book!" modal is displayed
+      Then I click 'Find Now' button from Get the book modal
+      When Check scholastic find book in new window

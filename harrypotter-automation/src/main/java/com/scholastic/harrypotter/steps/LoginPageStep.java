@@ -8,7 +8,7 @@ import org.junit.Assert;
 /**
  * Created by C07HJAXNDJD0 on 8/1/16.
  */
-public class HarryLoginPageStep {
+public class LoginPageStep {
 
     private HarryPotterHomePage harryPotterHomePage = new HarryPotterHomePage();
     private HarryPotterLoginPage harryPotterLoginPage = new HarryPotterLoginPage();

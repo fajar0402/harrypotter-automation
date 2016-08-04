@@ -64,7 +64,10 @@ public class HarryPotterBookPromoPage extends HarryPotterBasePage {
     @FindBy(css = "div.header")
     public WebElement headerTxtNewWindows;
 
-    public void scholasticStoreOnlineNewWindow() throws InterruptedException {
+    @FindBy(css = "img[src=\"images/exit_h_tween.gif\"]")
+    public WebElement headerTxtFindBookNewWindow;
+
+    public void scholasticStoreOnlineNewWindow(Boolean assertion) throws InterruptedException {
         /**
          * This method will gives you the handles of all opened windows
          */
@@ -74,7 +77,7 @@ public class HarryPotterBookPromoPage extends HarryPotterBasePage {
             if(!windowHandle.equals(parentWindow)){
                 driver.switchTo().window(windowHandle);
                 pause(3);
-                Assert.assertTrue(headerTxtNewWindows.getText().contains("You are about to enter the"));
+                Assert.assertTrue(assertion);
                 pause(3);
                 driver.close();
                 driver.switchTo().window(parentWindow);

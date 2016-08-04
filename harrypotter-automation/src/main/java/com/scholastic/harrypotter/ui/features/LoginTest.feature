@@ -6,6 +6,7 @@
       And I click "Sign in" button from Header menu
       And I see "Sign in now." modal is displayed
 
+    @CloseBrowserAfterScenarioFinished
     Scenario: Successfully Login
       And I Enter username : "computingeating53"
       And I Enter password : "Welcome123"

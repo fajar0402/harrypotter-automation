@@ -9,7 +9,7 @@ import org.junit.Assert;
 /**
  * Created by C07HJAXNDJD0 on 7/29/16.
  */
-public class HarryHomePageStep {
+public class HomePageStep {
 
     private HarryPotterHomePage harryPotterHomePage = new HarryPotterHomePage();
 
@@ -29,8 +29,7 @@ public class HarryHomePageStep {
 
     @When( "^I click 'Skip' button to skip the video$" )
     public void iClickSkipBtn(){
-        harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.skipCloseBtn);
-        harryPotterHomePage.skipCloseBtn.click();
+        harryPotterHomePage.checkElementSkipBtn();
     }
 
     @When( "^I see the Harry Potter Image Logo$")
@@ -85,18 +84,12 @@ public class HarryHomePageStep {
         harryPotterHomePage.scrollElementIntoView(harryPotterHomePage.accioTxt);
         harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.seeMoreBtn);
         harryPotterHomePage.seeMoreBtn.click();
-//        Thread.sleep(10000);
-    }
-
-    @And("^I scroll into 'See More' button$")
-    public void i_scroll_into_See_More_button() throws Throwable {
-        harryPotterHomePage.scrollToElementByPointer("window.scrollBy(0,150)");
-        harryPotterHomePage.scrollElementIntoView(harryPotterHomePage.accioTxt);
-        harryPotterHomePage.waitAndValidateVisibility(harryPotterHomePage.seeMoreBtn);
     }
 
     @When("^I click 'See More' button$")
     public void i_click_See_More_button() throws Throwable {
+        harryPotterHomePage.scrollToElementByPointer("window.scrollBy(0,1300)");
+        harryPotterHomePage.waitForelementToBeClickable(harryPotterHomePage.seeMoreBtn);
         harryPotterHomePage.seeMoreBtn.click();
     }
 

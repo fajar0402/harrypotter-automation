@@ -3,10 +3,12 @@ package com.scholastic.harrypotter.ui.pages;
 import com.scholastic.aem.pages.BasePage;
 import com.scholastic.driver.DriverManager;
 import com.scholastic.utils.Log;
+import cucumber.api.java.After;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 
 import java.util.List;
 
@@ -20,6 +22,10 @@ public class HarryPotterBasePage extends BasePage {
     @Override
     public void verifyMeAsCurrentPage() {
         //Overriding method from abstract class
+    }
+
+    public void closeBrowser(){
+        driver.close();
     }
 
     public boolean validateTextInCurrentUrl(String text ) {

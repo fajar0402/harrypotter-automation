@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 
 /**
  * Created by C07HJAXNDJD0 on 7/29/16.
@@ -139,6 +138,16 @@ public class HarryPotterHomePage extends HarryPotterBasePage {
         List<WebElement> rightMenuOptions = rightMenuHeader.findElements(By.cssSelector("li"));
         WebElement rightMenuOption = rightMenuOptions.get(index);
         rightMenuOption.getText();
+    }
+
+    public void checkElementSkipBtn(){
+        List<WebElement> elements = new ArrayList<WebElement>
+                (driver.findElements(By.cssSelector(".video-close.showed")));
+        if (elements.size() > 0 ){
+            skipCloseBtn.click();
+        } else if (elements.size() < 1){
+            System.out.print("Skip button is not appear, run the next steps");
+        }
     }
 
     public HarryPotterHomePage() {
