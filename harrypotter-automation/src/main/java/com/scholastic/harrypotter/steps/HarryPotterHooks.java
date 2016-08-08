@@ -11,11 +11,10 @@ import cucumber.api.java.Before;
 public class HarryPotterHooks {
 
     private HarryPotterBasePage harryPotterBasePage = new HarryPotterBasePage();
-    private StatusManager setStatus;
 
-    @Before("@SetBrowser")
-    public void setUp() {
-        setStatus = new StatusManager();
+    @After("@ClearCookies")
+    public void clearCacheAndCookies(){
+        harryPotterBasePage.clearCookies();
     }
 
     @After("@CloseBrowserAfterScenarioFinished")

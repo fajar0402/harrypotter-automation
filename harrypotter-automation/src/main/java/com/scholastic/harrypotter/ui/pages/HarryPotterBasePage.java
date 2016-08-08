@@ -24,6 +24,10 @@ public class HarryPotterBasePage extends BasePage {
         //Overriding method from abstract class
     }
 
+    public void clearCookies(){
+        driver.manage().deleteAllCookies();
+    }
+
     public void closeBrowser(){
         driver.close();
     }

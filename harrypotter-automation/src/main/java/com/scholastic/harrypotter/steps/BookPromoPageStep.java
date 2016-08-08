@@ -102,6 +102,12 @@ public class BookPromoPageStep extends HarryPotterBasePage {
         harryPotterBookPromoPage.pause(3);
     }
 
+    private String getInputDataZipCode;
+    @When( "^Input zipcode as \"([^\"]*)\" in the textbox$" )
+    public void inputZipcodeField(String zipcode){
+        getInputDataZipCode = harryPotterBookPromoPage.inputZipCode(zipcode);
+    }
+
     @When( "^I click 'Find Now' button from Get the book modal$" )
     public void iClickFindNowBtn(){
         harryPotterBookPromoPage.waitForelementToBeClickable(harryPotterBookPromoPage.findNowBtn);
@@ -111,11 +117,11 @@ public class BookPromoPageStep extends HarryPotterBasePage {
 
     @When( "^Check scholastic store in new window$" )
     public void checkScholasticStoreNewWindow() throws InterruptedException {
-        harryPotterBookPromoPage.scholasticStoreOnlineNewWindow(harryPotterBookPromoPage.headerTxtNewWindows.getText().contains("You are about to enter the"));
+        harryPotterBookPromoPage.scholasticStoreOnlineNewWindow();
     }
 
     @When( "^Check scholastic find book in new window$" )
     public void checkScholasticFindBookNewWindow() throws InterruptedException {
-        harryPotterBookPromoPage.scholasticStoreOnlineNewWindow(harryPotterBookPromoPage.headerTxtFindBookNewWindow.isDisplayed());
+        harryPotterBookPromoPage.scholasticFindBookNewWindow(this.getInputDataZipCode);
     }
 }

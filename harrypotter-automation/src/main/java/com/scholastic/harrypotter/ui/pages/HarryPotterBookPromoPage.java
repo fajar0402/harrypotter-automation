@@ -44,6 +44,9 @@ public class HarryPotterBookPromoPage extends HarryPotterBasePage {
     @FindBy(css = "#frmGMap > input.Find")
     public WebElement findNowBtn;
 
+    @FindBy(css = "#frmGMap > input.Zip")
+    public WebElement zipCodeField;
+
     /**
      *  Customer form to input DOB
      */
@@ -67,7 +70,13 @@ public class HarryPotterBookPromoPage extends HarryPotterBasePage {
     @FindBy(css = "img[src=\"images/exit_h_tween.gif\"]")
     public WebElement headerTxtFindBookNewWindow;
 
-    public void scholasticStoreOnlineNewWindow(Boolean assertion) throws InterruptedException {
+    public String inputZipCode(String zipcode){
+        waitAndValidateVisibility(zipCodeField);
+        zipCodeField.sendKeys(zipcode);
+        return zipcode;
+    }
+
+    public void scholasticStoreOnlineNewWindow() throws InterruptedException {
         /**
          * This method will gives you the handles of all opened windows
          */
@@ -77,7 +86,27 @@ public class HarryPotterBookPromoPage extends HarryPotterBasePage {
             if(!windowHandle.equals(parentWindow)){
                 driver.switchTo().window(windowHandle);
                 pause(3);
-                Assert.assertTrue(assertion);
+                validateTextInCurrentUrl("store.scholastic.com");
+                Assert.assertTrue(headerTxtNewWindows.getText().contains("You are about to enter the"));
+                pause(3);
+                driver.close();
+                driver.switchTo().window(parentWindow);
+            }
+        }
+    }
+
+    public void scholasticFindBookNewWindow(String zipcode) throws InterruptedException {
+        /**
+         * This method will gives you the handles of all opened windows
+         */
+        String parentWindow = driver.getWindowHandle();
+        Set<String> childWindow = driver.getWindowHandles();
+        for(String windowHandle  : childWindow){
+            if(!windowHandle.equals(parentWindow)){
+                driver.switchTo().window(windowHandle);
+                pause(3);
+                validateTextInCurrentUrl(zipcode);
+                Assert.assertTrue(headerTxtFindBookNewWindow.isDisplayed());
                 pause(3);
                 driver.close();
                 driver.switchTo().window(parentWindow);

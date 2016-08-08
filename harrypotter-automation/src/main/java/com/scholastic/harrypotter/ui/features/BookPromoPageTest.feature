@@ -36,5 +36,6 @@
     Scenario: I should be able to Find The Book
       And I click "rGET THIS BOOK" button from Book Promo details page
       And Check "Get the Book!" modal is displayed
+      And Input zipcode as "10001" in the textbox
       Then I click 'Find Now' button from Get the book modal
       When Check scholastic find book in new window

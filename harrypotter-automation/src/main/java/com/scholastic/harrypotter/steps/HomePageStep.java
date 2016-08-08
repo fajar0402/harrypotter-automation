@@ -16,9 +16,8 @@ public class HomePageStep {
     @Given( "^I am at Harry Potter home page$" )
     public void iAmAtHarryHomePage() throws InterruptedException {
         harryPotterHomePage.navigateTo( "publish", "");
-        harryPotterHomePage.setNewDefaultTimeOut(30);
+        harryPotterHomePage.setNewDefaultTimeOut(20);
         harryPotterHomePage.verifyMeAsCurrentPage();
-        Thread.sleep(3000);
     }
 
     @When( "^User's at Harry Potter Home page$" )

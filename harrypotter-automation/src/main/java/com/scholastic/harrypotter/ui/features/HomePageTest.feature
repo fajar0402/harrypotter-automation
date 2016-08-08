@@ -1,9 +1,8 @@
-@Animation
+@Home
 Feature: Harry Potter Home Page Animation
 
   Background: Go To Harry Potter Home Page
     Given I am at Harry Potter home page
-    And I click 'Skip' button to skip the video
 
   Scenario: I want to see harry potter animations in home page
     And I see the Harry Potter Image Logo
